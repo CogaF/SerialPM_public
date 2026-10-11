@@ -2,3 +2,11 @@
 2026-10-11 13:56:28.249 [W] [30792] No valid license (missing, file W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\license.lic) - trial over
 2026-10-11 13:56:28.472 [I] [30792] Database: opened W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\events.db
 2026-10-11 13:56:30.997 [I] [30792] Exiting.
+2026-10-11 16:40:25.645 [I] [32216] SerialPortManager v0.3.0-rc.6b109 starting, data folder: W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data
+2026-10-11 16:40:25.648 [W] [32216] No valid license (missing, file W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\license.lic) - trial over
+2026-10-11 16:40:25.803 [I] [32216] Database: opened W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\events.db
+2026-10-11 16:41:46.563 [I] [32216] Exiting.
+2026-10-11 16:46:52.626 [I] [34152] SerialPortManager v0.3.0-rc.6b109 starting, data folder: W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data
+2026-10-11 16:46:52.630 [W] [34152] No valid license (missing, file W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\license.lic) - trial over
+2026-10-11 16:46:52.788 [I] [34152] Database: opened W:\Data\GitHub\Public\SerialPM_public\Win32\Release_DLL\SerialPortManager data\events.db
+2026-10-11 16:47:07.637 [I] [34152] Exiting.

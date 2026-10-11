@@ -57,7 +57,6 @@
     <entry key="Log Level" value="Livello log"/>
     <entry key="Write to the log messages up to:" value="Scrivi nel log i messaggi fino a:"/>
     <entry key="About %s" value="Informazioni su %s"/>
-    <entry key="%s&#10;Version %s&#10;&#10;%s&#10;Licensed under the %s.&#10;&#10;Built with wxWidgets %s, SQLite %s and serial (wjwwood/serial, CogaF fork)." value="%s&#10;Versione %s&#10;&#10;%s&#10;Distribuito con licenza %s.&#10;&#10;Realizzato con wxWidgets %s, SQLite %s e serial (wjwwood/serial, fork CogaF)."/>
     <entry key="Version Information" value="Informazioni versione"/>
     <entry key="Version: %s&#10;Build: %d (%s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="Versione: %s&#10;Build: %d (%s)&#10;Tipo di build: %s&#10;Sorgente (git): %s&#10;Cartella dati: %s"/>
     <entry key="Development (Debug)" value="Sviluppo (Debug)"/>
@@ -1084,4 +1083,62 @@
     <entry key="stopped at the failure" value="fermata al fallimento"/>
     <entry key="stopped" value="fermata"/>
     <entry key="Test sequence - one step per line (hover here for the steps)" value="Sequenza di test - un passo per riga (passare qui sopra per i passi)"/>
+    <entry key="About" value="Informazioni"/>
+    <entry key="Developer" value="Sviluppatore"/>
+    <entry key="Dependencies" value="Dipendenze"/>
+    <entry key="Ports" value="Porte"/>
+    <entry key="Changes" value="Modifiche"/>
+    <entry key="System" value="Sistema"/>
+    <entry key="Serial Port Manager - monitor, automation and analysis of serial ports" value="Serial Port Manager - monitoraggio, automazione e analisi delle porte seriali"/>
+    <entry key="Version %s   -   built %s" value="Versione %s   -   compilata %s"/>
+    <entry key="Works with serial ports - COM ports, USB-serial adapters, RS-232 / RS-422 / RS-485 converters: shows everything received and sent, sends data typed in hex or text, answers and sends messages automatically, transfers files, and analyses bytes (checksums and CRCs, numbers, protocol frames, the waveform on the wires). Several ports work at the same time, one tab each." value="Lavora con le porte seriali - porte COM, adattatori USB-seriale, convertitori RS-232 / RS-422 / RS-485: mostra tutto ciò che è ricevuto e inviato, invia dati scritti in esadecimale o testo, risponde e invia messaggi automaticamente, trasferisce file e analizza i byte (checksum e CRC, numeri, trame dei protocolli, la forma d&apos;onda sui fili). Più porte lavorano insieme, una scheda ciascuna."/>
+    <entry key="Author:" value="Autore:"/>
+    <entry key="Contact:" value="Contatto:"/>
+    <entry key="Project page:" value="Pagina del progetto:"/>
+    <entry key="Report a problem:" value="Segnala un problema:"/>
+    <entry key="Copyright:" value="Copyright:"/>
+    <entry key="License:" value="Licenza:"/>
+    <entry key="Proprietary software: use requires a valid license; a 14-day trial starts with the first run." value="Software proprietario: l&apos;uso richiede una licenza valida; una prova di 14 giorni inizia con il primo avvio."/>
+    <entry key="License state:" value="Stato della licenza:"/>
+    <entry key="What it does:&#10;  - several serial ports at once, one tab each, with RTS / DTR / CTS / DSR / DCD / RI and Break;&#10;  - a console of every message, text and hex, with find, filters, highlights, statistics, capture and replay;&#10;  - Hex / ASCII / Mixed sending with counters and checksums, saved commands, auto replies, periodic messages;&#10;  - forwarding between ports, file transfer with confirmations and recovery;&#10;  - received messages cut by pause, delimiter or length, their checksum checked;&#10;  - Byte Analyzer, Protocols window (UART ... CAN, LIN, JTAG), Modbus master, serial plotter, test sequences." value="Che cosa fa:&#10;  - più porte seriali insieme, una scheda ciascuna, con RTS / DTR / CTS / DSR / DCD / RI e Break;&#10;  - una console di ogni messaggio, testo ed esadecimale, con ricerca, filtri, evidenziazioni, statistiche, cattura e riproduzione;&#10;  - invio Hex / ASCII / Misto con contatori e checksum, comandi salvati, risposte automatiche, messaggi periodici;&#10;  - inoltro tra porte, trasferimento file con conferme e recupero;&#10;  - messaggi ricevuti divisi per pausa, delimitatore o lunghezza, con il checksum verificato;&#10;  - Analizzatore di byte, finestra Protocolli (UART ... CAN, LIN, JTAG), master Modbus, plotter seriale, sequenze di test."/>
+    <entry key="Developed with the help of Claude (Anthropic)." value="Sviluppato con l&apos;aiuto di Claude (Anthropic)."/>
+    <entry key="Design and development of SerialPortManager, its tools and its license system." value="Progettazione e sviluppo di SerialPortManager, dei suoi strumenti e del suo sistema di licenze."/>
+    <entry key="This project:" value="Questo progetto:"/>
+    <entry key="Issues:" value="Segnalazioni:"/>
+    <entry key="Licenses:" value="Licenze:"/>
+    <entry key="request one from the License window (Help &gt; License...)" value="richiederne una dalla finestra Licenza (Aiuto &gt; Licenza...)"/>
+    <entry key="Support" value="Assistenza"/>
+    <entry key="&quot;Report a problem by e-mail&quot; opens your mail program with a message already containing the version, the serial ports and the details of this PC (System page). Describe what happened and send it." value="&quot;Segnala un problema via e-mail&quot; apre il programma di posta con un messaggio che contiene già la versione, le porte seriali e i dettagli di questo PC (pagina Sistema). Descrivere cosa è successo e inviarlo."/>
+    <entry key="Report a problem by e-mail..." value="Segnala un problema via e-mail..."/>
+    <entry key="problem report" value="segnalazione di un problema"/>
+    <entry key="Describe the problem here:" value="Descrivere qui il problema:"/>
+    <entry key="System details" value="Dettagli del sistema"/>
+    <entry key="Libraries used by SerialPortManager, with the version found on this PC. Every name and licence is a link." value="Librerie usate da SerialPortManager, con la versione trovata su questo PC. Ogni nome e licenza è un collegamento."/>
+    <entry key="Library" value="Libreria"/>
+    <entry key="Version on this PC" value="Versione su questo PC"/>
+    <entry key="Licence" value="Licenza"/>
+    <entry key="Used for" value="Usata per"/>
+    <entry key="the whole user interface" value="l&apos;intera interfaccia utente"/>
+    <entry key="Public domain" value="Pubblico dominio"/>
+    <entry key="the event database" value="il database eventi"/>
+    <entry key="linked with the program" value="collegata al programma"/>
+    <entry key="serial ports, control lines, port list" value="porte seriali, linee di controllo, elenco delle porte"/>
+    <entry key="rewritten in Ed25519.cpp" value="riscritto in Ed25519.cpp"/>
+    <entry key="signature check of the license files" value="verifica della firma dei file di licenza"/>
+    <entry key="compiler %d.%d" value="compilatore %d.%d"/>
+    <entry key="C and C++ runtime" value="runtime C e C++"/>
+    <entry key="The full notices are in THIRD-PARTY-NOTICES.md:" value="Le note complete sono in THIRD-PARTY-NOTICES.md:"/>
+    <entry key="open on GitHub" value="apri su GitHub"/>
+    <entry key="Serial ports on this PC: %d" value="Porte seriali su questo PC: %d"/>
+    <entry key="Device" value="Dispositivo"/>
+    <entry key="Hardware id" value="Id hardware"/>
+    <entry key="Tabs whose port is not on this PC right now (unplugged?):" value="Schede la cui porta ora non è su questo PC (scollegata?):"/>
+    <entry key="Serial &gt; Serial Ports... sets how many tabs and their ports; a port belongs to one tab only. A port that comes back after being unplugged is opened again by its tab." value="Seriale &gt; Porte seriali... imposta quante schede e le loro porte; una porta appartiene a una sola scheda. Una porta che ritorna dopo essere stata scollegata viene riaperta dalla sua scheda."/>
+    <entry key="(unavailable)" value="(non disponibile)"/>
+    <entry key="License window..." value="Finestra Licenza..."/>
+    <entry key="License agreement (LICENSE.md)" value="Contratto di licenza (LICENSE.md)"/>
+    <entry key="Licensing guide" value="Guida alle licenze"/>
+    <entry key="Executable folder:" value="Cartella dell&apos;eseguibile:"/>
+    <entry key="Data folder:" value="Cartella dei dati:"/>
+    <entry key="Copy to clipboard" value="Copia negli appunti"/>
 </translation>
