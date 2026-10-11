@@ -1,0 +1,7 @@
+# SerialPM license request - send this file to the license issuer.
+FORMAT=request-1
+PRODUCT=SerialPM
+UID=9T1N-D2CY-R2G4-79GJ-P63V-PWE6-C08F-5163
+COMPUTER=DESKTOP-DM7P4N8
+VERSION=0.3.0-rc.6
+CREATED=2026-10-11

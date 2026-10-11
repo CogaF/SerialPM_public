@@ -1,0 +1,4 @@
+slot0.send.format=hex
+slot0.send.lineEnd=none
+slot0.send.text=
+slots.count=1

@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="it" name="Italiano">
+    <entry key="&amp;File" value="&amp;File"/>
+    <entry key="E&amp;xit&#9;Alt-X" value="&amp;Esci&#9;Alt-X"/>
+    <entry key="&amp;Settings" value="&amp;Impostazioni"/>
+    <entry key="&amp;Serial Ports..." value="Porte &amp;seriali..."/>
+    <entry key="&amp;Theme..." value="&amp;Tema..."/>
+    <entry key="&amp;Language..." value="&amp;Lingua..."/>
+    <entry key="Log &amp;Level..." value="&amp;Livello log..."/>
+    <entry key="Open &amp;Data Folder" value="Apri cartella &amp;dati"/>
+    <entry key="&amp;Help" value="&amp;Aiuto"/>
+    <entry key="&amp;Version Info..." value="Informazioni &amp;versione..."/>
+    <entry key="&amp;About..." value="&amp;Informazioni su..."/>
+    <entry key="Port:" value="Porta:"/>
+    <entry key="not set" value="non impostata"/>
+    <entry key="Open Port" value="Apri porta"/>
+    <entry key="Close Port" value="Chiudi porta"/>
+    <entry key="Send" value="Invia"/>
+    <entry key="Clear Log" value="Svuota log"/>
+    <entry key="Ready" value="Pronto"/>
+    <entry key="Port open: %s" value="Porta aperta: %s"/>
+    <entry key="Port closed" value="Porta chiusa"/>
+    <entry key="Cannot open %s:&#10;%s" value="Impossibile aprire %s:&#10;%s"/>
+    <entry key="Open the port first." value="Apri prima la porta."/>
+    <entry key="Error" value="Errore"/>
+    <entry key="Serial Port" value="Porta seriale"/>
+    <entry key="Port" value="Porta"/>
+    <entry key="Baud rate" value="Velocità (baud)"/>
+    <entry key="Data bits" value="Bit di dati"/>
+    <entry key="Parity" value="Parità"/>
+    <entry key="Stop bits" value="Bit di stop"/>
+    <entry key="Flow control" value="Controllo di flusso"/>
+    <entry key="Inter-byte timeout (ms)" value="Timeout tra byte (ms)"/>
+    <entry key="Read timeout (ms)" value="Timeout lettura (ms)"/>
+    <entry key="Write timeout (ms)" value="Timeout scrittura (ms)"/>
+    <entry key="Refresh" value="Aggiorna"/>
+    <entry key="None" value="None"/>
+    <entry key="Odd" value="Dispari"/>
+    <entry key="Even" value="Pari"/>
+    <entry key="Mark" value="Mark"/>
+    <entry key="Space" value="Space"/>
+    <entry key="Software (XON/XOFF)" value="Software (XON/XOFF)"/>
+    <entry key="Hardware (RTS/CTS)" value="Hardware (RTS/CTS)"/>
+    <entry key="Theme" value="Tema"/>
+    <entry key="Select the theme:" value="Seleziona il tema:"/>
+    <entry key="Light" value="Chiaro"/>
+    <entry key="Dark" value="Scuro"/>
+    <entry key="Language" value="Lingua"/>
+    <entry key="Select the language:" value="Seleziona la lingua:"/>
+    <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: keep working; it applies the next time the application is launched.&#10;Cancel: discard the selection." value="La modifica viene applicata completamente solo all'avvio dell'applicazione.&#10;&#10;Riavvia ora: la salva e riavvia automaticamente l'applicazione.&#10;Usa ora: la salva e la usa subito - alcune parti cambiano solo al prossimo avvio.&#10;Salva per il prossimo avvio: continua a lavorare; verrà applicata al prossimo avvio dell'applicazione.&#10;Annulla: scarta la selezione."/>
+    <entry key="Restart now" value="Riavvia ora"/>
+    <entry key="Use now" value="Usa ora"/>
+    <entry key="Save for next start" value="Salva per il prossimo avvio"/>
+    <entry key="Cancel" value="Annulla"/>
+    <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="Il nuovo tema è usato per i colori dell'applicazione, incluse le finestre aperte da ora in poi. Le parti disegnate dal sistema (barre del titolo, barre di scorrimento) cambiano al prossimo avvio."/>
+    <entry key="The language file for &quot;%s&quot; could not be loaded - the current language is kept." value="Impossibile caricare il file della lingua &quot;%s&quot; - resta la lingua attuale."/>
+    <entry key="Log Level" value="Livello log"/>
+    <entry key="Write to the log messages up to:" value="Scrivi nel log i messaggi fino a:"/>
+    <entry key="About %s" value="Informazioni su %s"/>
+    <entry key="%s&#10;Version %s&#10;&#10;%s&#10;Licensed under the %s.&#10;&#10;Built with wxWidgets %s, SQLite %s and serial (wjwwood/serial, CogaF fork)." value="%s&#10;Versione %s&#10;&#10;%s&#10;Distribuito con licenza %s.&#10;&#10;Realizzato con wxWidgets %s, SQLite %s e serial (wjwwood/serial, fork CogaF)."/>
+    <entry key="Version Information" value="Informazioni versione"/>
+    <entry key="Version: %s&#10;Build: %d (%s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="Versione: %s&#10;Build: %d (%s)&#10;Tipo di build: %s&#10;Sorgente (git): %s&#10;Cartella dati: %s"/>
+    <entry key="Development (Debug)" value="Sviluppo (Debug)"/>
+    <entry key="Release candidate" value="Release candidate"/>
+    <entry key="Final release" value="Versione finale"/>
+    <entry key="Version history (newest first):" value="Cronologia versioni (dalla più recente):"/>
+    <entry key="Se&amp;rial" value="Se&amp;riale"/>
+    <entry key="&amp;Auto Replies..." value="Risposte &amp;automatiche..."/>
+    <entry key="&amp;Periodic Messages..." value="Messaggi &amp;periodici..."/>
+    <entry key="&amp;Clear Console" value="&amp;Pulisci console"/>
+    <entry key="Auto replies" value="Risposte automatiche"/>
+    <entry key="Periodic messages" value="Messaggi periodici"/>
+    <entry key="(%d of %d enabled)" value="(%d di %d attivi)"/>
+    <entry key="Serial console (everything received and sent)" value="Console seriale (tutto ciò che è ricevuto e inviato)"/>
+    <entry key="Time" value="Ora"/>
+    <entry key="Hex too" value="Anche hex"/>
+    <entry key="Follow newest" value="Segui gli ultimi"/>
+    <entry key="Clear" value="Pulisci"/>
+    <entry key="Application log" value="Log dell&apos;applicazione"/>
+    <entry key="RX" value="RX"/>
+    <entry key="TX" value="TX"/>
+    <entry key="TX auto &quot;%s&quot;" value="TX auto &quot;%s&quot;"/>
+    <entry key="TX periodic &quot;%s&quot;" value="TX periodico &quot;%s&quot;"/>
+    <entry key="Write failed (%s)." value="Scrittura non riuscita (%s)."/>
+    <entry key="Auto reply &quot;%s&quot; cannot be built - check its text." value="La risposta automatica &quot;%s&quot; non può essere costruita - controlla il suo testo."/>
+    <entry key="Periodic message &quot;%s&quot; cannot be built - check its text. It has been stopped." value="Il messaggio periodico &quot;%s&quot; non può essere costruito - controlla il suo testo. È stato fermato."/>
+    <entry key="Too many messages waiting - this one was not sent." value="Troppi messaggi in attesa - questo non è stato inviato."/>
+    <entry key="Hex" value="Hex"/>
+    <entry key="ASCII" value="ASCII"/>
+    <entry key="Mixed" value="Misto"/>
+    <entry key="Shows the bytes of every line in a second pane on the right, line for line; the two panes scroll together. Drag the divider to resize them." value="Mostra i byte di ogni riga in un secondo riquadro a destra, riga per riga; i due riquadri scorrono insieme. Trascina il divisore per ridimensionarli."/>
+    <entry key="Format characters" value="Caratteri di formato"/>
+    <entry key="LF, CR, CR and LF, vertical tab and form feed start a new line, shown under the start of the message (without the time again); a tab becomes spaces. Other control characters stay visible as [HH=NAME]." value="LF, CR, CR e LF, tabulazione verticale e avanzamento pagina iniziano una nuova riga, mostrata sotto l'inizio del messaggio (senza ripetere l'ora); il tab diventa spazi. Gli altri caratteri di controllo restano visibili come [HH=NOME]."/>
+    <entry key="Tab width..." value="Larghezza tab..."/>
+    <entry key="How many spaces does a tab character take in the console?" value="Quanti spazi occupa un carattere di tabulazione nella console?"/>
+    <entry key="Spaces:" value="Spazi:"/>
+    <entry key="Tab width" value="Larghezza tab"/>
+    <entry key="Append:" value="Aggiungi:"/>
+    <entry key="Nothing" value="Niente"/>
+    <entry key="CR and LF" value="CR e LF"/>
+    <entry key="Added at the end of the message when it is sent (the text above stays as written)" value="Aggiunto in fondo al messaggio quando viene inviato (il testo sopra resta com'è scritto)"/>
+    <entry key="Insert character..." value="Inserisci carattere..."/>
+    <entry key="Hex bytes, e.g. 01 03 00 0A - only 0-9 and A-F; the spaces between bytes are added for you." value="Byte esadecimali, es. 01 03 00 0A - solo 0-9 e A-F; gli spazi tra i byte sono aggiunti automaticamente."/>
+    <entry key="Printable ASCII characters only (space to ~). For control bytes use Mixed." value="Solo caratteri ASCII stampabili (da spazio a ~). Per i byte di controllo usa Misto."/>
+    <entry key="Text, and //0x with two hex digits for any byte: OK//0x0D//0x0A (one //0x for each byte)." value="Testo, e //0x con due cifre esadecimali per qualsiasi byte: OK//0x0D//0x0A (un //0x per ogni byte)."/>
+    <entry key="%d byte(s)." value="%d byte."/>
+    <entry key="Character %d: %s" value="Carattere %d: %s"/>
+    <entry key="only hex digits (0-9, A-F) are allowed." value="sono ammesse solo cifre esadecimali (0-9, A-F)."/>
+    <entry key="this byte has only one hex digit - a byte needs two." value="questo byte ha una sola cifra esadecimale - ne servono due."/>
+    <entry key="not a printable ASCII character - use Mixed and //0x for other bytes." value="non è un carattere ASCII stampabile - usa Misto e //0x per gli altri byte."/>
+    <entry key="//0x must be followed by two hex digits, e.g. //0x0D." value="//0x deve essere seguito da due cifre esadecimali, es. //0x0D."/>
+    <entry key="The text cannot be converted - %s" value="Il testo non può essere convertito - %s"/>
+    <entry key="The data contains bytes that are not printable ASCII characters (e.g. CR, LF, 00), which ASCII cannot show.&#10;&#10;Switch to Mixed instead? (No keeps the current notation.)" value="I dati contengono byte che non sono caratteri ASCII stampabili (es. CR, LF, 00), che ASCII non può mostrare.&#10;&#10;Passare invece a Misto? (No mantiene la notazione attuale.)"/>
+    <entry key="Insert Character" value="Inserisci carattere"/>
+    <entry key="Double-click a character to add it and close this table. Right-click to add it and keep the table open." value="Doppio clic su un carattere per aggiungerlo e chiudere la tabella. Clic destro per aggiungerlo e tenere la tabella aperta."/>
+    <entry key="Dec" value="Dec"/>
+    <entry key="Char" value="Car."/>
+    <entry key="Name" value="Nome"/>
+    <entry key="Description" value="Descrizione"/>
+    <entry key="Digit %s" value="Cifra %s"/>
+    <entry key="Capital letter %s" value="Lettera maiuscola %s"/>
+    <entry key="Small letter %s" value="Lettera minuscola %s"/>
+    <entry key="Not ASCII (shown as its Latin-1 character)" value="Non ASCII (mostrato come carattere Latin-1)"/>
+    <entry key="Add, keep open" value="Aggiungi, tieni aperto"/>
+    <entry key="Add %s and keep this table open" value="Aggiungi %s e tieni aperta la tabella"/>
+    <entry key="Added: %s" value="Aggiunti: %s"/>
+    <entry key="Close" value="Chiudi"/>
+    <entry key="Add..." value="Aggiungi..."/>
+    <entry key="Edit..." value="Modifica..."/>
+    <entry key="Duplicate" value="Duplica"/>
+    <entry key="Remove" value="Rimuovi"/>
+    <entry key="Remove &quot;%s&quot;?" value="Rimuovere &quot;%s&quot;?"/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="Enabled" value="Attivo"/>
+    <entry key="&quot;%s&quot; is not a valid number." value="&quot;%s&quot; non è un numero valido."/>
+    <entry key="Byte order:" value="Ordine dei byte:"/>
+    <entry key="Big-endian (most significant byte first)" value="Big-endian (prima il byte più significativo)"/>
+    <entry key="Little-endian (least significant byte first)" value="Little-endian (prima il byte meno significativo)"/>
+    <entry key="big-endian" value="big-endian"/>
+    <entry key="little-endian" value="little-endian"/>
+    <entry key="Incrementing Value" value="Valore incrementale"/>
+    <entry key="Written as:" value="Scritto come:"/>
+    <entry key="Binary number" value="Numero binario"/>
+    <entry key="ASCII decimal digits" value="Cifre decimali ASCII"/>
+    <entry key="ASCII hex digits" value="Cifre esadecimali ASCII"/>
+    <entry key="Size:" value="Dimensione:"/>
+    <entry key="bytes (%d bits)" value="byte (%d bit)"/>
+    <entry key="characters" value="caratteri"/>
+    <entry key="Starts at byte index:" value="Inizia all&apos;indice di byte:"/>
+    <entry key="%d-bit value, %d byte(s): from byte %d to byte %d (both included)." value="Valore a %d bit, %d byte: dal byte %d al byte %d (entrambi inclusi)."/>
+    <entry key="%d character(s): from byte %d to byte %d (both included)." value="%d caratteri: dal byte %d al byte %d (entrambi inclusi)."/>
+    <entry key="The message is %d byte(s) long now: it is extended with zero bytes." value="Il messaggio ora è lungo %d byte: viene esteso con byte a zero."/>
+    <entry key="Big-endian is the default: Modbus and most binary protocols send numbers this way. (The serial line sends the bits of each byte least significant first, but the order of the bytes is set by the protocol.)" value="Big-endian è il predefinito: Modbus e la maggior parte dei protocolli binari inviano i numeri così. (La linea seriale invia i bit di ogni byte dal meno significativo, ma l&apos;ordine dei byte è stabilito dal protocollo.)"/>
+    <entry key="Start value:" value="Valore iniziale:"/>
+    <entry key="End value:" value="Valore finale:"/>
+    <entry key="Step:" value="Passo:"/>
+    <entry key="decimal, or hex as 0x1F" value="decimale, o esadecimale come 0x1F"/>
+    <entry key="Advances:" value="Avanza di:"/>
+    <entry key="step(s)" value="passi"/>
+    <entry key="per message sent" value="per messaggio inviato"/>
+    <entry key="per second" value="al secondo"/>
+    <entry key="Values: %s never beyond %s, then again from the start value." value="Valori: %s mai oltre %s, poi di nuovo dal valore iniziale."/>
+    <entry key="Largest value for this size: %s (%s)." value="Valore massimo per questa dimensione: %s (%s)."/>
+    <entry key="Bytes %d-%d (%s): %s to %s, step %s, %s" value="Byte %d-%d (%s): da %s a %s, passo %s, %s"/>
+    <entry key="%s step(s) per message sent" value="%s passi per messaggio inviato"/>
+    <entry key="one step every %s messages sent" value="un passo ogni %s messaggi inviati"/>
+    <entry key="%s step(s) per second" value="%s passi al secondo"/>
+    <entry key="one step every %s seconds" value="un passo ogni %s secondi"/>
+    <entry key="The size is out of range for this kind of value." value="La dimensione è fuori dall&apos;intervallo per questo tipo di valore."/>
+    <entry key="The start and end values must fit in the chosen size: at most %s (%s)." value="I valori iniziale e finale devono stare nella dimensione scelta: al massimo %s (%s)."/>
+    <entry key="The step cannot be 0." value="Il passo non può essere 0."/>
+    <entry key="The step must go from the start value towards the end value (negative when the end is below the start)." value="Il passo deve andare dal valore iniziale verso quello finale (negativo quando il finale è minore dell&apos;iniziale)."/>
+    <entry key="The number of steps must be a number greater than 0 (e.g. 1, 0.5, 0.1)." value="Il numero di passi deve essere un numero maggiore di 0 (es. 1, 0.5, 0.1)."/>
+    <entry key="Checksum" value="Checksum"/>
+    <entry key="Add a checksum to the message" value="Aggiungi un checksum al messaggio"/>
+    <entry key="Type:" value="Tipo:"/>
+    <entry key="%s - %d byte(s)" value="%s - %d byte"/>
+    <entry key="Insert at index:" value="Inserisci all&apos;indice:"/>
+    <entry key="at the end (follows the length of the message)" value="alla fine (segue la lunghezza del messaggio)"/>
+    <entry key="0 = before the first byte, %d = after the last one." value="0 = prima del primo byte, %d = dopo l&apos;ultimo."/>
+    <entry key="Calculated on:" value="Calcolato su:"/>
+    <entry key="all the bytes" value="tutti i byte"/>
+    <entry key="all the bytes except the indexes:" value="tutti i byte tranne gli indici:"/>
+    <entry key="e.g. 0, 5-7 (0 = first byte)" value="es. 0, 5-7 (0 = primo byte)"/>
+    <entry key="Bytes to send:" value="Byte da inviare:"/>
+    <entry key="of %d" value="di %d"/>
+    <entry key="lower part (least significant bytes)" value="parte bassa (byte meno significativi)"/>
+    <entry key="upper part (most significant bytes)" value="parte alta (byte più significativi)"/>
+    <entry key="Checksum of the current message: %s - sent as %s at index %d." value="Checksum del messaggio attuale: %s - inviato come %s all&apos;indice %d."/>
+    <entry key="Write the excluded indexes as numbers and ranges separated by commas, e.g. 0, 5-7." value="Scrivi gli indici esclusi come numeri e intervalli separati da virgole, es. 0, 5-7."/>
+    <entry key="none" value="nessuno"/>
+    <entry key="%s, %d byte(s) at %s" value="%s, %d byte a %s"/>
+    <entry key="the end" value="la fine"/>
+    <entry key="index %d" value="indice %d"/>
+    <entry key="excluding %s" value="esclusi %s"/>
+    <entry key="Incrementing values (written over the message bytes):" value="Valori incrementali (scritti sopra i byte del messaggio):"/>
+    <entry key="Checksum:" value="Checksum:"/>
+    <entry key="Checksum..." value="Checksum..."/>
+    <entry key="Preview of the first messages (one second apart):" value="Anteprima dei primi messaggi (a un secondo di distanza):"/>
+    <entry key="#%d (%d bytes):" value="#%d (%d byte):"/>
+    <entry key="Write the message to send." value="Scrivi il messaggio da inviare."/>
+    <entry key="Auto Reply" value="Risposta automatica"/>
+    <entry key="When these bytes are received" value="Quando si ricevono questi byte"/>
+    <entry key="Reply with" value="Rispondi con"/>
+    <entry key="Delay before replying (ms):" value="Attesa prima di rispondere (ms):"/>
+    <entry key="Write the bytes to recognise." value="Scrivi i byte da riconoscere."/>
+    <entry key="Periodic Message" value="Messaggio periodico"/>
+    <entry key="Send every (ms):" value="Invia ogni (ms):"/>
+    <entry key="Message" value="Messaggio"/>
+    <entry key="Auto reply %d" value="Risposta automatica %d"/>
+    <entry key="Periodic message %d" value="Messaggio periodico %d"/>
+    <entry key="Auto Replies and Periodic Messages" value="Risposte automatiche e messaggi periodici"/>
+    <entry key="While the port is open, each ticked rule replies as soon as its bytes are received. Double-click to edit." value="Con la porta aperta, ogni regola spuntata risponde appena riceve i suoi byte. Doppio clic per modificare."/>
+    <entry key="While the port is open, each ticked message is sent at its interval. Double-click to edit." value="Con la porta aperta, ogni messaggio spuntato è inviato al suo intervallo. Doppio clic per modificare."/>
+    <entry key="When received" value="Quando si riceve"/>
+    <entry key="Reply" value="Risposta"/>
+    <entry key="Delay (ms)" value="Attesa (ms)"/>
+    <entry key="Every (ms)" value="Ogni (ms)"/>
+    <entry key="Null" value="Nullo"/>
+    <entry key="Start of heading" value="Inizio intestazione"/>
+    <entry key="Start of text" value="Inizio testo"/>
+    <entry key="End of text" value="Fine testo"/>
+    <entry key="End of transmission" value="Fine trasmissione"/>
+    <entry key="Enquiry" value="Richiesta"/>
+    <entry key="Acknowledge" value="Conferma"/>
+    <entry key="Bell" value="Campanello"/>
+    <entry key="Backspace" value="Backspace"/>
+    <entry key="Horizontal tab" value="Tabulazione orizzontale"/>
+    <entry key="Line feed" value="Nuova riga (line feed)"/>
+    <entry key="Vertical tab" value="Tabulazione verticale"/>
+    <entry key="Form feed" value="Nuova pagina"/>
+    <entry key="Carriage return" value="Ritorno carrello"/>
+    <entry key="Shift out" value="Shift out"/>
+    <entry key="Shift in" value="Shift in"/>
+    <entry key="Data link escape" value="Escape del collegamento dati"/>
+    <entry key="Device control 1 (XON)" value="Controllo dispositivo 1 (XON)"/>
+    <entry key="Device control 2" value="Controllo dispositivo 2"/>
+    <entry key="Device control 3 (XOFF)" value="Controllo dispositivo 3 (XOFF)"/>
+    <entry key="Device control 4" value="Controllo dispositivo 4"/>
+    <entry key="Negative acknowledge" value="Conferma negativa"/>
+    <entry key="Synchronous idle" value="Attesa sincrona"/>
+    <entry key="End of transmission block" value="Fine blocco di trasmissione"/>
+    <entry key="End of medium" value="Fine supporto"/>
+    <entry key="Substitute" value="Sostituto"/>
+    <entry key="Escape" value="Escape"/>
+    <entry key="File separator" value="Separatore di file"/>
+    <entry key="Group separator" value="Separatore di gruppo"/>
+    <entry key="Record separator" value="Separatore di record"/>
+    <entry key="Unit separator" value="Separatore di unità"/>
+    <entry key="Delete" value="Cancella"/>
+    <entry key="Exclamation mark" value="Punto esclamativo"/>
+    <entry key="Quotation mark" value="Virgolette"/>
+    <entry key="Number sign" value="Cancelletto"/>
+    <entry key="Dollar sign" value="Dollaro"/>
+    <entry key="Percent sign" value="Percento"/>
+    <entry key="Ampersand" value="E commerciale"/>
+    <entry key="Apostrophe" value="Apostrofo"/>
+    <entry key="Left parenthesis" value="Parentesi tonda aperta"/>
+    <entry key="Right parenthesis" value="Parentesi tonda chiusa"/>
+    <entry key="Asterisk" value="Asterisco"/>
+    <entry key="Plus sign" value="Più"/>
+    <entry key="Comma" value="Virgola"/>
+    <entry key="Hyphen-minus" value="Trattino (meno)"/>
+    <entry key="Full stop" value="Punto"/>
+    <entry key="Slash" value="Barra"/>
+    <entry key="Colon" value="Due punti"/>
+    <entry key="Semicolon" value="Punto e virgola"/>
+    <entry key="Less-than sign" value="Minore di"/>
+    <entry key="Equals sign" value="Uguale"/>
+    <entry key="Greater-than sign" value="Maggiore di"/>
+    <entry key="Question mark" value="Punto interrogativo"/>
+    <entry key="Commercial at" value="Chiocciola"/>
+    <entry key="Left square bracket" value="Parentesi quadra aperta"/>
+    <entry key="Backslash" value="Barra rovesciata"/>
+    <entry key="Right square bracket" value="Parentesi quadra chiusa"/>
+    <entry key="Circumflex accent" value="Accento circonflesso"/>
+    <entry key="Underscore" value="Trattino basso"/>
+    <entry key="Grave accent" value="Accento grave"/>
+    <entry key="Left curly bracket" value="Parentesi graffa aperta"/>
+    <entry key="Vertical bar" value="Barra verticale"/>
+    <entry key="Right curly bracket" value="Parentesi graffa chiusa"/>
+    <entry key="Tilde" value="Tilde"/>
+    <entry key="&amp;License...&#9;Ctrl-K" value="&amp;Licenza...&#9;Ctrl-K"/>
+    <entry key="License" value="Licenza"/>
+    <entry key="Licensed" value="Con licenza"/>
+    <entry key="Trial version - %d day(s) left" value="Versione di prova - %d giorno/i rimasti"/>
+    <entry key="Not licensed" value="Senza licenza"/>
+    <entry key="Ports can be opened and everything received is shown and logged; sending, auto replies, periodic messages, file transfer and forwarding need a license." value="Le porte si possono aprire e tutto ciò che viene ricevuto è mostrato e registrato; invio, risposte automatiche, messaggi periodici, trasferimento file e inoltro richiedono una licenza."/>
+    <entry key="Every feature is available during the trial." value="Durante la prova tutte le funzioni sono disponibili."/>
+    <entry key="The trial period is over." value="Il periodo di prova è terminato."/>
+    <entry key="The trial information was changed - the trial is over." value="Le informazioni sulla prova sono state modificate - la prova è terminata."/>
+    <entry key="No license is installed." value="Nessuna licenza installata."/>
+    <entry key="The license file could not be read." value="Impossibile leggere il file di licenza."/>
+    <entry key="The license file is damaged or is not a license (%s)." value="Il file di licenza è danneggiato o non è una licenza (%s)."/>
+    <entry key="The license is for a different product." value="La licenza è per un altro prodotto."/>
+    <entry key="This build contains no license verification key, so no license can be accepted (developer: see LICENSING.md)." value="Questa build non contiene alcuna chiave di verifica, quindi nessuna licenza può essere accettata (sviluppatore: vedi LICENSING.md)."/>
+    <entry key="The license was signed with a key this version does not know - ask the issuer for a license for this version." value="La licenza è firmata con una chiave che questa versione non conosce - chiedi all'emittente una licenza per questa versione."/>
+    <entry key="The license was not issued by the license owner, or it was changed after it was issued." value="La licenza non è stata emessa dal titolare della licenza, oppure è stata modificata dopo l'emissione."/>
+    <entry key="This license has been revoked." value="Questa licenza è stata revocata."/>
+    <entry key="This PC's unique ID could not be read." value="Impossibile leggere l'ID univoco di questo PC."/>
+    <entry key="The license was issued for a different PC." value="La licenza è stata emessa per un altro PC."/>
+    <entry key="The PC's date is earlier than a date already seen: the trial and time-limited licenses are suspended until the date is correct." value="La data del PC è precedente a una data già vista: la prova e le licenze a tempo sono sospese finché la data non è corretta."/>
+    <entry key="The license expired on %s." value="La licenza è scaduta il %s."/>
+    <entry key="The license covers versions released until %s; this version was released on %s. Keep using an older version or renew the license." value="La licenza copre le versioni rilasciate fino al %s; questa versione è stata rilasciata il %s. Continua a usare una versione precedente o rinnova la licenza."/>
+    <entry key="Licensed to:" value="Licenziatario:"/>
+    <entry key="E-mail:" value="E-mail:"/>
+    <entry key="Edition:" value="Edizione:"/>
+    <entry key="License ID:" value="ID licenza:"/>
+    <entry key="Valid on:" value="Valida su:"/>
+    <entry key="this PC" value="questo PC"/>
+    <entry key="%d PCs, this one included" value="%d PC, incluso questo"/>
+    <entry key="any PC (site license)" value="qualsiasi PC (licenza di sito)"/>
+    <entry key="Issued:" value="Emessa:"/>
+    <entry key="Expires:" value="Scadenza:"/>
+    <entry key="never (perpetual)" value="mai (perpetua)"/>
+    <entry key="%s (%d day(s) left)" value="%s (%d giorno/i rimasti)"/>
+    <entry key="Updates until:" value="Aggiornamenti fino al:"/>
+    <entry key="all versions" value="tutte le versioni"/>
+    <entry key="Notes:" value="Note:"/>
+    <entry key="File:" value="File:"/>
+    <entry key="Features:" value="Funzioni:"/>
+    <entry key="Sending" value="Invio"/>
+    <entry key="Auto replies" value="Risposte automatiche"/>
+    <entry key="Periodic messages" value="Messaggi periodici"/>
+    <entry key="available" value="disponibile"/>
+    <entry key="not included" value="non inclusa"/>
+    <entry key="This PC's unique ID (UID):" value="ID univoco di questo PC (UID):"/>
+    <entry key="Copy" value="Copia"/>
+    <entry key="UID copied to the clipboard." value="UID copiato negli appunti."/>
+    <entry key="To get a license, send the UID above - or the file %s from the data folder (Open Folder) - to the license issuer. Install the license you receive with Load License..., with Paste License, or by dropping the file on this window." value="Per ottenere una licenza invia l'UID qui sopra - o il file %s della cartella dati (Apri cartella) - all'emittente della licenza. Installa la licenza ricevuta con Carica licenza..., con Incolla licenza, oppure trascinando il file su questa finestra."/>
+    <entry key="Save Request..." value="Salva richiesta..."/>
+    <entry key="Load License..." value="Carica licenza..."/>
+    <entry key="Paste License" value="Incolla licenza"/>
+    <entry key="Remove License" value="Rimuovi licenza"/>
+    <entry key="Open Folder" value="Apri cartella"/>
+    <entry key="Select the license file" value="Seleziona il file di licenza"/>
+    <entry key="License files (*.lic)|*.lic|All files (*.*)|*.*" value="File di licenza (*.lic)|*.lic|Tutti i file (*.*)|*.*"/>
+    <entry key="Save the license request" value="Salva la richiesta di licenza"/>
+    <entry key="Text files (*.txt)|*.txt|All files (*.*)|*.*" value="File di testo (*.txt)|*.txt|Tutti i file (*.*)|*.*"/>
+    <entry key="License request saved to %s." value="Richiesta di licenza salvata in %s."/>
+    <entry key="Cannot write %s." value="Impossibile scrivere %s."/>
+    <entry key="This license cannot be used on this PC:&#10;%s" value="Questa licenza non può essere usata su questo PC:&#10;%s"/>
+    <entry key="License installed - licensed to %s." value="Licenza installata - licenziatario: %s."/>
+    <entry key="The license could not be installed: %s" value="Impossibile installare la licenza: %s"/>
+    <entry key="The clipboard contains no text." value="Gli appunti non contengono testo."/>
+    <entry key="Remove the installed license? It is kept as license.lic.bak in the data folder." value="Rimuovere la licenza installata? Viene conservata come license.lic.bak nella cartella dati."/>
+    <entry key="%s needs a license.&#10;&#10;%s&#10;&#10;Open the License window?" value="%s richiede una licenza.&#10;&#10;%s&#10;&#10;Aprire la finestra Licenza?"/>
+    <entry key="Your license (edition: %s) does not include it." value="La tua licenza (edizione: %s) non la include."/>
+    <entry key="Licensed to %s" value="Licenza: %s"/>
+    <entry key="Licensed to %s - expires in %d day(s)" value="Licenza: %s - scade tra %d giorno/i"/>
+    <entry key="Trial: %d day(s) left" value="Prova: %d giorno/i rimasti"/>
+    <entry key="Not licensed: sending, files and forwarding disabled (Help &gt; License)" value="Senza licenza: invio, file e inoltro disabilitati (Aiuto &gt; Licenza)"/>
+    <entry key="Auto replies and periodic messages not started: they need a license (Help &gt; License)." value="Risposte automatiche e messaggi periodici non avviati: richiedono una licenza (Aiuto &gt; Licenza)."/>
+    <entry key="Port &amp;Settings..." value="&amp;Impostazioni porta..."/>
+    <entry key="Hint: an incrementing value is written OVER the fixed bytes at its index - if the fixed text has a byte there, it is replaced, so put a placeholder (a &quot;don&apos;t care&quot; byte) at that position. The checksum is INSERTED at its index and moves the following bytes." value="Suggerimento: un valore incrementale viene scritto SOPRA i byte fissi al suo indice - se il testo fisso ha un byte in quella posizione viene sostituito, quindi metti un segnaposto (un byte &quot;indifferente&quot;) in quella posizione. Il checksum viene INSERITO al suo indice e sposta i byte successivi."/>
+    <entry key="File transfer" value="Trasferimento file"/>
+    <entry key="Forwarding to another port" value="Inoltro a un&apos;altra porta"/>
+    <entry key="Slot %d" value="Slot %d"/>
+    <entry key="Settings..." value="Impostazioni..."/>
+    <entry key="Port detached" value="Porta scollegata"/>
+    <entry key="already used by %s" value="già usata da %s"/>
+    <entry key="%s is already used by %s.&#10;&#10;Detach it from that slot and use it here, or abort this choice?" value="%s è già usata da %s.&#10;&#10;Scollegarla da quello slot e usarla qui, oppure annullare questa scelta?"/>
+    <entry key="Detach and use here" value="Scollega e usa qui"/>
+    <entry key="Abort" value="Annulla scelta"/>
+    <entry key="Port already used" value="Porta già in uso"/>
+    <entry key="Forward received to:" value="Inoltra ricevuti a:"/>
+    <entry key="(nobody)" value="(nessuno)"/>
+    <entry key="not forwarded: the port of %s is closed" value="non inoltrato: la porta di %s è chiusa"/>
+    <entry key="TX fwd &quot;%s&quot;" value="TX inoltro &quot;%s&quot;"/>
+    <entry key="File" value="File"/>
+    <entry key="Send File..." value="Invia file..."/>
+    <entry key="(no file selected)" value="(nessun file selezionato)"/>
+    <entry key="Sending Options..." value="Opzioni di invio..."/>
+    <entry key="Stop" value="Ferma"/>
+    <entry key="at least %s" value="almeno %s"/>
+    <entry key="sent in %s" value="inviato in %s"/>
+    <entry key="Catch File..." value="Cattura file..."/>
+    <entry key="Stop Catching" value="Ferma cattura"/>
+    <entry key="not catching" value="cattura non attiva"/>
+    <entry key="waiting for a file..." value="in attesa di un file..."/>
+    <entry key="receiving: %s" value="ricezione: %s"/>
+    <entry key="%d file(s) received" value="%d file ricevuti"/>
+    <entry key="Choose the file to send" value="Scegli il file da inviare"/>
+    <entry key="Cannot read %s" value="Impossibile leggere %s"/>
+    <entry key="%s is too big (the limit is %s)." value="%s è troppo grande (il limite è %s)."/>
+    <entry key="File selected" value="File selezionato"/>
+    <entry key="Sending file" value="Invio file"/>
+    <entry key="TX file prefix" value="TX prefisso file"/>
+    <entry key="chunk %d/%d (%d bytes)" value="blocco %d/%d (%d byte)"/>
+    <entry key="(retry)" value="(ripetizione)"/>
+    <entry key="TX file end" value="TX fine file"/>
+    <entry key="file sent: %s in %s" value="file inviato: %s in %s"/>
+    <entry key="file sending failed after %s of %s: %s" value="invio file fallito dopo %s di %s: %s"/>
+    <entry key="file sending stopped after %s of %s" value="invio file fermato dopo %s di %s"/>
+    <entry key="file start recognised: %s is written again from the beginning" value="inizio file riconosciuto: %s viene riscritto dall&apos;inizio"/>
+    <entry key="TX file answer" value="TX risposta file"/>
+    <entry key="file received: %s in %s" value="file ricevuto: %s in %s"/>
+    <entry key="file catching failed: %s" value="cattura file fallita: %s"/>
+    <entry key="catching files into %s" value="cattura file in %s"/>
+    <entry key="file catching stopped" value="cattura file fermata"/>
+    <entry key="%s: the pattern is empty." value="%s: lo schema è vuoto."/>
+    <entry key="Sending Options" value="Opzioni di invio"/>
+    <entry key="Bytes per chunk:" value="Byte per blocco:"/>
+    <entry key="The file is sent in chunks of this size; the last chunk holds the remaining bytes and can be smaller." value="Il file viene inviato in blocchi di questa dimensione; l&apos;ultimo blocco contiene i byte rimanenti e può essere più piccolo."/>
+    <entry key="Every chunk, then pause" value="Ogni blocco, poi pausa"/>
+    <entry key="ms" value="ms"/>
+    <entry key="Burst: after every chunk wait for the confirmation (tab Confirmation)" value="Burst: dopo ogni blocco attendi la conferma (scheda Conferma)"/>
+    <entry key="Answer timeout (ms):" value="Timeout risposta (ms):"/>
+    <entry key="Retries:" value="Tentativi:"/>
+    <entry key="Without an answer in time, the chunk (or the prefix) is sent again. If only the confirmation was lost, the receiver gets that chunk twice." value="Senza risposta in tempo, il blocco (o il prefisso) viene inviato di nuovo. Se è andata persa solo la conferma, il ricevitore riceve quel blocco due volte."/>
+    <entry key="Chunks" value="Blocchi"/>
+    <entry key="Start prefix" value="Prefisso iniziale"/>
+    <entry key="Send this before the file (signals that a file follows)" value="Invia questo prima del file (segnala che segue un file)"/>
+    <entry key="Sent once before the first chunk." value="Inviato una volta prima del primo blocco."/>
+    <entry key="Prefix answer" value="Risposta al prefisso"/>
+    <entry key="Wait for this answer before sending the file" value="Attendi questa risposta prima di inviare il file"/>
+    <entry key="Expected from the other side; incrementing values and checksum are compared too." value="Attesa dall&apos;altra parte; anche valori incrementali e checksum vengono confrontati."/>
+    <entry key="Confirmation" value="Conferma"/>
+    <entry key="Burst mode: expected after every chunk before the next one is sent. An incrementing value advances by its step for every confirmation." value="Modalità burst: attesa dopo ogni blocco prima di inviare il successivo. Un valore incrementale avanza del suo passo a ogni conferma."/>
+    <entry key="End marker" value="Marcatore di fine"/>
+    <entry key="Send this after the last chunk" value="Invia questo dopo l&apos;ultimo blocco"/>
+    <entry key="Select a file to see the estimated time." value="Seleziona un file per vedere il tempo stimato."/>
+    <entry key="%d chunk(s) at %u baud: at least %s (answer times of the other side not included)" value="%d blocco/i a %u baud: almeno %s (tempi di risposta dell&apos;altra parte esclusi)"/>
+    <entry key="Catch File" value="Cattura file"/>
+    <entry key="Write the received file data to:" value="Scrivi i dati del file ricevuto in:"/>
+    <entry key="Browse..." value="Sfoglia..."/>
+    <entry key="Output file" value="File di uscita"/>
+    <entry key="Only the file data is written (no prefix, answers or end marker). A new file replaces what the output file held; a recovered file (Recovery tab) continues it." value="Vengono scritti solo i dati del file (niente prefisso, risposte o marcatore di fine). Un nuovo file sostituisce il contenuto del file di uscita; un file recuperato (scheda Recupero) lo continua."/>
+    <entry key="Bytes per group (answered each):" value="Byte per gruppo (risposta a ciascuno):"/>
+    <entry key="File ends after a silence of (ms, 0 = never):" value="Il file termina dopo un silenzio di (ms, 0 = mai):"/>
+    <entry key="A file starts when this is received. The bytes before it are shown as normal RX." value="Un file inizia quando questo viene ricevuto. I byte precedenti sono mostrati come RX normale."/>
+    <entry key="Answer the prefix with this" value="Rispondi al prefisso con questo"/>
+    <entry key="Group answer" value="Risposta ai gruppi"/>
+    <entry key="Answer every group of bytes with this" value="Rispondi a ogni gruppo di byte con questo"/>
+    <entry key="Sent after every group; a smaller last group is answered when the line goes quiet. An incrementing value advances for every answer. If its checksum covers the group, use the sender&apos;s chunk size as the group size, so each answer covers exactly one chunk." value="Inviata dopo ogni gruppo; un ultimo gruppo più piccolo riceve risposta quando la linea tace. Un valore incrementale avanza a ogni risposta. Se il suo checksum include il gruppo, usa come dimensione del gruppo quella dei blocchi del mittente, così ogni risposta copre esattamente un blocco."/>
+    <entry key="The file ends with this marker" value="Il file termina con questo marcatore"/>
+    <entry key="The marker is not written to the file." value="Il marcatore non viene scritto nel file."/>
+    <entry key="Choose the file where the data is written." value="Scegli il file in cui scrivere i dati."/>
+    <entry key="A file would never end: use an end marker or a silence time." value="Un file non finirebbe mai: usa un marcatore di fine o un tempo di silenzio."/>
+    <entry key="Serial Ports" value="Porte seriali"/>
+    <entry key="No serial port found on this PC right now." value="Nessuna porta seriale trovata su questo PC al momento."/>
+    <entry key="Serial ports on this PC: %d (%s)." value="Porte seriali su questo PC: %d (%s)."/>
+    <entry key="How many serial ports to control:" value="Quante porte seriali controllare:"/>
+    <entry key="(at most %d)" value="(al massimo %d)"/>
+    <entry key="Every slot is a tab with its own port, thread and console. A port can belong to one slot only." value="Ogni slot è una scheda con la propria porta, thread e console. Una porta può appartenere a un solo slot."/>
+    <entry key="not configured" value="non configurato"/>
+    <entry key="Configure..." value="Configura..."/>
+    <entry key="Catch Options..." value="Opzioni di cattura..."/>
+    <entry key="catch options changed (a file being received ends with the previous ones); writing to %s" value="opzioni di cattura modificate (un file in ricezione termina con le precedenti); scrittura su %s"/>
+    <entry key="Also cover the message this one answers: %s" value="Includi anche il messaggio a cui risponde: %s"/>
+    <entry key="Its bytes are taken first, without the indexes above (negative ones count from the end; an index a shorter message does not have is ignored), then this message&apos;s own bytes (&quot;Calculated on&quot; below applies to this message only). The checksum is calculated for every message, when it is sent." value="I suoi byte vengono presi per primi, senza gli indici sopra (i negativi contano dalla fine; un indice che un messaggio più corto non ha viene ignorato), poi i byte di questo messaggio (&quot;Calcolato su&quot; qui sotto vale solo per questo messaggio). Il checksum viene calcolato per ogni messaggio, al momento dell&apos;invio."/>
+    <entry key="(preview without the answered message: it is known only when it arrives)" value="(anteprima senza il messaggio a cui risponde: si conosce solo quando arriva)"/>
+    <entry key="covering the answered message too" value="includendo anche il messaggio a cui risponde"/>
+    <entry key="the received RX line, up to the end of the pattern" value="la riga RX ricevuta, fino alla fine dello schema"/>
+    <entry key="the start prefix sent" value="il prefisso iniziale inviato"/>
+    <entry key="the chunk sent (its data bytes)" value="il blocco inviato (i suoi byte di dati)"/>
+    <entry key="the start prefix received" value="il prefisso iniziale ricevuto"/>
+    <entry key="the group of file bytes received" value="il gruppo di byte del file ricevuto"/>
+    <entry key="Start it with the file&apos;s start prefix (then the chunk / group)" value="Iniziarlo con il prefisso iniziale del file (poi il blocco / gruppo)"/>
+    <entry key="Leave out of it the indexes:" value="Escludere da esso gli indici:"/>
+    <entry key="e.g. 0-2, -1  (-1 = the last byte)" value="es. 0-2, -1  (-1 = l&apos;ultimo byte)"/>
+    <entry key="The indexes to leave out of the answered message are not valid: use e.g. 0, 2-4, -1 (negative ones count from the end, -1 = the last byte)." value="Gli indici da escludere dal messaggio a cui risponde non sono validi: usa ad es. 0, 2-4, -1 (i negativi contano dalla fine, -1 = l&apos;ultimo byte)."/>
+    <entry key="(with the start prefix)" value="(con il prefisso iniziale)"/>
+    <entry key="(without its indexes %s)" value="(senza i suoi indici %s)"/>
+    <entry key="Use the recommended value: %s" value="Usa il valore consigliato: %s"/>
+    <entry key="&quot;%s&quot; and &quot;%s&quot; must be different, and neither may contain the other: the other side could mistake one for the other." value="&quot;%s&quot; e &quot;%s&quot; devono essere diversi e nessuno dei due può contenere l&apos;altro: l&apos;altra parte potrebbe scambiarli."/>
+    <entry key="Recovery" value="Recupero"/>
+    <entry key="Recovery answer" value="Risposta al recupero"/>
+    <entry key="Allow recovery: continue an interrupted file where the receiver stopped" value="Consenti il recupero: continua un file interrotto da dove il ricevitore si è fermato"/>
+    <entry key="When a send of the same file stopped part-way, Send asks whether to recover. Recovering sends this instead of the start prefix; the receiver answers with its size and sending continues from there - nothing twice, nothing missing. The receiver must accept recovery with the same command." value="Quando l&apos;invio dello stesso file si è fermato a metà, Invia chiede se recuperare. Il recupero invia questo al posto del prefisso iniziale; il ricevitore risponde con la sua dimensione e l&apos;invio continua da lì - niente due volte, niente di mancante. Il ricevitore deve accettare il recupero con lo stesso comando."/>
+    <entry key="Expected after the recovery command, followed by 4 bytes (big-endian): how many bytes of the file the receiver already has." value="Attesa dopo il comando di recupero, seguita da 4 byte (big-endian): quanti byte del file il ricevitore ha già."/>
+    <entry key="the recovery command sent" value="il comando di recupero inviato"/>
+    <entry key="the recovery command received" value="il comando di recupero ricevuto"/>
+    <entry key="Accept recovery: an interrupted file continues (the output file is kept)" value="Accetta il recupero: un file interrotto continua (il file di uscita viene mantenuto)"/>
+    <entry key="When this arrives instead of the start prefix - or in the middle of a file that did not end - the output file is kept, the answer below is sent followed by its size (4 bytes, big-endian) and the data that follows is added at the end." value="Quando arriva questo al posto del prefisso iniziale - o a metà di un file non terminato - il file di uscita viene mantenuto, viene inviata la risposta qui sotto seguita dalla sua dimensione (4 byte, big-endian) e i dati che seguono vengono aggiunti in fondo."/>
+    <entry key="Sent after the recovery command, followed by the size the output file has (4 bytes, big-endian)." value="Inviata dopo il comando di recupero, seguita dalla dimensione del file di uscita (4 byte, big-endian)."/>
+    <entry key="Recover the file?" value="Recuperare il file?"/>
+    <entry key="The last sending of %s stopped after %s of %s (confirmed).&#10;&#10;Recover: the receiver keeps what it has and says where it stopped; sending continues from there.&#10;Start again: the file is sent from the beginning and the receiver starts it again." value="L&apos;ultimo invio di %s si è fermato dopo %s di %s (confermati).&#10;&#10;Recupera: il ricevitore mantiene quello che ha e indica dove si è fermato; l&apos;invio continua da lì.&#10;Ricomincia: il file viene inviato dall&apos;inizio e il ricevitore lo ricomincia."/>
+    <entry key="Recover" value="Recupera"/>
+    <entry key="Start Again" value="Ricomincia"/>
+    <entry key="Recovering file" value="Recupero file"/>
+    <entry key="TX file recovery" value="TX recupero file"/>
+    <entry key="the receiver has %s of %s: continuing from there" value="il ricevitore ha %s di %s: si continua da lì"/>
+    <entry key="recovery: %s already in %s, continuing it" value="recupero: %s già in %s, si continua"/>
+    <entry key="&amp;Tools" value="S&amp;trumenti"/>
+    <entry key="&amp;Byte Analyzer...&#9;Ctrl-B" value="&amp;Analizzatore di byte...&#9;Ctrl-B"/>
+    <entry key="&amp;Protocols (info and simulation)...&#9;Ctrl-P" value="&amp;Protocolli (informazioni e simulazione)...&#9;Ctrl-P"/>
+    <entry key="User &amp;Manual&#9;F1" value="&amp;Manuale utente&#9;F1"/>
+    <entry key="&amp;Quick Guide" value="&amp;Guida rapida"/>
+    <entry key="The manual was not found or could not be opened:&#10;%s&#10;&#10;The manuals are installed in the &quot;manuals&quot; folder next to the program." value="Il manuale non è stato trovato o non può essere aperto:&#10;%s&#10;&#10;I manuali sono installati nella cartella &quot;manuals&quot; accanto al programma."/>
+    <entry key="Right-click a message - or select some of its bytes, in the text or in the hex part - for checksums, numbers, signal simulation and protocol decoding." value="Clic destro su un messaggio - o seleziona alcuni dei suoi byte, nel testo o nella parte esadecimale - per checksum, numeri, simulazione del segnale e decodifica del protocollo."/>
+    <entry key="selection of %s" value="selezione di %s"/>
+    <entry key="%d selected bytes" value="%d byte selezionati"/>
+    <entry key="Message of %d bytes" value="Messaggio di %d byte"/>
+    <entry key="Checksums / CRC..." value="Checksum / CRC..."/>
+    <entry key="Integers and floats (byte order)..." value="Interi e virgola mobile (ordine dei byte)..."/>
+    <entry key="Signal simulation (waveform)..." value="Simulazione del segnale (forma d&apos;onda)..."/>
+    <entry key="Interpret as protocol (Modbus, NMEA...)..." value="Interpreta come protocollo (Modbus, NMEA...)..."/>
+    <entry key="Quick values (click to copy)" value="Valori rapidi (clic per copiare)"/>
+    <entry key="Copy bytes as hex" value="Copia i byte in esadecimale"/>
+    <entry key="Select all" value="Seleziona tutto"/>
+    <entry key="Clear console" value="Svuota console"/>
+    <entry key="Protocols (info and simulation)..." value="Protocolli (informazioni e simulazione)..."/>
+    <entry key="Byte Analyzer" value="Analizzatore di byte"/>
+    <entry key="Bytes:" value="Byte:"/>
+    <entry key="%d bytes" value="%d byte"/>
+    <entry key="Checksums / CRC" value="Checksum / CRC"/>
+    <entry key="Integers / floats" value="Interi / virgola mobile"/>
+    <entry key="Signal" value="Segnale"/>
+    <entry key="Protocol" value="Protocollo"/>
+    <entry key="From byte" value="Dal byte"/>
+    <entry key="to byte (included)" value="al byte (incluso)"/>
+    <entry key="Bytes are numbered from 0. &quot;Message ends with it&quot;: the last bytes of the message are the checksum of the bytes before them (from the first byte of the range)." value="I byte sono numerati da 0. &quot;Il messaggio termina con esso&quot;: gli ultimi byte del messaggio sono il checksum dei byte precedenti (dal primo byte dell&apos;intervallo)."/>
+    <entry key="Algorithm" value="Algoritmo"/>
+    <entry key="Value" value="Valore"/>
+    <entry key="Bytes, big-endian" value="Byte, big-endian"/>
+    <entry key="Bytes, little-endian" value="Byte, little-endian"/>
+    <entry key="Message ends with it" value="Il messaggio termina con esso"/>
+    <entry key="Used by" value="Usato da"/>
+    <entry key="yes (%s)" value="sì (%s)"/>
+    <entry key="Right-click to copy rows." value="Clic destro per copiare le righe."/>
+    <entry key="Copy selected rows" value="Copia le righe selezionate"/>
+    <entry key="Copy all rows" value="Copia tutte le righe"/>
+    <entry key="Any CRC (Rocksoft parameters)" value="Qualsiasi CRC (parametri Rocksoft)"/>
+    <entry key="Width" value="Bit"/>
+    <entry key="Poly" value="Polinomio"/>
+    <entry key="Init" value="Iniziale"/>
+    <entry key="XorOut" value="XorOut"/>
+    <entry key="RefIn" value="RefIn"/>
+    <entry key="RefOut" value="RefOut"/>
+    <entry key="Write Poly, Init and XorOut as numbers (0x1021, 4129, 0b...)." value="Scrivi Polinomio, Iniziale e XorOut come numeri (0x1021, 4129, 0b...)."/>
+    <entry key="= %s   (BE: %s, LE: %s)   check &quot;123456789&quot; = %s" value="= %s   (BE: %s, LE: %s)   verifica &quot;123456789&quot; = %s"/>
+    <entry key="Offset" value="Posizione"/>
+    <entry key="Byte order" value="Ordine dei byte"/>
+    <entry key="ABCD - big-endian" value="ABCD - big-endian"/>
+    <entry key="DCBA - little-endian" value="DCBA - little-endian"/>
+    <entry key="BADC - big-endian, bytes swapped" value="BADC - big-endian, byte scambiati"/>
+    <entry key="CDAB - little-endian, words swapped" value="CDAB - little-endian, word scambiate"/>
+    <entry key="Scale x" value="Scala x"/>
+    <entry key="The value is also shown multiplied by this (e.g. 0.1 for a reading in tenths)." value="Il valore viene mostrato anche moltiplicato per questo (es. 0.1 per una lettura in decimi)."/>
+    <entry key="Type" value="Tipo"/>
+    <entry key="Scaled" value="Scalato"/>
+    <entry key="Hex (big-endian)" value="Esadecimale (big-endian)"/>
+    <entry key="Bytes on the line" value="Byte sulla linea"/>
+    <entry key="needs %d bytes from the offset" value="servono %d byte dalla posizione"/>
+    <entry key="not BCD (a digit above 9)" value="non BCD (una cifra oltre 9)"/>
+    <entry key="Value to bytes (and where they are in the message)" value="Valore in byte (e dove si trovano nel messaggio)"/>
+    <entry key="A number: decimal, 0x hex, 0b binary; floats as 1.5 or 1e-3. The byte order chosen above is used." value="Un numero: decimale, 0x esadecimale, 0b binario; virgola mobile come 1.5 o 1e-3. Viene usato l&apos;ordine dei byte scelto sopra."/>
+    <entry key="Not valid" value="Non valido"/>
+    <entry key="Bytes: %s" value="Byte: %s"/>
+    <entry key="not in the message" value="non presenti nel messaggio"/>
+    <entry key="found at offset %s" value="trovati alla posizione %s"/>
+    <entry key="Interpret as" value="Interpreta come"/>
+    <entry key="Automatic" value="Automatico"/>
+    <entry key="Bytes one by one" value="Byte uno per uno"/>
+    <entry key="Field" value="Campo"/>
+    <entry key="Bytes" value="Byte"/>
+    <entry key="Fields" value="Campi"/>
+    <entry key="No data to show." value="Nessun dato da mostrare."/>
+    <entry key="high" value="alto"/>
+    <entry key="low" value="basso"/>
+    <entry key="middle / released" value="intermedio / rilasciato"/>
+    <entry key=" %d of byte %d" value=" %d del byte %d"/>
+    <entry key="Protocol:" value="Protocollo:"/>
+    <entry key="Data:" value="Dati:"/>
+    <entry key="Zoom out (Ctrl + wheel)" value="Riduci (Ctrl + rotellina)"/>
+    <entry key="Zoom in (Ctrl + wheel)" value="Ingrandisci (Ctrl + rotellina)"/>
+    <entry key="Fit" value="Adatta"/>
+    <entry key="Show the whole transmission" value="Mostra tutta la trasmissione"/>
+    <entry key="Normal zoom: every bit readable" value="Zoom normale: ogni bit leggibile"/>
+    <entry key="Wheel: scroll sideways - Shift + wheel: up / down - Ctrl + wheel: zoom. Each character has its own colour (red / green); 0 / 1 over every bit." value="Rotellina: scorre in orizzontale - Maiusc + rotellina: su / giù - Ctrl + rotellina: zoom. Ogni carattere ha il suo colore (rosso / verde); 0 / 1 sopra ogni bit."/>
+    <entry key="%d bytes  -  1 bit = %s (%s bit/s)  -  total %s" value="%d byte  -  1 bit = %s (%s bit/s)  -  totale %s"/>
+    <entry key="Bit order" value="Ordine dei bit"/>
+    <entry key="9th data bit" value="9° bit di dati"/>
+    <entry key="Idle between characters (bits)" value="Pausa tra caratteri (bit)"/>
+    <entry key="Logic level" value="Livello logico"/>
+    <entry key="Inverted (idle low)" value="Invertito (riposo basso)"/>
+    <entry key="Show DE (driver enable)" value="Mostra DE (abilitazione driver)"/>
+    <entry key="Clock (Hz)" value="Clock (Hz)"/>
+    <entry key="Mode" value="Modo"/>
+    <entry key="Bits per word" value="Bit per parola"/>
+    <entry key="Data lines" value="Linee dati"/>
+    <entry key="MISO answers" value="Risposta su MISO"/>
+    <entry key="Slaves (CS lines)" value="Slave (linee CS)"/>
+    <entry key="Selected slave" value="Slave selezionato"/>
+    <entry key="CS released between words" value="CS rilasciato tra le parole"/>
+    <entry key="CS active high" value="CS attivo alto"/>
+    <entry key="Speed" value="Velocità"/>
+    <entry key="Address (hex)" value="Indirizzo (esadecimale)"/>
+    <entry key="10-bit address" value="Indirizzo a 10 bit"/>
+    <entry key="Direction" value="Direzione"/>
+    <entry key="Register bytes" value="Byte del registro"/>
+    <entry key="Register (hex)" value="Registro (esadecimale)"/>
+    <entry key="Slave acknowledges" value="Lo slave risponde ACK"/>
+    <entry key="NACK after the last byte read" value="NACK dopo l&apos;ultimo byte letto"/>
+    <entry key="Reset pulse first" value="Prima l&apos;impulso di reset"/>
+    <entry key="A device answers (presence)" value="Un dispositivo risponde (presenza)"/>
+    <entry key="Who sends" value="Chi trasmette"/>
+    <entry key="Bit rate (bit/s)" value="Velocità (bit/s)"/>
+    <entry key="Identifier (hex)" value="Identificatore (esadecimale)"/>
+    <entry key="Extended (29-bit) identifier" value="Identificatore esteso (29 bit)"/>
+    <entry key="Remote frame (RTR)" value="Frame remoto (RTR)"/>
+    <entry key="Acknowledged by a receiver" value="Confermato da un ricevitore"/>
+    <entry key="Show the logic level (TX)" value="Mostra il livello logico (TX)"/>
+    <entry key="Frame ID (hex, 0-3F)" value="ID del frame (esadecimale, 0-3F)"/>
+    <entry key="Enhanced checksum (LIN 2.x)" value="Checksum avanzato (LIN 2.x)"/>
+    <entry key="Break length (bits)" value="Durata del break (bit)"/>
+    <entry key="With response (data + checksum)" value="Con risposta (dati + checksum)"/>
+    <entry key="Line code" value="Codifica di linea"/>
+    <entry key="Show the clock" value="Mostra il clock"/>
+    <entry key="With 9 data bits: the 9th bit marks an address (multiprocessor / multidrop mode)." value="Con 9 bit di dati: il 9° bit indica un indirizzo (modo multiprocessore / multidrop)."/>
+    <entry key="Pause between characters, in bit times (0 = back to back)." value="Pausa tra i caratteri, in tempi di bit (0 = uno dopo l&apos;altro)."/>
+    <entry key="Idle low and 1 = 0 V, as some opto-couplers and level shifters deliver." value="Riposo basso e 1 = 0 V, come forniscono alcuni optoisolatori e traslatori di livello."/>
+    <entry key="The transceiver&apos;s driver enable: high while this node drives the bus (half duplex)." value="L&apos;abilitazione del driver del transceiver: alta mentre questo nodo pilota il bus (half duplex)."/>
+    <entry key="What the slave sends back while the master writes." value="Cosa restituisce lo slave mentre il master scrive."/>
+    <entry key="Chip select goes inactive between words, as some ADCs and DACs require." value="Il chip select torna inattivo tra le parole, come richiedono alcuni ADC e DAC."/>
+    <entry key="Register (memory address) written first: 0 = none. When reading, it is written and a repeated start follows." value="Registro (indirizzo di memoria) scritto per primo: 0 = nessuno. In lettura viene scritto e segue uno start ripetuto."/>
+    <entry key="Off: nobody answers to the address (NACK) - the master stops." value="Disattivo: nessuno risponde all&apos;indirizzo (NACK) - il master si ferma."/>
+    <entry key="When reading, the master answers NACK to the last byte, then STOP." value="In lettura il master risponde NACK all&apos;ultimo byte, poi STOP."/>
+    <entry key="A request for data: the data field is empty, DLC tells how many bytes are asked." value="Una richiesta di dati: il campo dati è vuoto, DLC indica quanti byte sono richiesti."/>
+    <entry key="Off: no receiver acknowledged - the ACK slot stays recessive (an error)." value="Disattivo: nessun ricevitore ha confermato - lo slot ACK resta recessivo (un errore)."/>
+    <entry key="LIN 2.x: the checksum also covers the protected identifier (not for the diagnostic frames 3C / 3D)." value="LIN 2.x: il checksum copre anche l&apos;identificatore protetto (non per i frame diagnostici 3C / 3D)."/>
+    <entry key="Off: header only (break, sync, identifier) - the master&apos;s request." value="Disattivo: solo l&apos;intestazione (break, sync, identificatore) - la richiesta del master."/>
+    <entry key="Dual / quad SPI carry 2 / 4 bits per clock on IO0..IO3 (flash memories)." value="Lo SPI dual / quad porta 2 / 4 bit per clock su IO0..IO3 (memorie flash)."/>
+    <entry key="CPOL: clock level at rest. CPHA 0: data sampled on the first edge; CPHA 1: on the second." value="CPOL: livello del clock a riposo. CPHA 0: dato campionato sul primo fronte; CPHA 1: sul secondo."/>
+    <entry key="None (no parity bit)" value="None (senza bit di parità)"/>
+    <entry key="Mark (always 1)" value="Mark (sempre 1)"/>
+    <entry key="Space (always 0)" value="Space (sempre 0)"/>
+    <entry key="LSB first" value="Prima il bit meno significativo"/>
+    <entry key="MSB first" value="Prima il bit più significativo"/>
+    <entry key="Always 0" value="Sempre 0"/>
+    <entry key="Always 1" value="Sempre 1"/>
+    <entry key="1 on the first byte (address)" value="1 sul primo byte (indirizzo)"/>
+    <entry key="Mode %d (CPOL %d, CPHA %d)" value="Modo %d (CPOL %d, CPHA %d)"/>
+    <entry key="1 - standard (MOSI / MISO)" value="1 - standard (MOSI / MISO)"/>
+    <entry key="2 - dual (IO0-IO1)" value="2 - dual (IO0-IO1)"/>
+    <entry key="4 - quad (IO0-IO3)" value="4 - quad (IO0-IO3)"/>
+    <entry key="Nothing (high impedance)" value="Niente (alta impedenza)"/>
+    <entry key="0xFF (idle slave)" value="0xFF (slave inattivo)"/>
+    <entry key="The previous word (shift register)" value="La parola precedente (registro a scorrimento)"/>
+    <entry key="The same as MOSI (loopback)" value="Uguale a MOSI (loopback)"/>
+    <entry key="Standard-mode, 100 kbit/s" value="Standard-mode, 100 kbit/s"/>
+    <entry key="Fast-mode, 400 kbit/s" value="Fast-mode, 400 kbit/s"/>
+    <entry key="Fast-mode Plus, 1 Mbit/s" value="Fast-mode Plus, 1 Mbit/s"/>
+    <entry key="High-speed mode, 3.4 Mbit/s" value="High-speed mode, 3,4 Mbit/s"/>
+    <entry key="Ultra Fast-mode, 5 Mbit/s (write only)" value="Ultra Fast-mode, 5 Mbit/s (solo scrittura)"/>
+    <entry key="Write (master to slave)" value="Scrittura (dal master allo slave)"/>
+    <entry key="Read (slave to master)" value="Lettura (dallo slave al master)"/>
+    <entry key="Standard (~15.4 kbit/s)" value="Standard (~15,4 kbit/s)"/>
+    <entry key="Overdrive (~125 kbit/s)" value="Overdrive (~125 kbit/s)"/>
+    <entry key="The master writes" value="Il master scrive"/>
+    <entry key="The slave answers (read slots)" value="Lo slave risponde (slot di lettura)"/>
+    <entry key="NRZ-L" value="NRZ-L"/>
+    <entry key="NRZ-I (change on 1)" value="NRZ-I (cambia sull&apos;1)"/>
+    <entry key="Manchester IEEE 802.3 (1 = low to high)" value="Manchester IEEE 802.3 (1 = da basso ad alto)"/>
+    <entry key="Manchester G.E. Thomas (1 = high to low)" value="Manchester G.E. Thomas (1 = da alto a basso)"/>
+    <entry key="Differential Manchester (change on 0)" value="Manchester differenziale (cambia sullo 0)"/>
+    <entry key="RZ (return to zero)" value="RZ (ritorno a zero)"/>
+    <entry key="Bipolar AMI" value="AMI bipolare"/>
+    <entry key="Standard communication protocols - information and simulation" value="Protocolli di comunicazione standard - informazioni e simulazione"/>
+    <entry key="Overview" value="Panoramica"/>
+    <entry key="&lt;h2&gt;Communication protocols at a glance&lt;/h2&gt;&lt;p&gt;A serial protocol sends data one bit after the other over a few wires. Protocols differ in how the receiver knows when a bit is valid (an agreed speed - &lt;b&gt;asynchronous&lt;/b&gt; - or a clock line - &lt;b&gt;synchronous&lt;/b&gt;), in how many devices share the wires, in how far and how fast they go, and in how errors are found.&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Protocol&lt;/th&gt;&lt;th&gt;Clock&lt;/th&gt;&lt;th&gt;Signal wires: minimum - maximum&lt;/th&gt;&lt;th&gt;Devices&lt;/th&gt;&lt;th&gt;Speed&lt;/th&gt;&lt;th&gt;Distance&lt;/th&gt;&lt;th&gt;Duplex&lt;/th&gt;&lt;th&gt;Error check&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UART (TTL)&lt;/td&gt;&lt;td&gt;asynchronous&lt;/td&gt;&lt;td&gt;1 (TX) + GND - 8 (TX, RX, RTS, CTS, DTR, DSR, DCD, RI) + GND&lt;/td&gt;&lt;td&gt;2, point to point&lt;/td&gt;&lt;td&gt;300 bit/s - several Mbit/s (9600 / 115200 typical)&lt;/td&gt;&lt;td&gt;&amp;lt; 1-2 m&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parity (optional)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-232&lt;/td&gt;&lt;td&gt;asynchronous&lt;/td&gt;&lt;td&gt;TxD, RxD + GND - 9 pins (DE-9) / 25 (DB-25)&lt;/td&gt;&lt;td&gt;2, point to point&lt;/td&gt;&lt;td&gt;20 kbit/s (standard), up to ~1 Mbit/s&lt;/td&gt;&lt;td&gt;15 m at 19.2 kbit/s&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-422&lt;/td&gt;&lt;td&gt;asynchronous&lt;/td&gt;&lt;td&gt;1 pair + GND - 4 pairs + GND&lt;/td&gt;&lt;td&gt;1 driver, 10 receivers&lt;/td&gt;&lt;td&gt;up to 10 Mbit/s&lt;/td&gt;&lt;td&gt;1200 m at 100 kbit/s&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parity / application&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-485&lt;/td&gt;&lt;td&gt;asynchronous&lt;/td&gt;&lt;td&gt;1 pair (A, B) + GND - 2 pairs + GND&lt;/td&gt;&lt;td&gt;32 unit loads (up to 256)&lt;/td&gt;&lt;td&gt;up to 10 Mbit/s (more with modern parts)&lt;/td&gt;&lt;td&gt;1200 m at 100 kbit/s&lt;/td&gt;&lt;td&gt;half (2 wires) / full (4)&lt;/td&gt;&lt;td&gt;application (Modbus CRC-16)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SPI&lt;/td&gt;&lt;td&gt;synchronous&lt;/td&gt;&lt;td&gt;SCLK, MOSI + GND - SCLK, CS, IO0-IO3 (quad) + one CS per slave&lt;/td&gt;&lt;td&gt;1 master, many slaves&lt;/td&gt;&lt;td&gt;1 - 50 MHz, 100+ MHz (quad flash)&lt;/td&gt;&lt;td&gt;on the board&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;none (application)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;I2C&lt;/td&gt;&lt;td&gt;synchronous&lt;/td&gt;&lt;td&gt;SDA, SCL + GND (always)&lt;/td&gt;&lt;td&gt;112 addresses (7-bit), 1024 (10-bit), multi-master&lt;/td&gt;&lt;td&gt;100 kbit/s - 5 Mbit/s&lt;/td&gt;&lt;td&gt;&amp;lt; 1 m (400 pF)&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;ACK / NACK per byte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1-Wire&lt;/td&gt;&lt;td&gt;time slots&lt;/td&gt;&lt;td&gt;DQ + GND (power through the data line)&lt;/td&gt;&lt;td&gt;many, unique 64-bit ID each&lt;/td&gt;&lt;td&gt;15.4 kbit/s, 125 kbit/s overdrive&lt;/td&gt;&lt;td&gt;tens of metres, 100+ m&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;CRC-8 / CRC-16&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN 2.0&lt;/td&gt;&lt;td&gt;asynchronous, resynchronised&lt;/td&gt;&lt;td&gt;CAN_H, CAN_L (+ GND)&lt;/td&gt;&lt;td&gt;~110 nodes, multi-master&lt;/td&gt;&lt;td&gt;10 kbit/s - 1 Mbit/s (CAN FD 5-8 Mbit/s)&lt;/td&gt;&lt;td&gt;40 m at 1 Mbit/s, 1 km at 50 kbit/s&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;CRC-15, stuffing, ACK, error frames&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LIN&lt;/td&gt;&lt;td&gt;asynchronous (UART bytes)&lt;/td&gt;&lt;td&gt;LIN + GND (+ VBAT)&lt;/td&gt;&lt;td&gt;1 master, up to 16 nodes&lt;/td&gt;&lt;td&gt;1 - 20 kbit/s&lt;/td&gt;&lt;td&gt;40 m&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;checksum, ID parity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;JTAG&lt;/td&gt;&lt;td&gt;synchronous (TCK)&lt;/td&gt;&lt;td&gt;TCK, TMS, TDI, TDO + GND - + TRST*, RTCK, SRST*, VTref (20-pin ARM)&lt;/td&gt;&lt;td&gt;a chain of chips (daisy chain)&lt;/td&gt;&lt;td&gt;1 - 50 MHz (often 1 - 10)&lt;/td&gt;&lt;td&gt;on the board, probe cable &amp;lt; 30 cm&lt;/td&gt;&lt;td&gt;full (TDI in, TDO out)&lt;/td&gt;&lt;td&gt;none (IDCODE, readback)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Line codes&lt;/td&gt;&lt;td colspan=7&gt;How bits become levels: NRZ (UART, CAN), NRZI (USB), Manchester (10BASE-T Ethernet, DALI), differential Manchester (Token Ring), AMI (T1 / E1).&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;How to use this window&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Every tab explains a protocol on the left and simulates it on the right; drag the bar between them to give more room to either.&lt;/li&gt;&lt;li&gt;Type the data (Hex, ASCII or Mixed notation) and set the parameters - from the minimum configuration to the largest the protocol accepts: the waveform follows at once.&lt;/li&gt;&lt;li&gt;Each character has its own colour, alternately &lt;font color=&quot;#C81E1E&quot;&gt;&lt;b&gt;red&lt;/b&gt;&lt;/font&gt; and &lt;font color=&quot;#008C3C&quot;&gt;&lt;b&gt;green&lt;/b&gt;&lt;/font&gt;, from its first bit to its last: you see where every character starts and ends. 0 and 1 are written over every bit; protocol bits are labelled under the trace (ST start, SP stop, PAR parity, ACK / NAK, STF stuff bit, R/W...).&lt;/li&gt;&lt;li&gt;Scroll sideways with the mouse wheel or the scroll bar; Ctrl + wheel zooms around the mouse; &lt;i&gt;Fit&lt;/i&gt; shows the whole transmission, &lt;i&gt;1:1&lt;/i&gt; makes every bit readable. Point at the waveform to read the time, the level of the wire and the meaning of the bit.&lt;/li&gt;&lt;li&gt;In the console of a port, right-click a message - or select some of its bytes - and choose &lt;i&gt;Signal simulation&lt;/i&gt; to see exactly those bytes on the wire, with the port&apos;s settings.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;small&gt;Trademarks: I&amp;sup2;C is a trademark of NXP B.V.; 1-Wire and iButton are registered trademarks of Maxim Integrated Products, Inc. (Analog Devices, Inc.); CAN is standardised in ISO 11898, developed by Robert Bosch GmbH; LIN is standardised in ISO 17987; Modbus is a registered trademark of Schneider Electric USA, Inc.; NMEA 0183 is a standard of the National Marine Electronics Association; JTAG is standardised in IEEE 1149.1; Arm and CoreSight are trademarks of Arm Limited. They are named here only to identify the protocols.&lt;/small&gt;&lt;/p&gt;" value="&lt;h2&gt;I protocolli di comunicazione in breve&lt;/h2&gt;&lt;p&gt;Un protocollo seriale invia i dati un bit dopo l&apos;altro su pochi fili. I protocolli si distinguono per come il ricevitore sa quando un bit è valido (una velocità concordata - &lt;b&gt;asincroni&lt;/b&gt; - o una linea di clock - &lt;b&gt;sincroni&lt;/b&gt;), per quanti dispositivi condividono i fili, per quanto lontano e quanto veloce arrivano e per come vengono rilevati gli errori.&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Protocollo&lt;/th&gt;&lt;th&gt;Clock&lt;/th&gt;&lt;th&gt;Fili di segnale: minimo - massimo&lt;/th&gt;&lt;th&gt;Dispositivi&lt;/th&gt;&lt;th&gt;Velocità&lt;/th&gt;&lt;th&gt;Distanza&lt;/th&gt;&lt;th&gt;Duplex&lt;/th&gt;&lt;th&gt;Controllo errori&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UART (TTL)&lt;/td&gt;&lt;td&gt;asincrono&lt;/td&gt;&lt;td&gt;1 (TX) + GND - 8 (TX, RX, RTS, CTS, DTR, DSR, DCD, RI) + GND&lt;/td&gt;&lt;td&gt;2, punto a punto&lt;/td&gt;&lt;td&gt;300 bit/s - diversi Mbit/s (tipici 9600 / 115200)&lt;/td&gt;&lt;td&gt;&amp;lt; 1-2 m&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parità (opzionale)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-232&lt;/td&gt;&lt;td&gt;asincrono&lt;/td&gt;&lt;td&gt;TxD, RxD + GND - 9 pin (DE-9) / 25 (DB-25)&lt;/td&gt;&lt;td&gt;2, punto a punto&lt;/td&gt;&lt;td&gt;20 kbit/s (norma), fino a ~1 Mbit/s&lt;/td&gt;&lt;td&gt;15 m a 19,2 kbit/s&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parità&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-422&lt;/td&gt;&lt;td&gt;asincrono&lt;/td&gt;&lt;td&gt;1 coppia + GND - 4 coppie + GND&lt;/td&gt;&lt;td&gt;1 trasmettitore, 10 ricevitori&lt;/td&gt;&lt;td&gt;fino a 10 Mbit/s&lt;/td&gt;&lt;td&gt;1200 m a 100 kbit/s&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;parità / applicazione&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RS-485&lt;/td&gt;&lt;td&gt;asincrono&lt;/td&gt;&lt;td&gt;1 coppia (A, B) + GND - 2 coppie + GND&lt;/td&gt;&lt;td&gt;32 carichi unitari (fino a 256)&lt;/td&gt;&lt;td&gt;fino a 10 Mbit/s (di più con componenti moderni)&lt;/td&gt;&lt;td&gt;1200 m a 100 kbit/s&lt;/td&gt;&lt;td&gt;half (2 fili) / full (4)&lt;/td&gt;&lt;td&gt;applicazione (CRC-16 Modbus)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SPI&lt;/td&gt;&lt;td&gt;sincrono&lt;/td&gt;&lt;td&gt;SCLK, MOSI + GND - SCLK, CS, IO0-IO3 (quad) + un CS per slave&lt;/td&gt;&lt;td&gt;1 master, molti slave&lt;/td&gt;&lt;td&gt;1 - 50 MHz, oltre 100 MHz (flash quad)&lt;/td&gt;&lt;td&gt;sulla scheda&lt;/td&gt;&lt;td&gt;full&lt;/td&gt;&lt;td&gt;nessuno (applicazione)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;I2C&lt;/td&gt;&lt;td&gt;sincrono&lt;/td&gt;&lt;td&gt;SDA, SCL + GND (sempre)&lt;/td&gt;&lt;td&gt;112 indirizzi (7 bit), 1024 (10 bit), multi-master&lt;/td&gt;&lt;td&gt;100 kbit/s - 5 Mbit/s&lt;/td&gt;&lt;td&gt;&amp;lt; 1 m (400 pF)&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;ACK / NACK per byte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1-Wire&lt;/td&gt;&lt;td&gt;slot temporali&lt;/td&gt;&lt;td&gt;DQ + GND (alimentazione dalla linea dati)&lt;/td&gt;&lt;td&gt;molti, ognuno con ID unico a 64 bit&lt;/td&gt;&lt;td&gt;15,4 kbit/s, 125 kbit/s overdrive&lt;/td&gt;&lt;td&gt;decine di metri, oltre 100 m&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;CRC-8 / CRC-16&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN 2.0&lt;/td&gt;&lt;td&gt;asincrono, risincronizzato&lt;/td&gt;&lt;td&gt;CAN_H, CAN_L (+ GND)&lt;/td&gt;&lt;td&gt;~110 nodi, multi-master&lt;/td&gt;&lt;td&gt;10 kbit/s - 1 Mbit/s (CAN FD 5-8 Mbit/s)&lt;/td&gt;&lt;td&gt;40 m a 1 Mbit/s, 1 km a 50 kbit/s&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;CRC-15, stuffing, ACK, frame di errore&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LIN&lt;/td&gt;&lt;td&gt;asincrono (byte UART)&lt;/td&gt;&lt;td&gt;LIN + GND (+ VBAT)&lt;/td&gt;&lt;td&gt;1 master, fino a 16 nodi&lt;/td&gt;&lt;td&gt;1 - 20 kbit/s&lt;/td&gt;&lt;td&gt;40 m&lt;/td&gt;&lt;td&gt;half&lt;/td&gt;&lt;td&gt;checksum, parità dell&apos;ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;JTAG&lt;/td&gt;&lt;td&gt;sincrono (TCK)&lt;/td&gt;&lt;td&gt;TCK, TMS, TDI, TDO + GND - + TRST*, RTCK, SRST*, VTref (ARM 20 pin)&lt;/td&gt;&lt;td&gt;una catena di chip (daisy chain)&lt;/td&gt;&lt;td&gt;1 - 50 MHz (spesso 1 - 10)&lt;/td&gt;&lt;td&gt;sulla scheda, cavo della sonda &amp;lt; 30 cm&lt;/td&gt;&lt;td&gt;full (TDI in ingresso, TDO in uscita)&lt;/td&gt;&lt;td&gt;nessuno (IDCODE, rilettura)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Codifiche di linea&lt;/td&gt;&lt;td colspan=7&gt;Come i bit diventano livelli: NRZ (UART, CAN), NRZI (USB), Manchester (Ethernet 10BASE-T, DALI), Manchester differenziale (Token Ring), AMI (T1 / E1).&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Come usare questa finestra&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Ogni scheda spiega un protocollo a sinistra e lo simula a destra; trascina la barra tra le due parti per dare più spazio all&apos;una o all&apos;altra.&lt;/li&gt;&lt;li&gt;Scrivi i dati (notazione Esadecimale, ASCII o Mista) e imposta i parametri - dalla configurazione minima alla più ampia che il protocollo accetta: la forma d&apos;onda si aggiorna subito.&lt;/li&gt;&lt;li&gt;Ogni carattere ha il suo colore, alternativamente &lt;font color=&quot;#C81E1E&quot;&gt;&lt;b&gt;rosso&lt;/b&gt;&lt;/font&gt; e &lt;font color=&quot;#008C3C&quot;&gt;&lt;b&gt;verde&lt;/b&gt;&lt;/font&gt;, dal primo all&apos;ultimo bit: si vede dove ogni carattere inizia e finisce. Sopra ogni bit è scritto 0 o 1; i bit del protocollo sono indicati sotto la traccia (ST start, SP stop, PAR parità, ACK / NAK, STF bit di stuffing, R/W...).&lt;/li&gt;&lt;li&gt;Scorri in orizzontale con la rotellina o la barra di scorrimento; Ctrl + rotellina ingrandisce attorno al mouse; &lt;i&gt;Adatta&lt;/i&gt; mostra tutta la trasmissione, &lt;i&gt;1:1&lt;/i&gt; rende leggibile ogni bit. Punta la forma d&apos;onda per leggere il tempo, il livello del filo e il significato del bit.&lt;/li&gt;&lt;li&gt;Nella console di una porta, clic destro su un messaggio - o seleziona alcuni dei suoi byte - e scegli &lt;i&gt;Simulazione del segnale&lt;/i&gt; per vedere esattamente quei byte sul filo, con le impostazioni della porta.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;small&gt;Marchi: I&amp;sup2;C è un marchio di NXP B.V.; 1-Wire e iButton sono marchi registrati di Maxim Integrated Products, Inc. (Analog Devices, Inc.); CAN è normato dalla ISO 11898, sviluppato da Robert Bosch GmbH; LIN è normato dalla ISO 17987; Modbus è un marchio registrato di Schneider Electric USA, Inc.; NMEA 0183 è uno standard della National Marine Electronics Association; JTAG è normato dalla IEEE 1149.1; Arm e CoreSight sono marchi di Arm Limited. Sono citati solo per identificare i protocolli.&lt;/small&gt;&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;UART - Universal Asynchronous Receiver-Transmitter&lt;/h2&gt;&lt;p&gt;The simplest serial link: every character travels on its own, framed by a &lt;b&gt;start bit&lt;/b&gt; and one or more &lt;b&gt;stop bits&lt;/b&gt;. There is no clock wire: transmitter and receiver agree on the &lt;b&gt;baud rate&lt;/b&gt; (bits per second) and the receiver times the bits from the falling edge of the start bit, sampling each bit in its middle. A difference of about &amp;plusmn;2% between the two clocks is tolerated (the error adds up over the 10 bits of a frame).&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Direction&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TX&lt;/td&gt;&lt;td&gt;out&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;transmitted data&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;common reference&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RX&lt;/td&gt;&lt;td&gt;in&lt;/td&gt;&lt;td&gt;to receive&lt;/td&gt;&lt;td&gt;received data (TX of the other side, crossed)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTS / CTS&lt;/td&gt;&lt;td&gt;out / in&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;hardware flow control: &quot;I can receive&quot; handshake&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DTR / DSR, DCD, RI&lt;/td&gt;&lt;td&gt;out / in&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;modem lines: terminal ready, set ready, carrier detect, ring indicator&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: 2 wires (TX + GND) to send only, 3 (TX, RX, GND) for both directions. &lt;b&gt;Maximum&lt;/b&gt;: the 8 signals + GND of a DE-9 connector.&lt;/p&gt;&lt;h3&gt;Frame&lt;/h3&gt;&lt;p&gt;&lt;tt&gt;idle (1) | start (0) | 5-9 data bits, least significant first | parity (optional) | 1, 1.5 or 2 stop bits (1) | idle&lt;/tt&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Data bits&lt;/b&gt;: 5 to 9; 8 is by far the most common. &quot;8N1&quot; = 8 data bits, no parity, 1 stop bit: 10 bit times per byte.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Parity&lt;/b&gt;: odd (the number of ones, parity included, is odd), even, mark (always 1), space (always 0) or none. It finds one wrong bit, not two.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Stop bits&lt;/b&gt;: the line goes back to idle for at least 1, 1.5 or 2 bit times, so the next start bit can be seen.&lt;/li&gt;&lt;li&gt;&lt;b&gt;9th bit&lt;/b&gt;: with 9 data bits the last one often marks an address byte (multiprocessor / multidrop mode).&lt;/li&gt;&lt;li&gt;&lt;b&gt;Break&lt;/b&gt;: the line held low for longer than a whole frame - used as a reset or a frame marker (LIN, DMX512).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Levels, speeds, distance&lt;/h3&gt;&lt;p&gt;TTL / CMOS: idle and 1 = VCC (5 V, 3.3 V or 1.8 V), 0 = 0 V. Usual rates: 300, 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600 bit/s and more. One bit lasts 1 / baud (104.17 &amp;micro;s at 9600). With 8N1 9600 bit/s carry 960 bytes/s. Distance: from centimetres to a couple of metres - for longer links RS-232, RS-422 or RS-485 transceivers carry the same frame.&lt;/p&gt;&lt;p&gt;The simulator starts from the settings of the port the bytes come from (in the Byte Analyzer). Try parity and 2 stop bits, 7 data bits, MSB first or the 9th bit to see how the frame changes.&lt;/p&gt;" value="&lt;h2&gt;UART - Universal Asynchronous Receiver-Transmitter&lt;/h2&gt;&lt;p&gt;Il collegamento seriale più semplice: ogni carattere viaggia da solo, racchiuso tra un &lt;b&gt;bit di start&lt;/b&gt; e uno o più &lt;b&gt;bit di stop&lt;/b&gt;. Non c&apos;è un filo di clock: trasmettitore e ricevitore concordano la &lt;b&gt;velocità in baud&lt;/b&gt; (bit al secondo) e il ricevitore misura i bit a partire dal fronte di discesa del bit di start, campionando ogni bit a metà. È tollerata una differenza di circa &amp;plusmn;2% tra i due clock (l&apos;errore si somma sui 10 bit di un frame).&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Direzione&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TX&lt;/td&gt;&lt;td&gt;uscita&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dati trasmessi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;riferimento comune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RX&lt;/td&gt;&lt;td&gt;ingresso&lt;/td&gt;&lt;td&gt;per ricevere&lt;/td&gt;&lt;td&gt;dati ricevuti (il TX dell&apos;altro lato, incrociato)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTS / CTS&lt;/td&gt;&lt;td&gt;uscita / ingresso&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;controllo di flusso hardware: &quot;posso ricevere&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DTR / DSR, DCD, RI&lt;/td&gt;&lt;td&gt;uscita / ingresso&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;linee modem: terminale pronto, apparato pronto, portante rilevata, indicatore di chiamata&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: 2 fili (TX + GND) per sola trasmissione, 3 (TX, RX, GND) per le due direzioni. &lt;b&gt;Massimo&lt;/b&gt;: gli 8 segnali + GND di un connettore DE-9.&lt;/p&gt;&lt;h3&gt;Frame&lt;/h3&gt;&lt;p&gt;&lt;tt&gt;riposo (1) | start (0) | 5-9 bit di dati, prima il meno significativo | parità (opzionale) | 1, 1,5 o 2 bit di stop (1) | riposo&lt;/tt&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Bit di dati&lt;/b&gt;: da 5 a 9; 8 è di gran lunga il più comune. &quot;8N1&quot; = 8 bit di dati, nessuna parità, 1 bit di stop: 10 tempi di bit per byte.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Parità&lt;/b&gt;: dispari (il numero di uni, parità compresa, è dispari), pari, mark (sempre 1), space (sempre 0) o nessuna. Rileva un bit sbagliato, non due.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Bit di stop&lt;/b&gt;: la linea torna a riposo per almeno 1, 1,5 o 2 tempi di bit, così il bit di start successivo si vede.&lt;/li&gt;&lt;li&gt;&lt;b&gt;9° bit&lt;/b&gt;: con 9 bit di dati l&apos;ultimo spesso indica un byte di indirizzo (modo multiprocessore / multidrop).&lt;/li&gt;&lt;li&gt;&lt;b&gt;Break&lt;/b&gt;: la linea tenuta bassa per più di un frame intero - usato come reset o come marcatore di frame (LIN, DMX512).&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Livelli, velocità, distanza&lt;/h3&gt;&lt;p&gt;TTL / CMOS: riposo e 1 = VCC (5 V, 3,3 V o 1,8 V), 0 = 0 V. Velocità usuali: 300, 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600 bit/s e oltre. Un bit dura 1 / baud (104,17 &amp;micro;s a 9600). Con 8N1, 9600 bit/s trasportano 960 byte/s. Distanza: da pochi centimetri a un paio di metri - per collegamenti più lunghi i transceiver RS-232, RS-422 o RS-485 portano lo stesso frame.&lt;/p&gt;&lt;p&gt;Il simulatore parte dalle impostazioni della porta da cui provengono i byte (nell&apos;Analizzatore di byte). Prova parità e 2 bit di stop, 7 bit di dati, prima il bit più significativo o il 9° bit per vedere come cambia il frame.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;RS-232 (TIA-232-F, ITU-T V.24 / V.28)&lt;/h2&gt;&lt;p&gt;The classic COM port of the PC. The frame is the UART one, but the voltages are &lt;b&gt;bipolar and inverted&lt;/b&gt;, referred to ground: a logic 1 (&lt;i&gt;mark&lt;/i&gt;, the idle state) is a &lt;b&gt;negative&lt;/b&gt; voltage (-3 to -15 V), a logic 0 (&lt;i&gt;space&lt;/i&gt;) is &lt;b&gt;positive&lt;/b&gt; (+3 to +15 V). Between -3 and +3 V the level is undefined. Common drivers (MAX232 family) give about &amp;plusmn;5 to &amp;plusmn;9 V.&lt;/p&gt;&lt;h3&gt;Signals (DE-9 connector of the computer, DTE)&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Pin&lt;/th&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Direction (DTE)&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;TxD - transmitted data&lt;/td&gt;&lt;td&gt;out&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;RxD - received data&lt;/td&gt;&lt;td&gt;in&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;GND - signal ground&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7 / 8&lt;/td&gt;&lt;td&gt;RTS / CTS - request to send / clear to send&lt;/td&gt;&lt;td&gt;out / in&lt;/td&gt;&lt;td&gt;hardware flow control&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4 / 6&lt;/td&gt;&lt;td&gt;DTR / DSR - data terminal ready / data set ready&lt;/td&gt;&lt;td&gt;out / in&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;DCD - data carrier detect&lt;/td&gt;&lt;td&gt;in&lt;/td&gt;&lt;td&gt;optional (modems)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;RI - ring indicator&lt;/td&gt;&lt;td&gt;in&lt;/td&gt;&lt;td&gt;optional (modems)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: 3 wires (TxD, RxD, GND), crossed between two computers (&lt;i&gt;null modem&lt;/i&gt;: TxD to RxD). &lt;b&gt;Maximum&lt;/b&gt;: 9 pins (DE-9) or 25 (DB-25, which adds a secondary channel and the timing signals of synchronous modems).&lt;/p&gt;&lt;h3&gt;Limits&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Point to point: one driver and one receiver per line.&lt;/li&gt;&lt;li&gt;Distance: 15 m (50 ft) by the standard at 19.2 kbit/s (up to 2500 pF of cable); less at higher speeds.&lt;/li&gt;&lt;li&gt;Speed: 20 kbit/s by the standard; modern transceivers reach 115.2 kbit/s - 1 Mbit/s.&lt;/li&gt;&lt;li&gt;Single-ended and referred to ground: sensitive to noise and ground differences. In plants use RS-422 / RS-485.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The simulation draws the wire as an oscilloscope shows it: idle low (negative), start bit high (positive). The bit values written over the trace are the logical ones.&lt;/p&gt;" value="&lt;h2&gt;RS-232 (TIA-232-F, ITU-T V.24 / V.28)&lt;/h2&gt;&lt;p&gt;La classica porta COM del PC. Il frame è quello UART, ma le tensioni sono &lt;b&gt;bipolari e invertite&lt;/b&gt;, riferite a massa: un 1 logico (&lt;i&gt;mark&lt;/i&gt;, lo stato di riposo) è una tensione &lt;b&gt;negativa&lt;/b&gt; (da -3 a -15 V), uno 0 logico (&lt;i&gt;space&lt;/i&gt;) è &lt;b&gt;positivo&lt;/b&gt; (da +3 a +15 V). Tra -3 e +3 V il livello non è definito. I driver comuni (famiglia MAX232) danno circa da &amp;plusmn;5 a &amp;plusmn;9 V.&lt;/p&gt;&lt;h3&gt;Segnali (connettore DE-9 del computer, DTE)&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Pin&lt;/th&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Direzione (DTE)&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;TxD - dati trasmessi&lt;/td&gt;&lt;td&gt;uscita&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;RxD - dati ricevuti&lt;/td&gt;&lt;td&gt;ingresso&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;GND - massa di segnale&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7 / 8&lt;/td&gt;&lt;td&gt;RTS / CTS - richiesta di trasmissione / pronto a trasmettere&lt;/td&gt;&lt;td&gt;uscita / ingresso&lt;/td&gt;&lt;td&gt;controllo di flusso hardware&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4 / 6&lt;/td&gt;&lt;td&gt;DTR / DSR - terminale pronto / apparato pronto&lt;/td&gt;&lt;td&gt;uscita / ingresso&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;DCD - portante rilevata&lt;/td&gt;&lt;td&gt;ingresso&lt;/td&gt;&lt;td&gt;opzionale (modem)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;RI - indicatore di chiamata&lt;/td&gt;&lt;td&gt;ingresso&lt;/td&gt;&lt;td&gt;opzionale (modem)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: 3 fili (TxD, RxD, GND), incrociati tra due computer (&lt;i&gt;null modem&lt;/i&gt;: TxD su RxD). &lt;b&gt;Massimo&lt;/b&gt;: 9 pin (DE-9) o 25 (DB-25, che aggiunge un canale secondario e i segnali di temporizzazione dei modem sincroni).&lt;/p&gt;&lt;h3&gt;Limiti&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Punto a punto: un trasmettitore e un ricevitore per linea.&lt;/li&gt;&lt;li&gt;Distanza: 15 m (50 piedi) secondo la norma a 19,2 kbit/s (fino a 2500 pF di cavo); meno a velocità più alte.&lt;/li&gt;&lt;li&gt;Velocità: 20 kbit/s secondo la norma; i transceiver moderni arrivano a 115,2 kbit/s - 1 Mbit/s.&lt;/li&gt;&lt;li&gt;Sbilanciato e riferito a massa: sensibile ai disturbi e alle differenze di massa. Negli impianti usa RS-422 / RS-485.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;La simulazione disegna il filo come lo mostra un oscilloscopio: riposo basso (negativo), bit di start alto (positivo). I valori dei bit scritti sopra la traccia sono quelli logici.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;RS-422 (TIA/EIA-422-B)&lt;/h2&gt;&lt;p&gt;A &lt;b&gt;differential&lt;/b&gt; line: every signal travels on a twisted pair and the receiver looks only at the difference between the two wires, so the noise picked up by both cancels out. The frame is still the UART one. A 1 (mark) is Y (+) above Z (-); the driver gives 2 to 6 V of difference, the receiver needs only 200 mV.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TX+ / TX- (Y / Z)&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;transmit pair&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;recommended&lt;/td&gt;&lt;td&gt;common reference (common mode within &amp;plusmn;7 V)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RX+ / RX- (A / B)&lt;/td&gt;&lt;td&gt;to receive&lt;/td&gt;&lt;td&gt;receive pair (full duplex)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTS+/-, CTS+/-&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;handshake on two more pairs&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: one pair + ground (one direction). &lt;b&gt;Usual&lt;/b&gt;: two pairs + ground (full duplex, 5 wires). &lt;b&gt;Maximum&lt;/b&gt;: four pairs with handshake.&lt;/p&gt;&lt;h3&gt;Limits&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;One driver and up to 10 receivers on a pair (multidrop, not multi-master).&lt;/li&gt;&lt;li&gt;Up to 10 Mbit/s at 12 m; 1200 m (4000 ft) at about 100 kbit/s - roughly speed x length &amp;lt; 10&lt;sup&gt;8&lt;/sup&gt;.&lt;/li&gt;&lt;li&gt;Termination: a resistor equal to the cable impedance (100-120 &amp;Omega;) at the far end of long lines.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The names A/B, +/- and Y/Z are not used the same way by all manufacturers: if nothing is received, swap the two wires of the pair.&lt;/p&gt;" value="&lt;h2&gt;RS-422 (TIA/EIA-422-B)&lt;/h2&gt;&lt;p&gt;Una linea &lt;b&gt;differenziale&lt;/b&gt;: ogni segnale viaggia su un doppino intrecciato e il ricevitore guarda solo la differenza tra i due fili, così i disturbi raccolti da entrambi si annullano. Il frame resta quello UART. Un 1 (mark) è Y (+) sopra Z (-); il driver fornisce da 2 a 6 V di differenza, al ricevitore bastano 200 mV.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TX+ / TX- (Y / Z)&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;coppia di trasmissione&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;consigliato&lt;/td&gt;&lt;td&gt;riferimento comune (modo comune entro &amp;plusmn;7 V)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RX+ / RX- (A / B)&lt;/td&gt;&lt;td&gt;per ricevere&lt;/td&gt;&lt;td&gt;coppia di ricezione (full duplex)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTS+/-, CTS+/-&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;handshake su altre due coppie&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: una coppia + massa (una direzione). &lt;b&gt;Usuale&lt;/b&gt;: due coppie + massa (full duplex, 5 fili). &lt;b&gt;Massimo&lt;/b&gt;: quattro coppie con handshake.&lt;/p&gt;&lt;h3&gt;Limiti&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Un trasmettitore e fino a 10 ricevitori su una coppia (multidrop, non multi-master).&lt;/li&gt;&lt;li&gt;Fino a 10 Mbit/s a 12 m; 1200 m (4000 piedi) a circa 100 kbit/s - all&apos;incirca velocità x lunghezza &amp;lt; 10&lt;sup&gt;8&lt;/sup&gt;.&lt;/li&gt;&lt;li&gt;Terminazione: una resistenza pari all&apos;impedenza del cavo (100-120 &amp;Omega;) all&apos;estremità lontana delle linee lunghe.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;I nomi A/B, +/- e Y/Z non sono usati allo stesso modo da tutti i costruttori: se non si riceve nulla, scambia i due fili della coppia.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;RS-485 (TIA/EIA-485-A, ISO/IEC 8482)&lt;/h2&gt;&lt;p&gt;Differential like RS-422, but &lt;b&gt;multipoint&lt;/b&gt;: many transceivers share one twisted pair and each of them can transmit, one at a time (&lt;b&gt;half duplex&lt;/b&gt;). A node enables its driver (DE) only while it sends and listens the rest of the time. The frame is the UART one; protocols such as &lt;b&gt;Modbus RTU&lt;/b&gt;, Profibus DP, DMX512 and BACnet MS/TP run on it.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;B (+) / A (-), also D+ / D-&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;the bus pair: 1 (mark, idle) = B above A by at least 200 mV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND (common)&lt;/td&gt;&lt;td&gt;recommended&lt;/td&gt;&lt;td&gt;keeps the common mode within -7 ... +12 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DE / RE (at the transceiver)&lt;/td&gt;&lt;td&gt;local&lt;/td&gt;&lt;td&gt;driver enable / receiver enable, from the UART or the RTS line&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;second pair (Y / Z)&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;4-wire full duplex (master on one pair, slaves on the other)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: 2 wires + reference (A, B, GND). &lt;b&gt;Maximum&lt;/b&gt;: 4 wires + GND (full duplex).&lt;/p&gt;&lt;h3&gt;Bus rules&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Up to 32 unit loads per bus (32 standard transceivers; 128 with 1/4 UL, 256 with 1/8 UL).&lt;/li&gt;&lt;li&gt;Up to 10 Mbit/s over short distances, 1200 m at 100 kbit/s.&lt;/li&gt;&lt;li&gt;A line (daisy chain), not a star; &lt;b&gt;termination&lt;/b&gt; 120 &amp;Omega; at both ends; &lt;b&gt;fail-safe biasing&lt;/b&gt; (pull-up on B, pull-down on A) so the idle bus reads 1 when nobody drives it.&lt;/li&gt;&lt;li&gt;Turnaround: release DE right after the last stop bit, or the slave&apos;s answer collides with the end of the request.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Example (the starting data): &lt;tt&gt;01 03 00 00 00 01 84 0A&lt;/tt&gt; = Modbus RTU, slave 1, function 3 (read holding registers), start 0, quantity 1, CRC-16/MODBUS 0x0A84 sent low byte first. Frames are separated by at least 3.5 character times of silence.&lt;/p&gt;" value="&lt;h2&gt;RS-485 (TIA/EIA-485-A, ISO/IEC 8482)&lt;/h2&gt;&lt;p&gt;Differenziale come RS-422, ma &lt;b&gt;multipunto&lt;/b&gt;: molti transceiver condividono un solo doppino e ognuno può trasmettere, uno alla volta (&lt;b&gt;half duplex&lt;/b&gt;). Un nodo abilita il suo driver (DE) solo mentre trasmette e ascolta il resto del tempo. Il frame è quello UART; vi funzionano protocolli come &lt;b&gt;Modbus RTU&lt;/b&gt;, Profibus DP, DMX512 e BACnet MS/TP.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;B (+) / A (-), anche D+ / D-&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;la coppia del bus: 1 (mark, riposo) = B sopra A di almeno 200 mV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND (comune)&lt;/td&gt;&lt;td&gt;consigliato&lt;/td&gt;&lt;td&gt;mantiene il modo comune entro -7 ... +12 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DE / RE (sul transceiver)&lt;/td&gt;&lt;td&gt;locale&lt;/td&gt;&lt;td&gt;abilitazione driver / ricevitore, dalla UART o dalla linea RTS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;seconda coppia (Y / Z)&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;4 fili full duplex (master su una coppia, slave sull&apos;altra)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: 2 fili + riferimento (A, B, GND). &lt;b&gt;Massimo&lt;/b&gt;: 4 fili + GND (full duplex).&lt;/p&gt;&lt;h3&gt;Regole del bus&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Fino a 32 carichi unitari per bus (32 transceiver standard; 128 con 1/4 UL, 256 con 1/8 UL).&lt;/li&gt;&lt;li&gt;Fino a 10 Mbit/s su brevi distanze, 1200 m a 100 kbit/s.&lt;/li&gt;&lt;li&gt;Una linea (daisy chain), non una stella; &lt;b&gt;terminazione&lt;/b&gt; da 120 &amp;Omega; a entrambe le estremità; &lt;b&gt;polarizzazione fail-safe&lt;/b&gt; (pull-up su B, pull-down su A) così il bus a riposo legge 1 quando nessuno lo pilota.&lt;/li&gt;&lt;li&gt;Inversione: rilascia DE subito dopo l&apos;ultimo bit di stop, altrimenti la risposta dello slave si sovrappone alla fine della richiesta.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Esempio (i dati iniziali): &lt;tt&gt;01 03 00 00 00 01 84 0A&lt;/tt&gt; = Modbus RTU, slave 1, funzione 3 (lettura holding register), inizio 0, quantità 1, CRC-16/MODBUS 0x0A84 inviato prima il byte basso. I frame sono separati da almeno 3,5 tempi di carattere di silenzio.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;SPI - Serial Peripheral Interface&lt;/h2&gt;&lt;p&gt;A &lt;b&gt;synchronous&lt;/b&gt; bus introduced by Motorola: the master drives a clock (SCLK) and data moves on both data lines at the same time, one bit per clock - two shift registers in a ring. There are no addresses: the master selects a slave with its own &lt;b&gt;chip select&lt;/b&gt; (CS, also SS, usually active low). The protocol has no acknowledge and no checksum; 1 to 50 MHz are common, over 100 MHz for quad SPI flash.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Direction&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SCLK&lt;/td&gt;&lt;td&gt;master to slave&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;clock&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MOSI (COPI; SDI at the slave)&lt;/td&gt;&lt;td&gt;master to slave&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;master out, slave in&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MISO (CIPO; SDO at the slave)&lt;/td&gt;&lt;td&gt;slave to master&lt;/td&gt;&lt;td&gt;to read&lt;/td&gt;&lt;td&gt;master in, slave out - high impedance when the slave is not selected&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CS / SS, one per slave&lt;/td&gt;&lt;td&gt;master to slave&lt;/td&gt;&lt;td&gt;usually&lt;/td&gt;&lt;td&gt;chip select&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IO0-IO3&lt;/td&gt;&lt;td&gt;both ways&lt;/td&gt;&lt;td&gt;dual / quad&lt;/td&gt;&lt;td&gt;2 or 4 data lines (IO0 = MOSI, IO1 = MISO, IO2 = WP#, IO3 = HOLD#)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: SCLK, MOSI + GND for a write-only device with a fixed select (or 3-wire SPI with one bidirectional data line). &lt;b&gt;Usual&lt;/b&gt;: SCLK, MOSI, MISO, CS + GND. &lt;b&gt;Maximum&lt;/b&gt;: SCLK, CS and 4 IO lines (quad; 8 for octal SPI), plus one CS per slave - or a daisy chain where MISO of one slave feeds MOSI of the next.&lt;/p&gt;&lt;h3&gt;Modes&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;CPOL (clock at rest)&lt;/th&gt;&lt;th&gt;CPHA&lt;/th&gt;&lt;th&gt;Data sampled on&lt;/th&gt;&lt;th&gt;Data changes on&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0 (low)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;rising edge&lt;/td&gt;&lt;td&gt;falling edge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0 (low)&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;falling edge&lt;/td&gt;&lt;td&gt;rising edge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1 (high)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;falling edge&lt;/td&gt;&lt;td&gt;rising edge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1 (high)&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;rising edge&lt;/td&gt;&lt;td&gt;falling edge&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Words are usually 8 bits, most significant first; 16 and 32-bit words and LSB first exist too. The simulator also shows several slaves (only the selected CS becomes active), CS released between words, and what MISO returns. Starting data: &lt;tt&gt;9F 00 00 00&lt;/tt&gt; = the JEDEC &quot;read identification&quot; command of a SPI flash followed by three dummy bytes, during which the flash sends its ID on MISO.&lt;/p&gt;" value="&lt;h2&gt;SPI - Serial Peripheral Interface&lt;/h2&gt;&lt;p&gt;Un bus &lt;b&gt;sincrono&lt;/b&gt; introdotto da Motorola: il master genera un clock (SCLK) e i dati si muovono su entrambe le linee dati nello stesso momento, un bit per clock - due registri a scorrimento ad anello. Non ci sono indirizzi: il master seleziona uno slave con il suo &lt;b&gt;chip select&lt;/b&gt; (CS, anche SS, di solito attivo basso). Il protocollo non ha conferme né checksum; sono comuni da 1 a 50 MHz, oltre 100 MHz per le flash SPI quad.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Direzione&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SCLK&lt;/td&gt;&lt;td&gt;dal master allo slave&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;clock&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MOSI (COPI; SDI sullo slave)&lt;/td&gt;&lt;td&gt;dal master allo slave&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;uscita del master, ingresso dello slave&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MISO (CIPO; SDO sullo slave)&lt;/td&gt;&lt;td&gt;dallo slave al master&lt;/td&gt;&lt;td&gt;per leggere&lt;/td&gt;&lt;td&gt;ingresso del master, uscita dello slave - alta impedenza quando lo slave non è selezionato&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CS / SS, uno per slave&lt;/td&gt;&lt;td&gt;dal master allo slave&lt;/td&gt;&lt;td&gt;di solito&lt;/td&gt;&lt;td&gt;chip select&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IO0-IO3&lt;/td&gt;&lt;td&gt;nei due sensi&lt;/td&gt;&lt;td&gt;dual / quad&lt;/td&gt;&lt;td&gt;2 o 4 linee dati (IO0 = MOSI, IO1 = MISO, IO2 = WP#, IO3 = HOLD#)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: SCLK, MOSI + GND per un dispositivo in sola scrittura con selezione fissa (o SPI a 3 fili con una sola linea dati bidirezionale). &lt;b&gt;Usuale&lt;/b&gt;: SCLK, MOSI, MISO, CS + GND. &lt;b&gt;Massimo&lt;/b&gt;: SCLK, CS e 4 linee IO (quad; 8 per lo SPI octal), più un CS per slave - o una catena (daisy chain) in cui il MISO di uno slave alimenta il MOSI del successivo.&lt;/p&gt;&lt;h3&gt;Modi&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Modo&lt;/th&gt;&lt;th&gt;CPOL (clock a riposo)&lt;/th&gt;&lt;th&gt;CPHA&lt;/th&gt;&lt;th&gt;Dato campionato sul&lt;/th&gt;&lt;th&gt;Dato cambia sul&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0 (basso)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;fronte di salita&lt;/td&gt;&lt;td&gt;fronte di discesa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0 (basso)&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;fronte di discesa&lt;/td&gt;&lt;td&gt;fronte di salita&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1 (alto)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;fronte di discesa&lt;/td&gt;&lt;td&gt;fronte di salita&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1 (alto)&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;fronte di salita&lt;/td&gt;&lt;td&gt;fronte di discesa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Le parole sono di solito di 8 bit, prima il più significativo; esistono anche parole di 16 e 32 bit e l&apos;ordine LSB first. Il simulatore mostra anche più slave (solo il CS selezionato diventa attivo), il CS rilasciato tra le parole e cosa restituisce MISO. Dati iniziali: &lt;tt&gt;9F 00 00 00&lt;/tt&gt; = il comando JEDEC &quot;read identification&quot; di una flash SPI seguito da tre byte fittizi, durante i quali la flash invia il suo ID su MISO.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;I&amp;sup2;C - Inter-Integrated Circuit&lt;/h2&gt;&lt;p&gt;A &lt;b&gt;two-wire, synchronous, multi-master&lt;/b&gt; bus by Philips (now NXP). Both lines are &lt;b&gt;open drain&lt;/b&gt;: devices only pull them low and pull-up resistors (1-10 k&amp;Omega;) bring them high - so many devices can share them, and any device can hold the clock low to slow the master down (clock stretching). Every slave has an address; every byte is followed by an acknowledge bit from the receiver.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SDA&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;serial data, bidirectional&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SCL&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;serial clock, from the master (slaves may stretch it)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;common reference&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VDD through pull-ups&lt;/td&gt;&lt;td&gt;needed&lt;/td&gt;&lt;td&gt;1.8, 3.3 or 5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INT / ALERT, RESET&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;not part of I&amp;sup2;C: interrupt or reset lines of some devices (SMBus ALERT#)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Always 2 signal wires + ground, whatever the number of devices; the limit is the bus capacitance: 400 pF (550 pF in Fast-mode Plus).&lt;/p&gt;&lt;h3&gt;Transfer&lt;/h3&gt;&lt;p&gt;&lt;tt&gt;S | address (7 bits) + R/W | ACK | data byte | ACK | ... | P&lt;/tt&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;START (S)&lt;/b&gt;: SDA falls while SCL is high. &lt;b&gt;STOP (P)&lt;/b&gt;: SDA rises while SCL is high. Otherwise SDA changes only while SCL is low.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Address&lt;/b&gt;: 7 bits (0x08-0x77 usable; 0x00-0x07 and 0x78-0x7F are reserved) followed by R/W (0 = write, 1 = read). A 10-bit address starts with &lt;tt&gt;11110 A9 A8&lt;/tt&gt; and continues with a second byte.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ACK&lt;/b&gt;: the receiver pulls SDA low during the 9th clock; high (NACK) means &quot;no such address&quot;, &quot;cannot take more&quot; or - from the master while reading - &quot;that was the last byte&quot;.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Reading a register&lt;/b&gt;: write the register address, then a &lt;b&gt;repeated START (Sr)&lt;/b&gt;, the address again with R = 1, then read.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Speeds&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Rate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Standard-mode&lt;/td&gt;&lt;td&gt;100 kbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fast-mode&lt;/td&gt;&lt;td&gt;400 kbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fast-mode Plus&lt;/td&gt;&lt;td&gt;1 Mbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;High-speed mode&lt;/td&gt;&lt;td&gt;3.4 Mbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ultra Fast-mode&lt;/td&gt;&lt;td&gt;5 Mbit/s - push-pull, write only, no acknowledge&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;SMBus and PMBus derive from I&amp;sup2;C (10-100 kHz, timeouts, optional PEC: a CRC-8 byte).&lt;/p&gt;" value="&lt;h2&gt;I&amp;sup2;C - Inter-Integrated Circuit&lt;/h2&gt;&lt;p&gt;Un bus &lt;b&gt;a due fili, sincrono, multi-master&lt;/b&gt; di Philips (oggi NXP). Entrambe le linee sono &lt;b&gt;open drain&lt;/b&gt;: i dispositivi le portano solo a livello basso e le resistenze di pull-up (1-10 k&amp;Omega;) le riportano alte - così molti dispositivi possono condividerle e ognuno può tenere basso il clock per rallentare il master (clock stretching). Ogni slave ha un indirizzo; ogni byte è seguito da un bit di conferma del ricevitore.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SDA&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dati seriali, bidirezionale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SCL&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;clock seriale, dal master (gli slave possono allungarlo)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;riferimento comune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VDD tramite pull-up&lt;/td&gt;&lt;td&gt;necessario&lt;/td&gt;&lt;td&gt;1,8, 3,3 o 5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INT / ALERT, RESET&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;non fanno parte di I&amp;sup2;C: linee di interrupt o reset di alcuni dispositivi (ALERT# di SMBus)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Sempre 2 fili di segnale + massa, qualunque sia il numero di dispositivi; il limite è la capacità del bus: 400 pF (550 pF in Fast-mode Plus).&lt;/p&gt;&lt;h3&gt;Trasferimento&lt;/h3&gt;&lt;p&gt;&lt;tt&gt;S | indirizzo (7 bit) + R/W | ACK | byte di dati | ACK | ... | P&lt;/tt&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;START (S)&lt;/b&gt;: SDA scende mentre SCL è alto. &lt;b&gt;STOP (P)&lt;/b&gt;: SDA sale mentre SCL è alto. Altrimenti SDA cambia solo mentre SCL è basso.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Indirizzo&lt;/b&gt;: 7 bit (utilizzabili 0x08-0x77; 0x00-0x07 e 0x78-0x7F sono riservati) seguiti da R/W (0 = scrittura, 1 = lettura). Un indirizzo a 10 bit inizia con &lt;tt&gt;11110 A9 A8&lt;/tt&gt; e continua con un secondo byte.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ACK&lt;/b&gt;: il ricevitore porta SDA basso durante il 9° clock; alto (NACK) significa &quot;indirizzo inesistente&quot;, &quot;non posso ricevere altro&quot; o - dal master in lettura - &quot;era l&apos;ultimo byte&quot;.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Lettura di un registro&lt;/b&gt;: scrivi l&apos;indirizzo del registro, poi uno &lt;b&gt;START ripetuto (Sr)&lt;/b&gt;, di nuovo l&apos;indirizzo con R = 1, poi leggi.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Velocità&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Modo&lt;/th&gt;&lt;th&gt;Velocità&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Standard-mode&lt;/td&gt;&lt;td&gt;100 kbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fast-mode&lt;/td&gt;&lt;td&gt;400 kbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fast-mode Plus&lt;/td&gt;&lt;td&gt;1 Mbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;High-speed mode&lt;/td&gt;&lt;td&gt;3,4 Mbit/s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ultra Fast-mode&lt;/td&gt;&lt;td&gt;5 Mbit/s - push-pull, solo scrittura, senza conferma&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;SMBus e PMBus derivano da I&amp;sup2;C (10-100 kHz, timeout, PEC opzionale: un byte CRC-8).&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;1-Wire&lt;/h2&gt;&lt;p&gt;A bus by Dallas Semiconductor (then Maxim Integrated, now Analog Devices) that needs &lt;b&gt;one data wire and ground&lt;/b&gt;. The line is pulled up by a resistor (about 4.7 k&amp;Omega;) and the slaves can even take their power from it (&lt;i&gt;parasite power&lt;/i&gt;). There is no clock: the master starts every bit by pulling the line low and the &lt;b&gt;length of the low pulse&lt;/b&gt; carries the bit. Every device has a unique 64-bit ROM code (family code, 48-bit serial number, CRC-8), so any number of them can share the line. Typical devices: DS18B20 thermometer, iButton, EEPROMs, battery monitors.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DQ (data)&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;open drain data, and power in parasite mode&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;return&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VDD&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;external supply instead of parasite power&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Time slots&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Slot&lt;/th&gt;&lt;th&gt;What happens&lt;/th&gt;&lt;th&gt;Standard&lt;/th&gt;&lt;th&gt;Overdrive&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Reset&lt;/td&gt;&lt;td&gt;the master holds DQ low&lt;/td&gt;&lt;td&gt;480 &amp;micro;s or more&lt;/td&gt;&lt;td&gt;70 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Presence&lt;/td&gt;&lt;td&gt;15-60 &amp;micro;s later the slaves pull DQ low&lt;/td&gt;&lt;td&gt;60-240 &amp;micro;s&lt;/td&gt;&lt;td&gt;8-24 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Write 1&lt;/td&gt;&lt;td&gt;a short low pulse, then released&lt;/td&gt;&lt;td&gt;1-15 &amp;micro;s low, slot 60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;1-2 &amp;micro;s low, slot 6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Write 0&lt;/td&gt;&lt;td&gt;low for the whole slot&lt;/td&gt;&lt;td&gt;60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Read&lt;/td&gt;&lt;td&gt;the master pulls low briefly; a slave sending 0 keeps it low; the master samples about 15 &amp;micro;s after the start&lt;/td&gt;&lt;td&gt;slot 60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;slot 6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Bytes travel least significant bit first. A typical exchange: reset + presence, a ROM command (33 Read ROM, 55 Match ROM + 8 ROM bytes, CC Skip ROM, F0 Search ROM), a function command (e.g. 44 Convert T, BE Read Scratchpad), data. Data is protected by CRC-8/MAXIM (CRC-16 in some devices). Speed: about 15.4 kbit/s, 125 kbit/s in overdrive. Distance: tens of metres, over 100 m with strong drivers and a good topology. Starting data: &lt;tt&gt;CC 44&lt;/tt&gt; = Skip ROM, Convert T of a DS18B20.&lt;/p&gt;" value="&lt;h2&gt;1-Wire&lt;/h2&gt;&lt;p&gt;Un bus di Dallas Semiconductor (poi Maxim Integrated, oggi Analog Devices) che richiede &lt;b&gt;un solo filo dati e la massa&lt;/b&gt;. La linea è tenuta alta da una resistenza (circa 4,7 k&amp;Omega;) e gli slave possono persino alimentarsi da essa (&lt;i&gt;alimentazione parassita&lt;/i&gt;). Non c&apos;è clock: il master inizia ogni bit portando bassa la linea e la &lt;b&gt;durata dell&apos;impulso basso&lt;/b&gt; rappresenta il bit. Ogni dispositivo ha un codice ROM unico a 64 bit (codice di famiglia, numero di serie a 48 bit, CRC-8), così un numero qualsiasi di dispositivi può condividere la linea. Dispositivi tipici: termometro DS18B20, iButton, EEPROM, monitor di batteria.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DQ (dati)&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dati open drain, e alimentazione in modo parassita&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;ritorno&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VDD&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;alimentazione esterna al posto di quella parassita&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slot temporali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Slot&lt;/th&gt;&lt;th&gt;Cosa succede&lt;/th&gt;&lt;th&gt;Standard&lt;/th&gt;&lt;th&gt;Overdrive&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Reset&lt;/td&gt;&lt;td&gt;il master tiene DQ basso&lt;/td&gt;&lt;td&gt;480 &amp;micro;s o più&lt;/td&gt;&lt;td&gt;70 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Presenza&lt;/td&gt;&lt;td&gt;15-60 &amp;micro;s dopo gli slave portano DQ basso&lt;/td&gt;&lt;td&gt;60-240 &amp;micro;s&lt;/td&gt;&lt;td&gt;8-24 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Scrittura 1&lt;/td&gt;&lt;td&gt;un breve impulso basso, poi rilascio&lt;/td&gt;&lt;td&gt;1-15 &amp;micro;s basso, slot 60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;1-2 &amp;micro;s basso, slot 6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Scrittura 0&lt;/td&gt;&lt;td&gt;basso per tutto lo slot&lt;/td&gt;&lt;td&gt;60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Lettura&lt;/td&gt;&lt;td&gt;il master porta basso brevemente; uno slave che invia 0 lo tiene basso; il master campiona circa 15 &amp;micro;s dopo l&apos;inizio&lt;/td&gt;&lt;td&gt;slot 60-120 &amp;micro;s&lt;/td&gt;&lt;td&gt;slot 6-16 &amp;micro;s&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;I byte viaggiano con il bit meno significativo per primo. Uno scambio tipico: reset + presenza, un comando ROM (33 Read ROM, 55 Match ROM + 8 byte ROM, CC Skip ROM, F0 Search ROM), un comando funzione (es. 44 Convert T, BE Read Scratchpad), i dati. I dati sono protetti da CRC-8/MAXIM (CRC-16 in alcuni dispositivi). Velocità: circa 15,4 kbit/s, 125 kbit/s in overdrive. Distanza: decine di metri, oltre 100 m con driver robusti e una buona topologia. Dati iniziali: &lt;tt&gt;CC 44&lt;/tt&gt; = Skip ROM, Convert T di un DS18B20.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;CAN - Controller Area Network (ISO 11898)&lt;/h2&gt;&lt;p&gt;The vehicle and industrial bus developed by Bosch: a &lt;b&gt;multi-master differential bus&lt;/b&gt; where every node can transmit and every node receives everything. There are no addresses: each frame carries an &lt;b&gt;identifier&lt;/b&gt; that says what the data is and, at the same time, its priority. Bits are &lt;b&gt;dominant (0)&lt;/b&gt; or &lt;b&gt;recessive (1)&lt;/b&gt;: when two nodes start together, a node that sends recessive and reads dominant has lost the &lt;b&gt;arbitration&lt;/b&gt; and stops - the lowest identifier wins without destroying the frame.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Level&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN_H&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;dominant about 3.5 V, recessive about 2.5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN_L&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;dominant about 1.5 V, recessive about 2.5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND (CAN_GND)&lt;/td&gt;&lt;td&gt;recommended&lt;/td&gt;&lt;td&gt;common reference&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;V+, shield&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;supply and screen (CANopen, DeviceNet connectors)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TXD / RXD&lt;/td&gt;&lt;td&gt;inside the node&lt;/td&gt;&lt;td&gt;logic levels between the CAN controller and the transceiver&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: the twisted pair CAN_H / CAN_L (+ ground reference). The bus is a line terminated by &lt;b&gt;120 &amp;Omega; at both ends&lt;/b&gt; (60 &amp;Omega; measured between CAN_H and CAN_L with power off).&lt;/p&gt;&lt;h3&gt;Data frame (2.0A standard / 2.0B extended)&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Field&lt;/th&gt;&lt;th&gt;Bits&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SOF&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;start of frame (dominant)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Identifier&lt;/td&gt;&lt;td&gt;11 (or 11 + 18)&lt;/td&gt;&lt;td&gt;message identifier and priority; extended: base ID, SRR, IDE = 1, 18 more bits&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTR&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0 = data frame, 1 = remote request&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IDE, r0 (r1)&lt;/td&gt;&lt;td&gt;2 (3)&lt;/td&gt;&lt;td&gt;identifier extension, reserved&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DLC&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;data length 0-8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;td&gt;0-64&lt;/td&gt;&lt;td&gt;0 to 8 bytes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CRC&lt;/td&gt;&lt;td&gt;15 + 1&lt;/td&gt;&lt;td&gt;CRC-15 (polynomial 0x4599) and its delimiter&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ACK&lt;/td&gt;&lt;td&gt;1 + 1&lt;/td&gt;&lt;td&gt;sent recessive; every receiver that got the frame right overwrites it dominant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EOF, IFS&lt;/td&gt;&lt;td&gt;7 + 3&lt;/td&gt;&lt;td&gt;end of frame, interframe space (recessive)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Bit stuffing&lt;/b&gt;: from SOF to the end of the CRC, after five equal bits the transmitter inserts one of the opposite value (shown as &lt;tt&gt;STF&lt;/tt&gt; and a 0* / 1*), so the receivers stay synchronised; six equal bits there are an error. Other checks: CRC, form (fixed bits), ACK, bit monitoring. A node that finds an error sends an &lt;b&gt;error frame&lt;/b&gt; and the frame is sent again.&lt;/p&gt;&lt;p&gt;Speeds: 10 kbit/s to 1 Mbit/s (125, 250 and 500 kbit/s are the most used); about 40 m at 1 Mbit/s, 500 m at 125 kbit/s, 1 km at 50 kbit/s. &lt;b&gt;CAN FD&lt;/b&gt; (ISO 11898-1:2015) extends the data field to 64 bytes with a faster data phase (up to 5-8 Mbit/s) and CRC-17 / CRC-21; &lt;b&gt;CAN XL&lt;/b&gt; reaches 2048 bytes. The simulator draws classic CAN 2.0 frames: with more than 8 bytes only the first 8 are sent.&lt;/p&gt;" value="&lt;h2&gt;CAN - Controller Area Network (ISO 11898)&lt;/h2&gt;&lt;p&gt;Il bus per veicoli e industria sviluppato da Bosch: un &lt;b&gt;bus differenziale multi-master&lt;/b&gt; in cui ogni nodo può trasmettere e ogni nodo riceve tutto. Non ci sono indirizzi: ogni frame porta un &lt;b&gt;identificatore&lt;/b&gt; che dice cosa sono i dati e, allo stesso tempo, la loro priorità. I bit sono &lt;b&gt;dominanti (0)&lt;/b&gt; o &lt;b&gt;recessivi (1)&lt;/b&gt;: quando due nodi iniziano insieme, il nodo che trasmette recessivo e legge dominante ha perso l&apos;&lt;b&gt;arbitraggio&lt;/b&gt; e si ferma - vince l&apos;identificatore più basso senza distruggere il frame.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Livello&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN_H&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dominante circa 3,5 V, recessivo circa 2,5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAN_L&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dominante circa 1,5 V, recessivo circa 2,5 V&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND (CAN_GND)&lt;/td&gt;&lt;td&gt;consigliato&lt;/td&gt;&lt;td&gt;riferimento comune&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;V+, schermo&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;alimentazione e schermatura (connettori CANopen, DeviceNet)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TXD / RXD&lt;/td&gt;&lt;td&gt;dentro il nodo&lt;/td&gt;&lt;td&gt;livelli logici tra il controller CAN e il transceiver&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: il doppino CAN_H / CAN_L (+ riferimento di massa). Il bus è una linea terminata da &lt;b&gt;120 &amp;Omega; a entrambe le estremità&lt;/b&gt; (60 &amp;Omega; misurati tra CAN_H e CAN_L ad alimentazione spenta).&lt;/p&gt;&lt;h3&gt;Frame dati (2.0A standard / 2.0B esteso)&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Campo&lt;/th&gt;&lt;th&gt;Bit&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SOF&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;inizio frame (dominante)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Identificatore&lt;/td&gt;&lt;td&gt;11 (o 11 + 18)&lt;/td&gt;&lt;td&gt;identificatore del messaggio e priorità; esteso: ID base, SRR, IDE = 1, altri 18 bit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTR&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0 = frame dati, 1 = richiesta remota&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IDE, r0 (r1)&lt;/td&gt;&lt;td&gt;2 (3)&lt;/td&gt;&lt;td&gt;estensione dell&apos;identificatore, riservati&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DLC&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;lunghezza dati 0-8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Dati&lt;/td&gt;&lt;td&gt;0-64&lt;/td&gt;&lt;td&gt;da 0 a 8 byte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CRC&lt;/td&gt;&lt;td&gt;15 + 1&lt;/td&gt;&lt;td&gt;CRC-15 (polinomio 0x4599) e il suo delimitatore&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ACK&lt;/td&gt;&lt;td&gt;1 + 1&lt;/td&gt;&lt;td&gt;inviato recessivo; ogni ricevitore che ha ricevuto correttamente lo sovrascrive dominante&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EOF, IFS&lt;/td&gt;&lt;td&gt;7 + 3&lt;/td&gt;&lt;td&gt;fine frame, spazio tra frame (recessivi)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Bit stuffing&lt;/b&gt;: dal SOF alla fine del CRC, dopo cinque bit uguali il trasmettitore inserisce un bit di valore opposto (indicato come &lt;tt&gt;STF&lt;/tt&gt; e con 0* / 1*), così i ricevitori restano sincronizzati; sei bit uguali in quel tratto sono un errore. Altri controlli: CRC, forma (bit fissi), ACK, monitoraggio dei bit. Un nodo che rileva un errore invia un &lt;b&gt;frame di errore&lt;/b&gt; e il frame viene ritrasmesso.&lt;/p&gt;&lt;p&gt;Velocità: da 10 kbit/s a 1 Mbit/s (125, 250 e 500 kbit/s sono le più usate); circa 40 m a 1 Mbit/s, 500 m a 125 kbit/s, 1 km a 50 kbit/s. &lt;b&gt;CAN FD&lt;/b&gt; (ISO 11898-1:2015) estende il campo dati a 64 byte con una fase dati più veloce (fino a 5-8 Mbit/s) e CRC-17 / CRC-21; &lt;b&gt;CAN XL&lt;/b&gt; arriva a 2048 byte. Il simulatore disegna frame CAN 2.0 classici: con più di 8 byte vengono inviati solo i primi 8.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;LIN - Local Interconnect Network (ISO 17987)&lt;/h2&gt;&lt;p&gt;A low-cost &lt;b&gt;single-wire&lt;/b&gt; bus for car body electronics (mirrors, seats, switches, sensors), below CAN. It sends ordinary UART bytes (8N1, LSB first) on a 12 V line: recessive (1) is about the battery voltage, dominant (0) is close to ground. One &lt;b&gt;master&lt;/b&gt; schedules all the traffic: it sends a header, and the node that owns that identifier (a slave or the master itself) sends the response.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LIN&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;the bus line (pull-up 1 k&amp;Omega; at the master, 30 k&amp;Omega; at the slaves)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;ground&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VBAT&lt;/td&gt;&lt;td&gt;usual&lt;/td&gt;&lt;td&gt;supply of the nodes (8-18 V)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Frame&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Part&lt;/th&gt;&lt;th&gt;Content&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Break&lt;/td&gt;&lt;td&gt;at least 13 dominant bits, then a delimiter of at least 1 recessive bit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sync&lt;/td&gt;&lt;td&gt;0x55: alternating bits; the slaves measure the bit rate on it&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Protected identifier&lt;/td&gt;&lt;td&gt;6-bit ID (0-63) + 2 parity bits: P0 = ID0 xor ID1 xor ID2 xor ID4, P1 = not (ID1 xor ID3 xor ID4 xor ID5)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;td&gt;1 to 8 bytes (IDs 0x3C / 0x3D: diagnostics, 8 bytes)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Checksum&lt;/td&gt;&lt;td&gt;inverted 8-bit sum with carry: classic (LIN 1.x, data only) or enhanced (LIN 2.x, data + protected identifier)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Speed: 1 to 20 kbit/s (19200 and 9600 are typical); up to 16 nodes; bus up to 40 m.&lt;/p&gt;" value="&lt;h2&gt;LIN - Local Interconnect Network (ISO 17987)&lt;/h2&gt;&lt;p&gt;Un bus &lt;b&gt;a un filo&lt;/b&gt; a basso costo per l&apos;elettronica di carrozzeria (specchietti, sedili, interruttori, sensori), sotto il CAN. Invia normali byte UART (8N1, prima il bit meno significativo) su una linea a 12 V: recessivo (1) è circa la tensione di batteria, dominante (0) è vicino a massa. Un unico &lt;b&gt;master&lt;/b&gt; pianifica tutto il traffico: invia un&apos;intestazione e il nodo a cui appartiene quell&apos;identificatore (uno slave o il master stesso) invia la risposta.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LIN&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;la linea del bus (pull-up 1 k&amp;Omega; sul master, 30 k&amp;Omega; sugli slave)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;massa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VBAT&lt;/td&gt;&lt;td&gt;usuale&lt;/td&gt;&lt;td&gt;alimentazione dei nodi (8-18 V)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Frame&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Parte&lt;/th&gt;&lt;th&gt;Contenuto&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Break&lt;/td&gt;&lt;td&gt;almeno 13 bit dominanti, poi un delimitatore di almeno 1 bit recessivo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sync&lt;/td&gt;&lt;td&gt;0x55: bit alternati; gli slave vi misurano la velocità&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Identificatore protetto&lt;/td&gt;&lt;td&gt;ID a 6 bit (0-63) + 2 bit di parità: P0 = ID0 xor ID1 xor ID2 xor ID4, P1 = not (ID1 xor ID3 xor ID4 xor ID5)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Dati&lt;/td&gt;&lt;td&gt;da 1 a 8 byte (ID 0x3C / 0x3D: diagnostica, 8 byte)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Checksum&lt;/td&gt;&lt;td&gt;somma a 8 bit con riporto, invertita: classico (LIN 1.x, solo dati) o avanzato (LIN 2.x, dati + identificatore protetto)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Velocità: da 1 a 20 kbit/s (tipiche 19200 e 9600); fino a 16 nodi; bus fino a 40 m.&lt;/p&gt;"/>
+    <entry key="&lt;h2&gt;Line codes - how bits become levels&lt;/h2&gt;&lt;p&gt;Before any protocol, bits have to become voltages on a wire. The choice decides whether the receiver can recover the clock from the data, whether the signal has a DC component (a problem for transformers and long lines) and how much bandwidth it needs.&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Code&lt;/th&gt;&lt;th&gt;Rule&lt;/th&gt;&lt;th&gt;Clock recovery&lt;/th&gt;&lt;th&gt;Used by&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;NRZ-L&lt;/td&gt;&lt;td&gt;1 = high, 0 = low for the whole bit&lt;/td&gt;&lt;td&gt;no: long runs have no edges (start bits or stuffing are needed)&lt;/td&gt;&lt;td&gt;UART, RS-232, SPI, CAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;NRZ-I&lt;/td&gt;&lt;td&gt;a 1 changes the level, a 0 keeps it&lt;/td&gt;&lt;td&gt;only with enough ones (bit stuffing)&lt;/td&gt;&lt;td&gt;USB (changes on 0), HDLC, 100BASE-FX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manchester (IEEE 802.3)&lt;/td&gt;&lt;td&gt;a change in the middle of every bit: 0 = high to low, 1 = low to high&lt;/td&gt;&lt;td&gt;yes, always&lt;/td&gt;&lt;td&gt;10BASE-T Ethernet, DALI, RFID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manchester (G.E. Thomas)&lt;/td&gt;&lt;td&gt;the opposite: 1 = high to low, 0 = low to high&lt;/td&gt;&lt;td&gt;yes&lt;/td&gt;&lt;td&gt;older texts, some radio links&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Differential Manchester&lt;/td&gt;&lt;td&gt;always a change in the middle; a 0 also changes at the start of the bit&lt;/td&gt;&lt;td&gt;yes, and wires may be swapped&lt;/td&gt;&lt;td&gt;Token Ring (IEEE 802.5); biphase mark (AES3, S/PDIF) is similar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RZ&lt;/td&gt;&lt;td&gt;a 1 is high for the first half of the bit, then back to zero&lt;/td&gt;&lt;td&gt;for ones&lt;/td&gt;&lt;td&gt;infrared (IrDA uses short pulses), optical links&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bipolar AMI&lt;/td&gt;&lt;td&gt;0 = 0 V, the ones alternately +V and -V&lt;/td&gt;&lt;td&gt;with enough ones (B8ZS / HDB3)&lt;/td&gt;&lt;td&gt;T1 / E1 telephone lines&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Manchester and its variants need twice the bandwidth of NRZ (an edge every half bit) but have no DC component and carry the clock; NRZ is the most compact and needs framing (start bits, stuffing) to stay synchronised. The simulator draws the clock, the NRZ data as reference and the encoded line.&lt;/p&gt;" value="&lt;h2&gt;Codifiche di linea - come i bit diventano livelli&lt;/h2&gt;&lt;p&gt;Prima di qualsiasi protocollo, i bit devono diventare tensioni su un filo. La scelta decide se il ricevitore può ricavare il clock dai dati, se il segnale ha una componente continua (un problema per trasformatori e linee lunghe) e quanta banda richiede.&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Codifica&lt;/th&gt;&lt;th&gt;Regola&lt;/th&gt;&lt;th&gt;Recupero del clock&lt;/th&gt;&lt;th&gt;Usata da&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;NRZ-L&lt;/td&gt;&lt;td&gt;1 = alto, 0 = basso per tutto il bit&lt;/td&gt;&lt;td&gt;no: lunghe sequenze non hanno fronti (servono bit di start o stuffing)&lt;/td&gt;&lt;td&gt;UART, RS-232, SPI, CAN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;NRZ-I&lt;/td&gt;&lt;td&gt;un 1 cambia il livello, uno 0 lo mantiene&lt;/td&gt;&lt;td&gt;solo con abbastanza uni (bit stuffing)&lt;/td&gt;&lt;td&gt;USB (cambia sullo 0), HDLC, 100BASE-FX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manchester (IEEE 802.3)&lt;/td&gt;&lt;td&gt;un cambio a metà di ogni bit: 0 = da alto a basso, 1 = da basso ad alto&lt;/td&gt;&lt;td&gt;sì, sempre&lt;/td&gt;&lt;td&gt;Ethernet 10BASE-T, DALI, RFID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manchester (G.E. Thomas)&lt;/td&gt;&lt;td&gt;l&apos;opposto: 1 = da alto a basso, 0 = da basso ad alto&lt;/td&gt;&lt;td&gt;sì&lt;/td&gt;&lt;td&gt;testi più vecchi, alcuni collegamenti radio&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Manchester differenziale&lt;/td&gt;&lt;td&gt;sempre un cambio a metà; uno 0 cambia anche all&apos;inizio del bit&lt;/td&gt;&lt;td&gt;sì, e i fili possono essere scambiati&lt;/td&gt;&lt;td&gt;Token Ring (IEEE 802.5); il biphase mark (AES3, S/PDIF) è simile&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RZ&lt;/td&gt;&lt;td&gt;un 1 è alto per la prima metà del bit, poi torna a zero&lt;/td&gt;&lt;td&gt;per gli uni&lt;/td&gt;&lt;td&gt;infrarossi (IrDA usa impulsi brevi), collegamenti ottici&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AMI bipolare&lt;/td&gt;&lt;td&gt;0 = 0 V, gli uni alternativamente +V e -V&lt;/td&gt;&lt;td&gt;con abbastanza uni (B8ZS / HDB3)&lt;/td&gt;&lt;td&gt;linee telefoniche T1 / E1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Il Manchester e le sue varianti richiedono il doppio della banda dell&apos;NRZ (un fronte ogni mezzo bit) ma non hanno componente continua e portano il clock; l&apos;NRZ è il più compatto e richiede una struttura (bit di start, stuffing) per restare sincronizzato. Il simulatore disegna il clock, i dati NRZ come riferimento e la linea codificata.&lt;/p&gt;"/>
+    <entry key="Idle" value="Riposo"/>
+    <entry key="Start" value="Start"/>
+    <entry key="Data bit" value="Bit di dati"/>
+    <entry key="Parity bit" value="Bit di parità"/>
+    <entry key="Address" value="Indirizzo"/>
+    <entry key="Read/Write bit" value="Bit lettura/scrittura"/>
+    <entry key="ACK" value="ACK"/>
+    <entry key="NACK" value="NACK"/>
+    <entry key="Control" value="Controllo"/>
+    <entry key="Length" value="Lunghezza"/>
+    <entry key="CRC" value="CRC"/>
+    <entry key="Delimiter" value="Delimitatore"/>
+    <entry key="Stuff bit" value="Bit di stuffing"/>
+    <entry key="End of frame" value="Fine del frame"/>
+    <entry key="Break" value="Break"/>
+    <entry key="Sync" value="Sync"/>
+    <entry key="Identifier" value="Identificatore"/>
+    <entry key="Reset pulse" value="Impulso di reset"/>
+    <entry key="Presence pulse" value="Impulso di presenza"/>
+    <entry key="Repeated start" value="Start ripetuto"/>
+    <entry key="Clock" value="Clock"/>
+    <entry key="The last word is completed with zero bytes." value="L&apos;ultima parola è completata con byte a zero."/>
+    <entry key="Dual / quad SPI: the IO lines carry several bits per clock and change direction during a transfer (command, address, dummy cycles, data); here everything is sent by the master." value="SPI dual / quad: le linee IO portano più bit per clock e cambiano direzione durante un trasferimento (comando, indirizzo, cicli dummy, dati); qui tutto è inviato dal master."/>
+    <entry key="A 7-bit address goes up to 0x7F: the higher bits are ignored." value="Un indirizzo a 7 bit arriva fino a 0x7F: i bit più alti vengono ignorati."/>
+    <entry key="Ultra Fast-mode is write only: shown as a write." value="L&apos;Ultra Fast-mode è solo scrittura: mostrato come scrittura."/>
+    <entry key="Ultra Fast-mode: push-pull lines, no acknowledge (the 9th bit is always 1)." value="Ultra Fast-mode: linee push-pull, nessuna conferma (il 9° bit è sempre 1)."/>
+    <entry key="The slave did not acknowledge: the master stops the transfer." value="Lo slave non ha confermato: il master interrompe il trasferimento."/>
+    <entry key="No presence pulse: no device answered the reset." value="Nessun impulso di presenza: nessun dispositivo ha risposto al reset."/>
+    <entry key="A standard identifier has 11 bits (up to 0x7FF): the higher bits are ignored." value="Un identificatore standard ha 11 bit (fino a 0x7FF): i bit più alti vengono ignorati."/>
+    <entry key="CAN 2.0 carries at most 8 data bytes: only the first 8 are sent (CAN FD carries up to 64)." value="CAN 2.0 porta al massimo 8 byte di dati: vengono inviati solo i primi 8 (CAN FD ne porta fino a 64)."/>
+    <entry key="No receiver acknowledged: the transmitter would signal an error and send the frame again." value="Nessun ricevitore ha confermato: il trasmettitore segnalerebbe un errore e invierebbe di nuovo il frame."/>
+    <entry key="A LIN frame carries at most 8 data bytes: only the first 8 are sent." value="Un frame LIN porta al massimo 8 byte di dati: vengono inviati solo i primi 8."/>
+    <entry key="Function" value="Funzione"/>
+    <entry key="Exception code" value="Codice di eccezione"/>
+    <entry key="Starting address (request)" value="Indirizzo iniziale (richiesta)"/>
+    <entry key="Quantity" value="Quantità"/>
+    <entry key="Byte count (response)" value="Numero di byte (risposta)"/>
+    <entry key="Starting address (response)" value="Indirizzo iniziale (risposta)"/>
+    <entry key="Byte count" value="Numero di byte"/>
+    <entry key="Data" value="Dati"/>
+    <entry key="CRC-16/MODBUS (low byte first)" value="CRC-16/MODBUS (prima il byte basso)"/>
+    <entry key="LRC" value="LRC"/>
+    <entry key="End CR LF" value="Fine CR LF"/>
+    <entry key="Talker + sentence" value="Talker + frase"/>
+    <entry key="Checksum (XOR)" value="Checksum (XOR)"/>
+    <entry key="empty" value="vuoto"/>
+    <entry key="not an integer" value="non è un intero"/>
+    <entry key="out of range" value="fuori intervallo"/>
+    <entry key="negative" value="negativo"/>
+    <entry key="not a number" value="non è un numero"/>
+    <entry key="too many digits" value="troppe cifre"/>
+    <entry key="only digits 0-9" value="solo cifre 0-9"/>
+    <entry key="Some bytes do not fit in the data bits: only their low bits are sent." value="Alcuni byte non entrano nei bit di dati: vengono inviati solo i loro bit bassi."/>
+    <entry key="Stuff bits were inserted (after five equal bits, one of the other value): they are marked STF." value="Sono stati inseriti bit di stuffing (dopo cinque bit uguali, uno di valore opposto): sono indicati con STF."/>
+    <entry key="+3 ... +15 V = 0 (space)" value="+3 ... +15 V = 0 (space)"/>
+    <entry key="-3 ... -15 V = 1 (mark)" value="-3 ... -15 V = 1 (mark)"/>
+    <entry key="Y &gt; Z: 1 (mark)" value="Y &gt; Z: 1 (mark)"/>
+    <entry key="Y &lt; Z: 0 (space)" value="Y &lt; Z: 0 (space)"/>
+    <entry key="DE (driver enable)" value="DE (abilitazione driver)"/>
+    <entry key="driving" value="trasmette"/>
+    <entry key="receiving (bus released)" value="riceve (bus rilasciato)"/>
+    <entry key="B &gt; A: 1 (mark)" value="B &gt; A: 1 (mark)"/>
+    <entry key="B &lt; A: 0 (space)" value="B &lt; A: 0 (space)"/>
+    <entry key="selected" value="selezionato"/>
+    <entry key="not selected" value="non selezionato"/>
+    <entry key="not driven" value="non pilotato"/>
+    <entry key="high impedance" value="alta impedenza"/>
+    <entry key="1 (released, pull-up)" value="1 (rilasciato, pull-up)"/>
+    <entry key="0 (pulled low)" value="0 (portato basso)"/>
+    <entry key="released (pull-up)" value="rilasciato (pull-up)"/>
+    <entry key="pulled low" value="portato basso"/>
+    <entry key="3.5 V (dominant, 0)" value="3,5 V (dominante, 0)"/>
+    <entry key="1.5 V (dominant, 0)" value="1,5 V (dominante, 0)"/>
+    <entry key="2.5 V (recessive, 1)" value="2,5 V (recessivo, 1)"/>
+    <entry key="TX (logic)" value="TX (logico)"/>
+    <entry key="1 (recessive)" value="1 (recessivo)"/>
+    <entry key="0 (dominant)" value="0 (dominante)"/>
+    <entry key="recessive (VBAT, ~12 V) = 1" value="recessivo (VBAT, ~12 V) = 1"/>
+    <entry key="dominant (GND) = 0" value="dominante (GND) = 0"/>
+    <entry key="Data (NRZ)" value="Dati (NRZ)"/>
+    <entry key="+V (a 1)" value="+V (un 1)"/>
+    <entry key="-V (a 1)" value="-V (un 1)"/>
+    <entry key="0 V (a 0)" value="0 V (uno 0)"/>
+    <entry key="Counter / CRC..." value="Contatore / CRC..."/>
+    <entry key="An incrementing counter and a checksum / CRC that Send inserts into the message (the text in the box stays as written)." value="Un contatore incrementale e un checksum / CRC che Invia inserisce nel messaggio (il testo nella casella resta come scritto)."/>
+    <entry key="Counter and checksum" value="Contatore e checksum"/>
+    <entry key="Counter" value="Contatore"/>
+    <entry key="Insert an incrementing counter" value="Inserisci un contatore incrementale"/>
+    <entry key="Next value" value="Valore successivo"/>
+    <entry key="The value the next message carries: decimal, 0x hex or 0b binary." value="Il valore del prossimo messaggio: decimale, 0x esadecimale o 0b binario."/>
+    <entry key="Added per send" value="Aggiunto a ogni invio"/>
+    <entry key="Added after every message sent (negative counts down); past the largest value it starts again from 0." value="Aggiunto dopo ogni messaggio inviato (negativo conta all&apos;indietro); oltre il valore massimo riparte da 0."/>
+    <entry key="Position" value="Posizione"/>
+    <entry key="Bytes away" value="Byte di distanza"/>
+    <entry key="Counted from the end: 0 = last, 1 = before the last byte, 2 = before the last two... Counted from the start: 0 = first, 1 = after the first byte..." value="Contati dalla fine: 0 = ultimo, 1 = prima dell&apos;ultimo byte, 2 = prima degli ultimi due... Contati dall&apos;inizio: 0 = primo, 1 = dopo il primo byte..."/>
+    <entry key="Counted from the end" value="Contati dalla fine"/>
+    <entry key="Counted from the start" value="Contati dall&apos;inizio"/>
+    <entry key="last" value="ultimo"/>
+    <entry key="before the last byte" value="prima dell&apos;ultimo byte"/>
+    <entry key="%d bytes before the end" value="%d byte prima della fine"/>
+    <entry key="first" value="primo"/>
+    <entry key="after the first %d bytes" value="dopo i primi %d byte"/>
+    <entry key="counter %d B, next %s (%s)" value="contatore %d B, prossimo %s (%s)"/>
+    <entry key="Checksum / CRC" value="Checksum / CRC"/>
+    <entry key="Insert a checksum / CRC of the message" value="Inserisci un checksum / CRC del messaggio"/>
+    <entry key="Include the counter in the calculation" value="Includi il contatore nel calcolo"/>
+    <entry key="Include the counter in the checksum / CRC calculation?&#10;&#10;Yes: the checksum covers the message with the counter in it.&#10;No: it covers only the typed message." value="Includere il contatore nel calcolo del checksum / CRC?&#10;&#10;Sì: il checksum copre il messaggio con il contatore.&#10;No: copre solo il messaggio scritto."/>
+    <entry key="Next message (with the text in the send box and the line end)" value="Prossimo messaggio (con il testo della casella di invio e il fine riga)"/>
+    <entry key="[ ] counter   { } checksum - the line end is never part of the checksum." value="[ ] contatore   { } checksum - il fine riga non fa mai parte del checksum."/>
+    <entry key="after this one the counter is %s" value="dopo questo il contatore vale %s"/>
+    <entry key="The next value must be a number from 0 to %s (decimal, 0x hex or 0b binary)." value="Il valore successivo deve essere un numero da 0 a %s (decimale, 0x esadecimale o 0b binario)."/>
+    <entry key="&lt;h2&gt;JTAG - IEEE 1149.1 (Joint Test Action Group)&lt;/h2&gt;&lt;p&gt;A synchronous interface built into chips for &lt;b&gt;boundary-scan testing&lt;/b&gt; of boards and, by extension, for &lt;b&gt;debugging&lt;/b&gt; and &lt;b&gt;programming&lt;/b&gt; microcontrollers, processors, FPGAs and CPLDs. Every chip has a &lt;b&gt;Test Access Port (TAP)&lt;/b&gt;: a 16-state machine driven only by TMS, sampled on the rising edge of TCK. Through it the host selects the &lt;b&gt;instruction register (IR)&lt;/b&gt; or a &lt;b&gt;data register (DR)&lt;/b&gt; and shifts bits through it - TDI in, TDO out, least significant bit first, one bit per clock.&lt;/p&gt;&lt;h3&gt;Signals&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Signal&lt;/th&gt;&lt;th&gt;Direction&lt;/th&gt;&lt;th&gt;Needed&lt;/th&gt;&lt;th&gt;Meaning&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TCK&lt;/td&gt;&lt;td&gt;host to device&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;test clock&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TMS&lt;/td&gt;&lt;td&gt;host to device&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;test mode select: drives the TAP state machine (pulled up)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TDI&lt;/td&gt;&lt;td&gt;host to device&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;test data in (pulled up)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TDO&lt;/td&gt;&lt;td&gt;device to host&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;test data out: changes on the falling edge of TCK, high impedance outside the Shift states&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TRST*&lt;/td&gt;&lt;td&gt;host to device&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;asynchronous TAP reset, active low&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTCK&lt;/td&gt;&lt;td&gt;device to host&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;returned clock, for adaptive clocking (ARM cores)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SRST* / nRESET&lt;/td&gt;&lt;td&gt;both&lt;/td&gt;&lt;td&gt;optional&lt;/td&gt;&lt;td&gt;system reset of the target (not part of IEEE 1149.1)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VTref&lt;/td&gt;&lt;td&gt;device to probe&lt;/td&gt;&lt;td&gt;recommended&lt;/td&gt;&lt;td&gt;the target&apos;s I/O voltage, so the probe matches its levels&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimum&lt;/td&gt;&lt;td&gt;common reference&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimum&lt;/b&gt;: 4 signals (TCK, TMS, TDI, TDO) + GND. &lt;b&gt;Maximum&lt;/b&gt;: the 5 TAP signals with TRST*, plus RTCK, SRST*, VTref and GND on the usual connectors (ARM 20-pin 2.54 mm, Cortex debug 10-pin 1.27 mm, TI 14-pin, Xilinx 14-pin). Fewer wires: &lt;b&gt;cJTAG&lt;/b&gt; (IEEE 1149.7) on 2 wires TCKC / TMSC, and Arm&apos;s &lt;b&gt;SWD&lt;/b&gt; (Serial Wire Debug, SWCLK / SWDIO), which is not JTAG but often shares the connector.&lt;/p&gt;&lt;h3&gt;TAP state machine&lt;/h3&gt;&lt;p&gt;Five clocks with TMS = 1 always reach &lt;b&gt;Test-Logic-Reset&lt;/b&gt;, whatever the state. From &lt;b&gt;Run-Test/Idle&lt;/b&gt;:&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Scan&lt;/th&gt;&lt;th&gt;TMS&lt;/th&gt;&lt;th&gt;States&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IR scan&lt;/td&gt;&lt;td&gt;1 1 0 0, then 0 for every bit but the last, 1, then 1 0&lt;/td&gt;&lt;td&gt;Select-DR-Scan, Select-IR-Scan, Capture-IR, Shift-IR (the last bit with TMS = 1 goes to Exit1-IR), Update-IR, Run-Test/Idle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DR scan&lt;/td&gt;&lt;td&gt;1 0 0, then 0 for every bit but the last, 1, then 1 0&lt;/td&gt;&lt;td&gt;Select-DR-Scan, Capture-DR, Shift-DR, Exit1-DR, Update-DR, Run-Test/Idle&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The other states (Pause-IR / Pause-DR, Exit2-IR / Exit2-DR) let the host stop shifting without leaving the scan. Capture loads the register (the IR captures ...01, which helps to find the chain length); Update makes the shifted value take effect.&lt;/p&gt;&lt;h3&gt;Instructions and registers&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;BYPASS&lt;/b&gt; (IR all ones, mandatory): a 1-bit data register - TDO is TDI one clock later; it shortens a chain to the chips of interest.&lt;/li&gt;&lt;li&gt;&lt;b&gt;IDCODE&lt;/b&gt; (optional, selected after reset): a 32-bit identification - version, part number, manufacturer (JEDEC code), bit 0 = 1.&lt;/li&gt;&lt;li&gt;&lt;b&gt;SAMPLE/PRELOAD&lt;/b&gt;, &lt;b&gt;EXTEST&lt;/b&gt; (mandatory): read the pins or drive them through the boundary-scan register (one cell per pin) - testing a board without probes.&lt;/li&gt;&lt;li&gt;Vendor instructions: debug access (e.g. the ARM debug port), flash and FPGA programming. The chip&apos;s BSDL file lists its instructions and the length of its IR.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Chain and speed&lt;/h3&gt;&lt;p&gt;Several chips are chained: TCK, TMS (and TRST*) go to all of them, TDI enters chip 1, its TDO feeds TDI of chip 2 ... and the last TDO returns to the host; an IR scan shifts all the instruction registers one after the other. Clocks of 1 to 50 MHz are usual (often 1 - 10 MHz, limited by the slowest chip, the cable and - on ARM cores - the core clock, hence RTCK).&lt;/p&gt;&lt;p&gt;The simulator shows an optional TRST* pulse, the TAP reset, an optional IR scan with the instruction you choose, then a DR scan of the data (LSB first of every byte), with the TAP state of every clock, and TDO as a device in BYPASS (TDI one clock later), all ones, or loopback.&lt;/p&gt;" value="&lt;h2&gt;JTAG - IEEE 1149.1 (Joint Test Action Group)&lt;/h2&gt;&lt;p&gt;Un&apos;interfaccia sincrona integrata nei chip per il &lt;b&gt;collaudo boundary-scan&lt;/b&gt; delle schede e, per estensione, per il &lt;b&gt;debug&lt;/b&gt; e la &lt;b&gt;programmazione&lt;/b&gt; di microcontrollori, processori, FPGA e CPLD. Ogni chip ha una &lt;b&gt;Test Access Port (TAP)&lt;/b&gt;: una macchina a 16 stati pilotata solo da TMS, campionato sul fronte di salita di TCK. Attraverso di essa l&apos;host seleziona il &lt;b&gt;registro istruzioni (IR)&lt;/b&gt; o un &lt;b&gt;registro dati (DR)&lt;/b&gt; e vi fa scorrere i bit - TDI in ingresso, TDO in uscita, prima il bit meno significativo, un bit per clock.&lt;/p&gt;&lt;h3&gt;Segnali&lt;/h3&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Segnale&lt;/th&gt;&lt;th&gt;Direzione&lt;/th&gt;&lt;th&gt;Necessario&lt;/th&gt;&lt;th&gt;Significato&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TCK&lt;/td&gt;&lt;td&gt;dall&apos;host al dispositivo&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;clock di test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TMS&lt;/td&gt;&lt;td&gt;dall&apos;host al dispositivo&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;selezione del modo di test: pilota la macchina a stati TAP (con pull-up)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TDI&lt;/td&gt;&lt;td&gt;dall&apos;host al dispositivo&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dati di test in ingresso (con pull-up)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TDO&lt;/td&gt;&lt;td&gt;dal dispositivo all&apos;host&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;dati di test in uscita: cambia sul fronte di discesa di TCK, in alta impedenza fuori dagli stati Shift&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TRST*&lt;/td&gt;&lt;td&gt;dall&apos;host al dispositivo&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;reset asincrono della TAP, attivo basso&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RTCK&lt;/td&gt;&lt;td&gt;dal dispositivo all&apos;host&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;clock restituito, per il clock adattivo (core ARM)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SRST* / nRESET&lt;/td&gt;&lt;td&gt;entrambe&lt;/td&gt;&lt;td&gt;opzionale&lt;/td&gt;&lt;td&gt;reset di sistema del target (non fa parte di IEEE 1149.1)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;VTref&lt;/td&gt;&lt;td&gt;dal dispositivo alla sonda&lt;/td&gt;&lt;td&gt;consigliato&lt;/td&gt;&lt;td&gt;la tensione di I/O del target, perché la sonda ne adatti i livelli&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GND&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;minimo&lt;/td&gt;&lt;td&gt;riferimento comune&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Minimo&lt;/b&gt;: 4 segnali (TCK, TMS, TDI, TDO) + GND. &lt;b&gt;Massimo&lt;/b&gt;: i 5 segnali TAP con TRST*, più RTCK, SRST*, VTref e GND sui connettori usuali (ARM 20 pin passo 2,54 mm, Cortex debug 10 pin passo 1,27 mm, TI 14 pin, Xilinx 14 pin). Con meno fili: &lt;b&gt;cJTAG&lt;/b&gt; (IEEE 1149.7) su 2 fili TCKC / TMSC, e l&apos;&lt;b&gt;SWD&lt;/b&gt; di Arm (Serial Wire Debug, SWCLK / SWDIO), che non è JTAG ma spesso condivide il connettore.&lt;/p&gt;&lt;h3&gt;Macchina a stati TAP&lt;/h3&gt;&lt;p&gt;Cinque clock con TMS = 1 portano sempre a &lt;b&gt;Test-Logic-Reset&lt;/b&gt;, qualunque sia lo stato. Da &lt;b&gt;Run-Test/Idle&lt;/b&gt;:&lt;/p&gt;&lt;table border=1 cellpadding=3 cellspacing=0&gt;&lt;tr&gt;&lt;th&gt;Scansione&lt;/th&gt;&lt;th&gt;TMS&lt;/th&gt;&lt;th&gt;Stati&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Scansione IR&lt;/td&gt;&lt;td&gt;1 1 0 0, poi 0 per ogni bit tranne l&apos;ultimo, 1, poi 1 0&lt;/td&gt;&lt;td&gt;Select-DR-Scan, Select-IR-Scan, Capture-IR, Shift-IR (l&apos;ultimo bit con TMS = 1 porta a Exit1-IR), Update-IR, Run-Test/Idle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Scansione DR&lt;/td&gt;&lt;td&gt;1 0 0, poi 0 per ogni bit tranne l&apos;ultimo, 1, poi 1 0&lt;/td&gt;&lt;td&gt;Select-DR-Scan, Capture-DR, Shift-DR, Exit1-DR, Update-DR, Run-Test/Idle&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Gli altri stati (Pause-IR / Pause-DR, Exit2-IR / Exit2-DR) permettono all&apos;host di fermare lo scorrimento senza uscire dalla scansione. Capture carica il registro (l&apos;IR cattura ...01, utile per trovare la lunghezza della catena); Update rende effettivo il valore fatto scorrere.&lt;/p&gt;&lt;h3&gt;Istruzioni e registri&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;BYPASS&lt;/b&gt; (IR tutto a uno, obbligatoria): un registro dati di 1 bit - TDO è TDI un clock dopo; accorcia una catena ai soli chip di interesse.&lt;/li&gt;&lt;li&gt;&lt;b&gt;IDCODE&lt;/b&gt; (opzionale, selezionata dopo il reset): un&apos;identificazione di 32 bit - versione, codice del componente, costruttore (codice JEDEC), bit 0 = 1.&lt;/li&gt;&lt;li&gt;&lt;b&gt;SAMPLE/PRELOAD&lt;/b&gt;, &lt;b&gt;EXTEST&lt;/b&gt; (obbligatorie): leggono i pin o li pilotano attraverso il registro boundary-scan (una cella per pin) - collaudo di una scheda senza sonde.&lt;/li&gt;&lt;li&gt;Istruzioni del costruttore: accesso di debug (es. la porta di debug ARM), programmazione di flash e FPGA. Il file BSDL del chip elenca le sue istruzioni e la lunghezza del suo IR.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Catena e velocità&lt;/h3&gt;&lt;p&gt;Più chip si collegano in catena: TCK, TMS (e TRST*) vanno a tutti, TDI entra nel chip 1, il suo TDO alimenta il TDI del chip 2 ... e l&apos;ultimo TDO torna all&apos;host; una scansione IR fa scorrere tutti i registri istruzioni uno dopo l&apos;altro. Sono usuali clock da 1 a 50 MHz (spesso 1 - 10 MHz, limitati dal chip più lento, dal cavo e - sui core ARM - dal clock del core, da cui RTCK).&lt;/p&gt;&lt;p&gt;Il simulatore mostra un impulso TRST* opzionale, il reset della TAP, una scansione IR opzionale con l&apos;istruzione scelta, poi una scansione DR dei dati (prima il bit meno significativo di ogni byte), con lo stato TAP di ogni clock, e TDO come un dispositivo in BYPASS (TDI un clock dopo), tutto a uno, o loopback.&lt;/p&gt;"/>
+    <entry key="Scan" value="Scansione"/>
+    <entry key="Instruction register bits" value="Bit del registro istruzioni"/>
+    <entry key="Instruction (hex)" value="Istruzione (esadecimale)"/>
+    <entry key="Reset the TAP first (TMS = 1 x 5)" value="Prima il reset della TAP (TMS = 1 x 5)"/>
+    <entry key="TDO answers" value="Risposta su TDO"/>
+    <entry key="Show TRST* (optional reset line)" value="Mostra TRST* (linea di reset opzionale)"/>
+    <entry key="Data register only (DR scan)" value="Solo registro dati (scansione DR)"/>
+    <entry key="Instruction, then data (IR + DR scan)" value="Istruzione, poi dati (scansione IR + DR)"/>
+    <entry key="BYPASS: TDI one clock later" value="BYPASS: TDI un clock dopo"/>
+    <entry key="All ones" value="Tutto a uno"/>
+    <entry key="The same as TDI (loopback)" value="Uguale a TDI (loopback)"/>
+    <entry key="The data are shifted through a data register (DR); first, optionally, the instruction through the instruction register (IR)." value="I dati scorrono in un registro dati (DR); prima, se si vuole, l&apos;istruzione nel registro istruzioni (IR)."/>
+    <entry key="The value shifted into the instruction register, least significant bit first (e.g. IDCODE, BYPASS = all ones). Its length is the IR length of the chip (BSDL file)." value="Il valore fatto scorrere nel registro istruzioni, prima il bit meno significativo (es. IDCODE, BYPASS = tutto a uno). La lunghezza è quella dell&apos;IR del chip (file BSDL)."/>
+    <entry key="TAP state" value="Stato TAP"/>
+    <entry key="1 (not in reset)" value="1 (non in reset)"/>
+    <entry key="0 (TAP reset)" value="0 (reset della TAP)"/>
+    <entry key="high impedance (not shifting)" value="alta impedenza (nessuno scorrimento)"/>
+    <entry key="The instruction has more bits than the instruction register: only its low bits are shifted." value="L&apos;istruzione ha più bit del registro istruzioni: vengono fatti scorrere solo i suoi bit bassi."/>
+    <entry key="TDO: the device is in BYPASS (a 1-bit register): TDO is TDI one clock later." value="TDO: il dispositivo è in BYPASS (un registro di 1 bit): TDO è TDI un clock dopo."/>
+    <entry key="&amp;Event Database..." value="&amp;Database eventi..."/>
+    <entry key="Event Database" value="Database eventi"/>
+    <entry key="The event database could not be opened (see the application log)." value="Il database eventi non può essere aperto (vedi il log dell&apos;applicazione)."/>
+    <entry key="File: %s&#10;Events: %lld - in use %s MB, file %s MB" value="File: %s&#10;Eventi: %lld - in uso %s MB, file %s MB"/>
+    <entry key="Record the serial traffic (every message received and sent)" value="Registra il traffico seriale (ogni messaggio ricevuto e inviato)"/>
+    <entry key="Keep events for (days)" value="Conserva gli eventi per (giorni)"/>
+    <entry key="Largest size (MB)" value="Dimensione massima (MB)"/>
+    <entry key="0 = no limit" value="0 = nessun limite"/>
+    <entry key="Export to CSV..." value="Esporta in CSV..."/>
+    <entry key="Compact now" value="Compatta ora"/>
+    <entry key="Delete all..." value="Elimina tutto..."/>
+    <entry key="Delete every event in the database? This cannot be undone." value="Eliminare tutti gli eventi del database? Non si può annullare."/>
+    <entry key="Could not write %s." value="Impossibile scrivere %s."/>
+    <entry key="Lines" value="Linee"/>
+    <entry key="RTS (request to send) output: ticked = active. Kept while the port is closed and set again when it opens. Not available with hardware flow control (the driver sets it). Often switches an RS-485 transceiver to transmit." value="Uscita RTS (richiesta di trasmissione): spuntata = attiva. Viene mantenuta a porta chiusa e reimpostata all&apos;apertura. Non disponibile con il controllo di flusso hardware (la imposta il driver). Spesso commuta un transceiver RS-485 in trasmissione."/>
+    <entry key="DTR (data terminal ready) output: ticked = active. Kept while the port is closed and set again when it opens. Many boards (Arduino, ESP32) reset when DTR changes." value="Uscita DTR (terminale pronto): spuntata = attiva. Viene mantenuta a porta chiusa e reimpostata all&apos;apertura. Molte schede (Arduino, ESP32) si resettano quando DTR cambia."/>
+    <entry key="CTS (clear to send) input: green = active" value="Ingresso CTS (pronto a trasmettere): verde = attivo"/>
+    <entry key="DSR (data set ready) input: green = active" value="Ingresso DSR (apparato pronto): verde = attivo"/>
+    <entry key="DCD (data carrier detect) input: green = active" value="Ingresso DCD (portante rilevata): verde = attivo"/>
+    <entry key="RI (ring indicator) input: green = active" value="Ingresso RI (indicatore di chiamata): verde = attivo"/>
+    <entry key="Holds the TX line in the break state (0) for 250 ms - a reset or frame marker for some devices (LIN, DMX512, bootloaders)." value="Tiene la linea TX nello stato di break (0) per 250 ms - un reset o un marcatore di frame per alcuni dispositivi (LIN, DMX512, bootloader)."/>
+    <entry key="break sent (250 ms)" value="break inviato (250 ms)"/>
+    <entry key="break could not be sent" value="impossibile inviare il break"/>
+    <entry key="Receive Options" value="Opzioni di ricezione"/>
+    <entry key="How received bytes become messages" value="Come i byte ricevuti diventano messaggi"/>
+    <entry key="Messages end:" value="I messaggi finiscono:"/>
+    <entry key="after a pause (gap)" value="dopo una pausa (intervallo)"/>
+    <entry key="with a delimiter (e.g. CR LF)" value="con un delimitatore (es. CR LF)"/>
+    <entry key="after a fixed number of bytes" value="dopo un numero fisso di byte"/>
+    <entry key="after the length carried in the message" value="dopo la lunghezza indicata nel messaggio"/>
+    <entry key="Modbus RTU (3.5 characters of silence)" value="Modbus RTU (3,5 caratteri di silenzio)"/>
+    <entry key="A message ends when no byte arrives for the gap. 0 = the port&apos;s inter-byte timeout (port settings). The usual choice when the device answers in bursts." value="Un messaggio finisce quando non arriva alcun byte per l&apos;intervallo. 0 = il timeout tra byte della porta (impostazioni della porta). La scelta abituale quando il dispositivo risponde a raffiche."/>
+    <entry key="A message ends with the delimiter bytes (hex, e.g. 0D 0A for CR LF, 0A for LF, 03 for ETX). For text lines: one console line per line, however the bytes arrive. What has not ended is shown after the timeout." value="Un messaggio finisce con i byte delimitatori (esadecimali, es. 0D 0A per CR LF, 0A per LF, 03 per ETX). Per le righe di testo: una riga di console per riga, comunque arrivino i byte. Ciò che non è finito viene mostrato dopo il timeout."/>
+    <entry key="Every message has the same number of bytes. What is left over is shown after the timeout." value="Ogni messaggio ha lo stesso numero di byte. Ciò che avanza viene mostrato dopo il timeout."/>
+    <entry key="The message carries its length: a field of 1-4 bytes at an offset. The message is offset + field + its value + adjust bytes long (adjust e.g. +2 if a CRC follows the counted bytes, or minus the header if the length counts the whole message). An incomplete message is shown after the timeout." value="Il messaggio contiene la sua lunghezza: un campo di 1-4 byte a uno scostamento. Il messaggio è lungo scostamento + campo + il suo valore + correzione byte (correzione es. +2 se un CRC segue i byte contati, o meno l&apos;intestazione se la lunghezza conta tutto il messaggio). Un messaggio incompleto viene mostrato dopo il timeout."/>
+    <entry key="A frame ends after 3.5 character times of silence at the port&apos;s speed (1.75 ms above 19200 bit/s). Through USB adapters the timing is only as good as the adapter: if frames come split or joined, use a gap of a few ms." value="Una trama finisce dopo 3,5 tempi di carattere di silenzio alla velocità della porta (1,75 ms oltre 19200 bit/s). Con gli adattatori USB la temporizzazione dipende dall&apos;adattatore: se le trame arrivano spezzate o unite, usare un intervallo di qualche ms."/>
+    <entry key="Gap (ms):" value="Intervallo (ms):"/>
+    <entry key="0 = the port&apos;s inter-byte timeout (%d ms)" value="0 = il timeout tra byte della porta (%d ms)"/>
+    <entry key="Timeout (ms):" value="Timeout (ms):"/>
+    <entry key="An incomplete message is shown anyway after this silence." value="Un messaggio incompleto viene comunque mostrato dopo questo silenzio."/>
+    <entry key="Delimiter (hex):" value="Delimitatore (hex):"/>
+    <entry key="e.g. 0D 0A (CR LF), 0A (LF), 0D (CR), 03 (ETX), 7E" value="es. 0D 0A (CR LF), 0A (LF), 0D (CR), 03 (ETX), 7E"/>
+    <entry key="Show the delimiter" value="Mostra il delimitatore"/>
+    <entry key="Bytes per message:" value="Byte per messaggio:"/>
+    <entry key="Length at byte:" value="Lunghezza al byte:"/>
+    <entry key="Where the length field starts (0 = the first byte)" value="Dove inizia il campo lunghezza (0 = il primo byte)"/>
+    <entry key="Length bytes:" value="Byte della lunghezza:"/>
+    <entry key="Adjust:" value="Correzione:"/>
+    <entry key="Added to the length value: bytes after the counted ones (e.g. +2 for a CRC), or negative if the value counts the header too." value="Sommata al valore della lunghezza: byte dopo quelli contati (es. +2 per un CRC), o negativa se il valore conta anche l&apos;intestazione."/>
+    <entry key="Big-endian (most significant first)" value="Big-endian (più significativo prima)"/>
+    <entry key="Little-endian (least significant first)" value="Little-endian (meno significativo prima)"/>
+    <entry key="The delimiter must be one or more hex bytes, e.g. 0D 0A." value="Il delimitatore deve essere uno o più byte esadecimali, es. 0D 0A."/>
+    <entry key="pause %d ms" value="pausa %d ms"/>
+    <entry key="pause %d ms (port)" value="pausa %d ms (porta)"/>
+    <entry key="ends with %s" value="finisce con %s"/>
+    <entry key="%d bytes each" value="%d byte ciascuno"/>
+    <entry key="length at %d (%d B)" value="lunghezza a %d (%d B)"/>
+    <entry key="Modbus RTU" value="Modbus RTU"/>
+    <entry key="Receive:" value="Ricezione:"/>
+    <entry key="How received bytes are cut into console messages: pause, delimiter, fixed length, length field or Modbus RTU timing." value="Come i byte ricevuti vengono divisi in messaggi della console: pausa, delimitatore, lunghezza fissa, campo lunghezza o temporizzazione Modbus RTU."/>
+    <entry key="TX replay" value="TX replay"/>
+    <entry key="Capture..." value="Cattura..."/>
+    <entry key="Stop Capture" value="Ferma cattura"/>
+    <entry key="Writes the traffic of this port to a file while it happens: a timed capture (.spmcap: received and sent messages with their time, for Replay) or the raw received bytes (.bin, for other tools)." value="Scrive il traffico di questa porta in un file mentre avviene: una cattura temporizzata (.spmcap: messaggi ricevuti e inviati con il loro orario, per la Riproduzione) o i byte ricevuti grezzi (.bin, per altri strumenti)."/>
+    <entry key="Capture the traffic to" value="Cattura il traffico in"/>
+    <entry key="Timed capture (*.spmcap)|*.spmcap|Raw received bytes (*.bin)|*.bin" value="Cattura temporizzata (*.spmcap)|*.spmcap|Byte ricevuti grezzi (*.bin)|*.bin"/>
+    <entry key="Cannot create %s." value="Impossibile creare %s."/>
+    <entry key="Capture" value="Cattura"/>
+    <entry key="timed capture (received and sent) into %s" value="cattura temporizzata (ricevuti e inviati) in %s"/>
+    <entry key="raw received bytes into %s" value="byte ricevuti grezzi in %s"/>
+    <entry key="stopped: %s (%s)" value="fermata: %s (%s)"/>
+    <entry key="capturing: %s" value="in cattura: %s"/>
+    <entry key="Replay..." value="Riproduci..."/>
+    <entry key="Stop Replay" value="Ferma riproduzione"/>
+    <entry key="Sends the messages of a timed capture (.spmcap) again, with their pauses: what this port sent, or what it received (to play the other device&apos;s part)." value="Invia di nuovo i messaggi di una cattura temporizzata (.spmcap), con le loro pause: ciò che questa porta ha inviato, o ciò che ha ricevuto (per fare la parte dell&apos;altro dispositivo)."/>
+    <entry key="Replay a capture" value="Riproduci una cattura"/>
+    <entry key="Timed capture (*.spmcap)|*.spmcap|All files (*.*)|*.*" value="Cattura temporizzata (*.spmcap)|*.spmcap|Tutti i file (*.*)|*.*"/>
+    <entry key="This is not a timed capture (.spmcap) of SerialPortManager." value="Questa non è una cattura temporizzata (.spmcap) di SerialPortManager."/>
+    <entry key="Replay" value="Riproduzione"/>
+    <entry key="%s: %d messages sent, %d received." value="%s: %d messaggi inviati, %d ricevuti."/>
+    <entry key="The last message was cut (the capture did not end normally): it is left out." value="L&apos;ultimo messaggio è troncato (la cattura non è finita normalmente): viene escluso."/>
+    <entry key="Send again" value="Invia di nuovo"/>
+    <entry key="what was sent (repeat a session)" value="ciò che è stato inviato (ripete una sessione)"/>
+    <entry key="what was received (play the other device)" value="ciò che è stato ricevuto (simula l&apos;altro dispositivo)"/>
+    <entry key="Speed:" value="Velocità:"/>
+    <entry key="no pauses" value="senza pause"/>
+    <entry key="Pauses longer than 10 s are shortened to 10 s." value="Le pause oltre 10 s vengono ridotte a 10 s."/>
+    <entry key="There are no such messages in the capture." value="Nella cattura non ci sono messaggi di quel tipo."/>
+    <entry key="%d messages of %s" value="%d messaggi di %s"/>
+    <entry key="finished: %d messages sent" value="finita: %d messaggi inviati"/>
+    <entry key="stopped after %d of %d messages" value="fermata dopo %d di %d messaggi"/>
+    <entry key="Export Console..." value="Esporta console..."/>
+    <entry key="Export console..." value="Esporta console..."/>
+    <entry key="Saves the console: as text (as shown) or as CSV (one row per message: time, label, size, hex, text, note)." value="Salva la console: come testo (come appare) o come CSV (una riga per messaggio: orario, etichetta, dimensione, hex, testo, nota)."/>
+    <entry key="Export the console" value="Esporta la console"/>
+    <entry key="Text (*.txt)|*.txt|CSV (*.csv)|*.csv" value="Testo (*.txt)|*.txt|CSV (*.csv)|*.csv"/>
+    <entry key="The console is empty." value="La console è vuota."/>
+    <entry key="Export" value="Esportazione"/>
+    <entry key="console saved to %s" value="console salvata in %s"/>
+    <entry key="Commands" value="Comandi"/>
+    <entry key="Saved commands (one click sends them) and the messages sent before. Up / Down in the text also bring back the messages sent." value="Comandi salvati (un clic li invia) e i messaggi inviati prima. Anche Su / Giù nel testo richiamano i messaggi inviati."/>
+    <entry key="(no saved commands)" value="(nessun comando salvato)"/>
+    <entry key="Save the text as a command..." value="Salva il testo come comando..."/>
+    <entry key="Save Command" value="Salva comando"/>
+    <entry key="Name of the command (the same name replaces it):" value="Nome del comando (lo stesso nome lo sostituisce):"/>
+    <entry key="Delete command" value="Elimina comando"/>
+    <entry key="Sent before" value="Inviati prima"/>
+    <entry key="Clear the history" value="Cancella la cronologia"/>
+    <entry key="Find:" value="Trova:"/>
+    <entry key="Text to look for in the console (Enter: next, Shift+Enter: previous, Esc: close). F3 / Shift+F3 in the console." value="Testo da cercare nella console (Invio: successivo, Maiusc+Invio: precedente, Esc: chiudi). F3 / Maiusc+F3 nella console."/>
+    <entry key="Previous match" value="Corrispondenza precedente"/>
+    <entry key="Next match" value="Corrispondenza successiva"/>
+    <entry key="Match case" value="Maiuscole/minuscole"/>
+    <entry key="In hex" value="Nell&apos;hex"/>
+    <entry key="Look in the hex pane (e.g. 0D 0A) instead of the messages" value="Cerca nel riquadro hex (es. 0D 0A) invece che nei messaggi"/>
+    <entry key="Only matching lines" value="Solo le righe trovate"/>
+    <entry key="Shows only the console lines that contain the text (a filter; closing the bar ends it)" value="Mostra solo le righe della console che contengono il testo (un filtro; chiudere la barra lo termina)"/>
+    <entry key="Close (Esc)" value="Chiudi (Esc)"/>
+    <entry key="not found" value="non trovato"/>
+    <entry key="%d of %d" value="%d di %d"/>
+    <entry key="Find...&#9;Ctrl+F" value="Trova...&#9;Ctrl+F"/>
+    <entry key="Serial console - filtered: %d of %d lines" value="Console seriale - filtrata: %d di %d righe"/>
+    <entry key="Show" value="Mostra"/>
+    <entry key="Received (RX)" value="Ricevuti (RX)"/>
+    <entry key="Sent (TX, auto replies, periodic, forwarded, replay)" value="Inviati (TX, risposte automatiche, periodici, inoltrati, riproduzione)"/>
+    <entry key="Notes (port, files, capture...)" value="Note (porta, file, cattura...)"/>
+    <entry key="Highlight rules..." value="Regole di evidenziazione..."/>
+    <entry key="Highlight Rules" value="Regole di evidenziazione"/>
+    <entry key="Messages containing a text (case ignored) or a byte sequence are shown on a colour, in every slot. The first ticked rule that matches wins." value="I messaggi che contengono un testo (senza distinguere maiuscole) o una sequenza di byte vengono mostrati su un colore, in tutti gli slot. Vince la prima regola spuntata che corrisponde."/>
+    <entry key="Contains:" value="Contiene:"/>
+    <entry key="A text (e.g. ERROR) or, with Hex bytes, a byte sequence (e.g. 01 83)" value="Un testo (es. ERROR) o, con Byte hex, una sequenza di byte (es. 01 83)"/>
+    <entry key="Hex bytes" value="Byte hex"/>
+    <entry key="Add" value="Aggiungi"/>
+    <entry key="Replace" value="Sostituisci"/>
+    <entry key="Move Up" value="Sposta su"/>
+    <entry key="text" value="testo"/>
+    <entry key="bytes" value="byte"/>
+    <entry key="Type a text, or hex bytes such as 01 83." value="Scrivere un testo, o byte esadecimali come 01 83."/>
+    <entry key="Check received messages" value="Verifica dei messaggi ricevuti"/>
+    <entry key="Check the checksum / CRC of every received message" value="Verifica il checksum / CRC di ogni messaggio ricevuto"/>
+    <entry key="Every received message gets a note: ok (green), bad with the value found and the one expected (red), or too short. The counts are in Statistics." value="Ogni messaggio ricevuto riceve una nota: ok (verde), errato con il valore trovato e quello atteso (rosso), o troppo corto. I conteggi sono nelle Statistiche."/>
+    <entry key="Position:" value="Posizione:"/>
+    <entry key="from the end" value="dalla fine"/>
+    <entry key="from the start" value="dall&apos;inizio"/>
+    <entry key="Offset:" value="Scostamento:"/>
+    <entry key="From the end: the bytes after the checksum (0 = it is last, 2 = a CR LF follows). From the start: the byte where it begins (0 = first)." value="Dalla fine: i byte dopo il checksum (0 = è l&apos;ultimo, 2 = segue un CR LF). Dall&apos;inizio: il byte dove comincia (0 = il primo)."/>
+    <entry key="Not covered at the start:" value="Non coperti all&apos;inizio:"/>
+    <entry key="The checksum covers the bytes before it, except this many at the start (e.g. 1 for an STX or a &apos;:&apos; that is not part of it)." value="Il checksum copre i byte prima di esso, tranne questi all&apos;inizio (es. 1 per un STX o un &apos;:&apos; che non ne fa parte)."/>
+    <entry key="%s ok" value="%s ok"/>
+    <entry key="%s WRONG: %s, expected %s" value="%s ERRATO: %s, atteso %s"/>
+    <entry key="too short for %s" value="troppo corto per %s"/>
+    <entry key="Time since the previous message (delta)" value="Tempo dal messaggio precedente (delta)"/>
+    <entry key="Every message shows, after its time, the seconds since the previous one (+0.012)" value="Ogni messaggio mostra, dopo l&apos;orario, i secondi dal precedente (+0.012)"/>
+    <entry key="Statistics..." value="Statistiche..."/>
+    <entry key="Statistics - %s" value="Statistiche - %s"/>
+    <entry key="Counting since" value="Conteggio dal"/>
+    <entry key="Port open for" value="Porta aperta da"/>
+    <entry key="(closed)" value="(chiusa)"/>
+    <entry key="Received" value="Ricevuti"/>
+    <entry key="Receiving now" value="Ricezione ora"/>
+    <entry key="Sent" value="Inviati"/>
+    <entry key="Sending now" value="Invio ora"/>
+    <entry key="Write errors" value="Errori di scrittura"/>
+    <entry key="Checksum of received" value="Checksum dei ricevuti"/>
+    <entry key="%s in %s messages" value="%s in %s messaggi"/>
+    <entry key="%.0f bytes/s" value="%.0f byte/s"/>
+    <entry key="%s ok, %s wrong, %s too short" value="%s ok, %s errati, %s troppo corti"/>
+    <entry key="(not checked - Receive options)" value="(non verificato - Opzioni di ricezione)"/>
+    <entry key="Messages as the console shows them; file data being caught is not counted as received. Framing, parity and overrun errors of the line are not reported by the serial library." value="Messaggi come li mostra la console; i dati di un file in cattura non sono contati come ricevuti. Gli errori di trama, parità e overrun della linea non sono riportati dalla libreria seriale."/>
+    <entry key="Reset" value="Azzera"/>
+    <entry key="Reopen the port when it comes back (USB adapter unplugged)" value="Riapri la porta quando ritorna (adattatore USB scollegato)"/>
+    <entry key="When the port stops working (e.g. the USB adapter is unplugged) it is closed, and opened again as soon as the system lists it again." value="Quando la porta smette di funzionare (es. l&apos;adattatore USB viene scollegato) viene chiusa, e riaperta appena il sistema la elenca di nuovo."/>
+    <entry key="cannot be read any more (unplugged?) - trying again every second" value="non è più leggibile (scollegata?) - nuovo tentativo ogni secondo"/>
+    <entry key="%s lost (unplugged?) - closed; it is opened again when it comes back" value="%s persa (scollegata?) - chiusa; verrà riaperta quando ritorna"/>
+    <entry key="%s is back: opened again" value="%s è tornata: riaperta"/>
+    <entry key="can be read again" value="di nuovo leggibile"/>
+    <entry key="Stop Waiting" value="Smetti di attendere"/>
+    <entry key="&amp;Export Profile..." value="&amp;Esporta profilo..."/>
+    <entry key="&amp;Import Profile..." value="&amp;Importa profilo..."/>
+    <entry key="A profile holds the ports&apos; settings, automation, send box, receive options, saved commands and console options - not the language, the theme or the license." value="Un profilo contiene le impostazioni delle porte, l&apos;automazione, il riquadro di invio, le opzioni di ricezione, i comandi salvati e le opzioni della console - non la lingua, il tema o la licenza."/>
+    <entry key="SerialPortManager profile (*.spmprofile)|*.spmprofile|All files (*.*)|*.*" value="Profilo SerialPortManager (*.spmprofile)|*.spmprofile|Tutti i file (*.*)|*.*"/>
+    <entry key="This is not a SerialPortManager profile." value="Questo non è un profilo di SerialPortManager."/>
+    <entry key="Replace the settings of all the ports (and the saved commands, highlight rules and console options) with the profile? Open ports are closed." value="Sostituire le impostazioni di tutte le porte (e i comandi salvati, le regole di evidenziazione e le opzioni della console) con il profilo? Le porte aperte vengono chiuse."/>
+    <entry key="Profile saved to %s" value="Profilo salvato in %s"/>
+    <entry key="Profile loaded from %s" value="Profilo caricato da %s"/>
+    <entry key="&amp;Modbus Master...&#9;Ctrl-M" value="&amp;Master Modbus...&#9;Ctrl-M"/>
+    <entry key="TX %s" value="TX %s"/>
+    <entry key="Modbus Master" value="Master Modbus"/>
+    <entry key="The tab whose port the requests go through (it must be open). Its console shows them as TX Modbus." value="La scheda attraverso la cui porta passano le richieste (deve essere aperta). La sua console le mostra come TX Modbus."/>
+    <entry key="Mode:" value="Modalità:"/>
+    <entry key="Slave:" value="Slave:"/>
+    <entry key="Slave address 1-247; 0 = broadcast (writes only, nobody answers)" value="Indirizzo dello slave 1-247; 0 = broadcast (solo scritture, nessuno risponde)"/>
+    <entry key="Function:" value="Funzione:"/>
+    <entry key="Address:" value="Indirizzo:"/>
+    <entry key="The protocol address, from 0: holding register 40001 is 0, coil 00001 is 0" value="L&apos;indirizzo del protocollo, da 0: il registro 40001 è 0, la bobina 00001 è 0"/>
+    <entry key="Count:" value="Quantità:"/>
+    <entry key="Values:" value="Valori:"/>
+    <entry key="For the writes: the values, decimal or 0x hex, separated by spaces (coils: 0 / 1)" value="Per le scritture: i valori, decimali o esadecimali 0x, separati da spazi (bobine: 0 / 1)"/>
+    <entry key="Request:" value="Richiesta:"/>
+    <entry key="Poll every" value="Interroga ogni"/>
+    <entry key="Sends the request again and again, the next one after the answer (or the timeout) and this interval" value="Invia la richiesta di continuo, la successiva dopo la risposta (o il timeout) e questo intervallo"/>
+    <entry key="polling stopped" value="interrogazione fermata"/>
+    <entry key="Timeout:" value="Timeout:"/>
+    <entry key="How long to wait for the answer (ms)" value="Quanto attendere la risposta (ms)"/>
+    <entry key="Show registers as:" value="Mostra i registri come:"/>
+    <entry key="unsigned 16 bit" value="senza segno 16 bit"/>
+    <entry key="signed 16 bit" value="con segno 16 bit"/>
+    <entry key="hex" value="esadecimale"/>
+    <entry key="binary" value="binario"/>
+    <entry key="unsigned 32 bit (high word first)" value="senza segno 32 bit (parola alta prima)"/>
+    <entry key="signed 32 bit (high word first)" value="con segno 32 bit (parola alta prima)"/>
+    <entry key="float 32 bit (high word first)" value="float 32 bit (parola alta prima)"/>
+    <entry key="unsigned 32 bit (low word first)" value="senza segno 32 bit (parola bassa prima)"/>
+    <entry key="signed 32 bit (low word first)" value="con segno 32 bit (parola bassa prima)"/>
+    <entry key="float 32 bit (low word first)" value="float 32 bit (parola bassa prima)"/>
+    <entry key="Raw" value="Grezzo"/>
+    <entry key="Values must be numbers 0-65535 (decimal or 0x hex) separated by spaces" value="I valori devono essere numeri 0-65535 (decimali o esadecimali 0x) separati da spazi"/>
+    <entry key="The chosen port is not open: open it in its tab first." value="La porta scelta non è aperta: aprirla prima nella sua scheda."/>
+    <entry key="Could not send (port busy with a file, too many messages waiting, or sending not licensed)." value="Impossibile inviare (porta occupata da un file, troppi messaggi in attesa, o invio non concesso dalla licenza)."/>
+    <entry key="broadcast sent (no answer expected)" value="broadcast inviato (nessuna risposta attesa)"/>
+    <entry key="ok" value="ok"/>
+    <entry key="no answer within %d ms" value="nessuna risposta entro %d ms"/>
+    <entry key="incomplete answer within %d ms: %s" value="risposta incompleta entro %d ms: %s"/>
+    <entry key="Requests %llu   answers %llu   exceptions %llu   bad frames %llu   timeouts %llu" value="Richieste %llu   risposte %llu   eccezioni %llu   trame errate %llu   timeout %llu"/>
+    <entry key="01 Read Coils" value="01 Leggi bobine"/>
+    <entry key="02 Read Discrete Inputs" value="02 Leggi ingressi digitali"/>
+    <entry key="03 Read Holding Registers" value="03 Leggi registri di mantenimento"/>
+    <entry key="04 Read Input Registers" value="04 Leggi registri di ingresso"/>
+    <entry key="05 Write Single Coil" value="05 Scrivi una bobina"/>
+    <entry key="06 Write Single Register" value="06 Scrivi un registro"/>
+    <entry key="15 Write Multiple Coils" value="15 Scrivi più bobine"/>
+    <entry key="16 Write Multiple Registers" value="16 Scrivi più registri"/>
+    <entry key="function not supported" value="funzione non supportata"/>
+    <entry key="slave address must be 0-247" value="l&apos;indirizzo dello slave deve essere 0-247"/>
+    <entry key="slave 0 (broadcast) can only be written to" value="sullo slave 0 (broadcast) si può solo scrivere"/>
+    <entry key="count must be 1-2000" value="la quantità deve essere 1-2000"/>
+    <entry key="count must be 1-125" value="la quantità deve essere 1-125"/>
+    <entry key="address + count beyond 65535" value="indirizzo + quantità oltre 65535"/>
+    <entry key="one value is needed" value="serve un valore"/>
+    <entry key="1-1968 values are needed" value="servono 1-1968 valori"/>
+    <entry key="1-123 values are needed" value="servono 1-123 valori"/>
+    <entry key="too short" value="troppo corta"/>
+    <entry key="LRC wrong" value="LRC errato"/>
+    <entry key="not an ASCII frame (:...CRLF)" value="non è una trama ASCII (:...CRLF)"/>
+    <entry key="byte count does not match" value="il numero di byte non corrisponde"/>
+    <entry key="wrong length" value="lunghezza errata"/>
+    <entry key="echoed address differs" value="l&apos;indirizzo ripetuto è diverso"/>
+    <entry key="Serial P&amp;lotter...&#9;Ctrl-L" value="P&amp;lotter seriale...&#9;Ctrl-L"/>
+    <entry key="Serial Plotter" value="Plotter seriale"/>
+    <entry key="Pause" value="Pausa"/>
+    <entry key="Freezes the picture; the samples are still collected" value="Blocca il disegno; i campioni continuano a essere raccolti"/>
+    <entry key="Samples shown:" value="Campioni mostrati:"/>
+    <entry key="Auto scale" value="Scala automatica"/>
+    <entry key="Bottom of the scale (with Auto scale off)" value="Fondo della scala (con Scala automatica spenta)"/>
+    <entry key="Top of the scale (with Auto scale off)" value="Cima della scala (con Scala automatica spenta)"/>
+    <entry key="Export CSV..." value="Esporta CSV..."/>
+    <entry key="Every line the device prints is a sample: numbers separated by commas, spaces or tabs (21.5,40), or named (temp:21.5 hum=40). One colour per value." value="Ogni riga stampata dal dispositivo è un campione: numeri separati da virgole, spazi o tabulazioni (21.5,40), o con nome (temp:21.5 hum=40). Un colore per valore."/>
+    <entry key="Waiting for lines of numbers (e.g. 21.5,40 or temp:21.5 hum:40) from the port..." value="In attesa di righe di numeri (es. 21.5,40 o temp:21.5 hum:40) dalla porta..."/>
+    <entry key="Lines arrive, but without numbers." value="Arrivano righe, ma senza numeri."/>
+    <entry key="%llu lines received, %llu samples, %d values" value="%llu righe ricevute, %llu campioni, %d valori"/>
+    <entry key="(paused)" value="(in pausa)"/>
+    <entry key="&amp;Test Sequences...&#9;Ctrl-T" value="Sequenze di &amp;test...&#9;Ctrl-T"/>
+    <entry key="Test Sequences" value="Sequenze di test"/>
+    <entry key="Run" value="Esegui"/>
+    <entry key="Open..." value="Apri..."/>
+    <entry key="Save..." value="Salva..."/>
+    <entry key="Test sequence (*.spmseq)|*.spmseq|Text (*.txt)|*.txt|All files (*.*)|*.*" value="Sequenza di test (*.spmseq)|*.spmseq|Testo (*.txt)|*.txt|Tutti i file (*.*)|*.*"/>
+    <entry key="One step per line:&#10;  send &quot;AT\r\n&quot;   (text: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - waits for these bytes after the last send (pass / fail)&#10;  expect hex 01 03 within 200   - waiting at most 200 ms&#10;  timeout 1000   - the default wait of expect (ms)&#10;  delay 250   - waits (ms)&#10;  repeat 10 ... end   - repeat 0: until stopped&#10;  log &quot;text&quot;&#10;  onfail continue   /   onfail stop (default)&#10;  # comment" value="Un passo per riga:&#10;  send &quot;AT\r\n&quot;   (testo: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - attende questi byte dopo l&apos;ultimo invio (superato / fallito)&#10;  expect hex 01 03 within 200   - attendendo al massimo 200 ms&#10;  timeout 1000   - l&apos;attesa predefinita di expect (ms)&#10;  delay 250   - attende (ms)&#10;  repeat 10 ... end   - repeat 0: fino all&apos;arresto&#10;  log &quot;testo&quot;&#10;  onfail continue   /   onfail stop (predefinito)&#10;  # commento"/>
+    <entry key="Error:" value="Errore:"/>
+    <entry key="The script has errors (see the log)" value="Lo script contiene errori (vedere il registro)"/>
+    <entry key="Running..." value="In esecuzione..."/>
+    <entry key="started on %s" value="avviata su %s"/>
+    <entry key="The port was closed: the run stops." value="La porta è stata chiusa: l&apos;esecuzione si ferma."/>
+    <entry key="PASS" value="OK"/>
+    <entry key="FAIL" value="FALLITO"/>
+    <entry key="received:" value="ricevuto:"/>
+    <entry key="PASSED  (%d passed, %d failed)" value="SUPERATA  (%d superati, %d falliti)"/>
+    <entry key="FAILED  (%d passed, %d failed)" value="FALLITA  (%d superati, %d falliti)"/>
+    <entry key="%s did not arrive within %d ms" value="%s non è arrivato entro %d ms"/>
+    <entry key="could not send %s (port busy, queue full, or sending not licensed)" value="impossibile inviare %s (porta occupata, coda piena, o invio non concesso dalla licenza)"/>
+    <entry key="stopped at the failure" value="fermata al fallimento"/>
+    <entry key="stopped" value="fermata"/>
+    <entry key="Test sequence - one step per line (hover here for the steps)" value="Sequenza di test - un passo per riga (passare qui sopra per i passi)"/>
+</translation>
