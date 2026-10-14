@@ -58,7 +58,7 @@
     <entry key="Write to the log messages up to:" value="Scrivi nel log i messaggi fino a:"/>
     <entry key="About %s" value="Informazioni su %s"/>
     <entry key="Version Information" value="Informazioni versione"/>
-    <entry key="Version: %s&#10;Build: %d (%s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="Versione: %s&#10;Build: %d (%s)&#10;Tipo di build: %s&#10;Sorgente (git): %s&#10;Cartella dati: %s"/>
+    <entry key="Version: %s&#10;Commit: %s (built %s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="Versione: %s&#10;Commit: %s (compilato %s)&#10;Tipo di build: %s&#10;Sorgente (git): %s&#10;Cartella dati: %s"/>
     <entry key="Development (Debug)" value="Sviluppo (Debug)"/>
     <entry key="Release candidate" value="Release candidate"/>
     <entry key="Final release" value="Versione finale"/>
@@ -921,7 +921,7 @@
     <entry key="not found" value="non trovato"/>
     <entry key="%d of %d" value="%d di %d"/>
     <entry key="Find...&#9;Ctrl+F" value="Trova...&#9;Ctrl+F"/>
-    <entry key="Serial console - filtered: %d of %d lines" value="Console seriale - filtrata: %d di %d righe"/>
+    <entry key="Console - filtered: %d of %d lines" value="Console - filtrata: %d di %d righe"/>
     <entry key="Show" value="Mostra"/>
     <entry key="Received (RX)" value="Ricevuti (RX)"/>
     <entry key="Sent (TX, auto replies, periodic, forwarded, replay)" value="Inviati (TX, risposte automatiche, periodici, inoltrati, riproduzione)"/>
@@ -968,7 +968,7 @@
     <entry key="%.0f bytes/s" value="%.0f byte/s"/>
     <entry key="%s ok, %s wrong, %s too short" value="%s ok, %s errati, %s troppo corti"/>
     <entry key="(not checked - Receive options)" value="(non verificato - Opzioni di ricezione)"/>
-    <entry key="Messages as the console shows them; file data being caught is not counted as received. Framing, parity and overrun errors of the line are not reported by the serial library." value="Messaggi come li mostra la console; i dati di un file in cattura non sono contati come ricevuti. Gli errori di trama, parità e overrun della linea non sono riportati dalla libreria seriale."/>
+    <entry key="Messages as the console shows them; file data being caught is not counted as received. Line errors are read from the driver (on Windows at most one of each kind per tenth of a second)." value="Messaggi come li mostra la console; i dati di un file in cattura non sono contati come ricevuti. Gli errori di linea sono letti dal driver (su Windows al massimo uno per tipo ogni decimo di secondo)."/>
     <entry key="Reset" value="Azzera"/>
     <entry key="Reopen the port when it comes back (USB adapter unplugged)" value="Riapri la porta quando ritorna (adattatore USB scollegato)"/>
     <entry key="When the port stops working (e.g. the USB adapter is unplugged) it is closed, and opened again as soon as the system lists it again." value="Quando la porta smette di funzionare (es. l&apos;adattatore USB viene scollegato) viene chiusa, e riaperta appena il sistema la elenca di nuovo."/>
@@ -1067,7 +1067,7 @@
     <entry key="Open..." value="Apri..."/>
     <entry key="Save..." value="Salva..."/>
     <entry key="Test sequence (*.spmseq)|*.spmseq|Text (*.txt)|*.txt|All files (*.*)|*.*" value="Sequenza di test (*.spmseq)|*.spmseq|Testo (*.txt)|*.txt|Tutti i file (*.*)|*.*"/>
-    <entry key="One step per line:&#10;  send &quot;AT\r\n&quot;   (text: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - waits for these bytes after the last send (pass / fail)&#10;  expect hex 01 03 within 200   - waiting at most 200 ms&#10;  timeout 1000   - the default wait of expect (ms)&#10;  delay 250   - waits (ms)&#10;  repeat 10 ... end   - repeat 0: until stopped&#10;  log &quot;text&quot;&#10;  onfail continue   /   onfail stop (default)&#10;  # comment" value="Un passo per riga:&#10;  send &quot;AT\r\n&quot;   (testo: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - attende questi byte dopo l&apos;ultimo invio (superato / fallito)&#10;  expect hex 01 03 within 200   - attendendo al massimo 200 ms&#10;  timeout 1000   - l&apos;attesa predefinita di expect (ms)&#10;  delay 250   - attende (ms)&#10;  repeat 10 ... end   - repeat 0: fino all&apos;arresto&#10;  log &quot;testo&quot;&#10;  onfail continue   /   onfail stop (predefinito)&#10;  # commento"/>
+    <entry key="One step per line:&#10;  send &quot;AT\r\n&quot;   (text: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - waits for these bytes after the last send (pass / fail)&#10;  expect hex 01 03 within 200   - waiting at most 200 ms&#10;  timeout 1000   - the default wait of expect (ms)&#10;  delay 250   - waits (ms)&#10;  repeat 10 ... end   - repeat 0: until stopped&#10;  log &quot;text&quot;&#10;  onfail continue   /   onfail stop (default)&#10;  set n 0   /   add n 1   - variables: {n} or {n:x2} in send, expect and log&#10;  send hex 01 03 00 00 00 01 crc CRC-16/MODBUS   - adds the checksum&#10;  expect regex &quot;OK|READY&quot;   /   expect none &quot;ERROR&quot; within 500&#10;  label start   /   goto start   /   onfail goto start&#10;  exit pass   /   exit fail&#10;  # comment" value="Un passo per riga:&#10;  send &quot;AT\r\n&quot;   (testo: \r \n \t \0 \\ \&quot; \xHH)&#10;  send hex 01 03 00 00   /   send mixed AT//0x0D&#10;  expect &quot;OK&quot;   - attende questi byte dopo l&apos;ultimo invio (superato / fallito)&#10;  expect hex 01 03 within 200   - attendendo al massimo 200 ms&#10;  timeout 1000   - l&apos;attesa predefinita di expect (ms)&#10;  delay 250   - attende (ms)&#10;  repeat 10 ... end   - repeat 0: fino all&apos;arresto&#10;  log &quot;testo&quot;&#10;  onfail continue   /   onfail stop (predefinito)&#10;  set n 0   /   add n 1   - variabili: {n} o {n:x2} in send, expect e log&#10;  send hex 01 03 00 00 00 01 crc CRC-16/MODBUS   - aggiunge il checksum&#10;  expect regex &quot;OK|READY&quot;   /   expect none &quot;ERROR&quot; within 500&#10;  label inizio   /   goto inizio   /   onfail goto inizio&#10;  exit pass   /   exit fail&#10;  # commento"/>
     <entry key="Error:" value="Errore:"/>
     <entry key="The script has errors (see the log)" value="Lo script contiene errori (vedere il registro)"/>
     <entry key="Running..." value="In esecuzione..."/>
@@ -1141,4 +1141,444 @@
     <entry key="Executable folder:" value="Cartella dell&apos;eseguibile:"/>
     <entry key="Data folder:" value="Cartella dei dati:"/>
     <entry key="Copy to clipboard" value="Copia negli appunti"/>
+    <entry key="Show the command buttons (Shift+F1...F12)" value="Mostra i pulsanti dei comandi (Maiusc+F1...F12)"/>
+    <entry key="No saved commands yet: Commands &gt; Save the text as a command..." value="Ancora nessun comando salvato: Comandi &gt; Salva il testo come comando..."/>
+    <entry key="Automation and receiving" value="Automazione e ricezione"/>
+    <entry key="Files, capture and replay" value="File, cattura e riproduzione"/>
+    <entry key="off" value="spente"/>
+    <entry key="&amp;View" value="&amp;Visualizza"/>
+    <entry key="Application &amp;Log" value="&amp;Log dell&apos;applicazione"/>
+    <entry key="Shows or hides the application log under the tabs" value="Mostra o nasconde il log dell&apos;applicazione sotto le schede"/>
+    <entry key="Log: %s  (View &gt; Application Log)" value="Log: %s  (Visualizza &gt; Log dell&apos;applicazione)"/>
+    <entry key="Console" value="Console"/>
+    <entry key="User &amp;Preferences..." value="&amp;Preferenze utente..."/>
+    <entry key="The style of the main window and the features it shows" value="Lo stile della finestra principale e le funzioni che mostra"/>
+    <entry key="More tools: Settings &gt; User Preferences..." value="Altri strumenti: Impostazioni &gt; Preferenze utente..."/>
+    <entry key="Style: %s" value="Stile: %s"/>
+    <entry key="Style: %s (custom)" value="Stile: %s (personalizzato)"/>
+    <entry key="User Preferences" value="Preferenze utente"/>
+    <entry key="How much of the program the main window shows. Pick a style, or tick the features one by one." value="Quanto del programma mostra la finestra principale. Scegli uno stile, o spunta le funzioni una per una."/>
+    <entry key="Style" value="Stile"/>
+    <entry key="Features shown" value="Funzioni mostrate"/>
+    <entry key="Open a port, send and receive: the essentials, nothing else." value="Aprire una porta, inviare e ricevere: l&apos;essenziale, nient&apos;altro."/>
+    <entry key="Adds control lines, counter and CRC, commands, automation, console tools, the terminal, analysis and the plotter." value="Aggiunge linee di controllo, contatore e CRC, comandi, automazione, strumenti della console, terminale, analisi e plotter."/>
+    <entry key="Adds forwarding, files, XMODEM, long-run logs, network ports, protocols, Modbus, line monitor, sequences, profiles." value="Aggiunge inoltro, file, XMODEM, log di lunga durata, porte di rete, protocolli, Modbus, monitor di linea, sequenze, profili."/>
+    <entry key="Everything, the features of the next versions included." value="Tutto, comprese le funzioni delle prossime versioni."/>
+    <entry key="Use the Style&apos;s Features" value="Usa le funzioni dello stile"/>
+    <entry key="Ticks exactly the features of the chosen style" value="Spunta esattamente le funzioni dello stile scelto"/>
+    <entry key="%s, with the features chosen one by one" value="%s, con le funzioni scelte una per una"/>
+    <entry key="The features of the %s style" value="Le funzioni dello stile %s"/>
+    <entry key="The choice is kept for the next start. A feature that is not shown is not active either (its automation, forwarding, counter and filters are not used); its settings stay, for when it is shown again." value="La scelta viene mantenuta al prossimo avvio. Una funzione non mostrata non è nemmeno attiva (la sua automazione, l&apos;inoltro, il contatore e i filtri non vengono usati); le sue impostazioni restano, per quando verrà mostrata di nuovo."/>
+    <entry key="Simple" value="Semplice"/>
+    <entry key="Advanced" value="Avanzato"/>
+    <entry key="Pro" value="Pro"/>
+    <entry key="Full" value="Completo"/>
+    <entry key="Control lines (RTS, DTR, CTS, DSR, DCD, RI, Break)" value="Linee di controllo (RTS, DTR, CTS, DSR, DCD, RI, Break)"/>
+    <entry key="Counter and checksum / CRC in sent messages" value="Contatore e checksum / CRC nei messaggi inviati"/>
+    <entry key="Saved commands and command buttons" value="Comandi salvati e pulsanti dei comandi"/>
+    <entry key="Auto replies and periodic messages" value="Risposte automatiche e messaggi periodici"/>
+    <entry key="Receive options (framing, checksum check)" value="Opzioni di ricezione (suddivisione, verifica checksum)"/>
+    <entry key="Console tools (find, filter, highlight, delta time, statistics)" value="Strumenti della console (cerca, filtra, evidenzia, tempo delta, statistiche)"/>
+    <entry key="Byte analysis (right-click, Byte Analyzer)" value="Analisi dei byte (clic destro, Analizzatore di byte)"/>
+    <entry key="Serial plotter" value="Plotter seriale"/>
+    <entry key="File transfer (send and catch files)" value="Trasferimento file (invio e cattura di file)"/>
+    <entry key="Capture, replay and console export" value="Cattura, riproduzione ed esportazione della console"/>
+    <entry key="Protocols window (information and simulation)" value="Finestra dei protocolli (informazioni e simulazione)"/>
+    <entry key="Modbus master" value="Modbus master"/>
+    <entry key="Test sequences" value="Sequenze di test"/>
+    <entry key="Profiles (export / import the setup)" value="Profili (esporta / importa la configurazione)"/>
+    <entry key="Line errors" value="Errori di linea"/>
+    <entry key="not read (the serial library has no getNativeHandle(): build it from the CogaF fork)" value="non letti (la libreria seriale non ha getNativeHandle(): compilarla dal fork CogaF)"/>
+    <entry key="not given by the driver of this port" value="non forniti dal driver di questa porta"/>
+    <entry key="%llu break(s) received" value="%llu break ricevuti"/>
+    <entry key="%llu framing error(s)" value="%llu errori di trama"/>
+    <entry key="%llu parity error(s)" value="%llu errori di parità"/>
+    <entry key="%llu overrun error(s)" value="%llu errori di overrun"/>
+    <entry key="%llu input buffer overflow(s)" value="%llu overflow del buffer di ingresso"/>
+    <entry key="Terminal" value="Terminale"/>
+    <entry key="A VT100 / ANSI terminal instead of the console: every key is sent as you type it, the device draws with colours and moves the cursor (shells, boot loaders, menus). Right-click for its options." value="Un terminale VT100 / ANSI al posto della console: ogni tasto viene inviato mentre lo premi, il dispositivo disegna con i colori e sposta il cursore (shell, boot loader, menu). Clic destro per le sue opzioni."/>
+    <entry key="Keys go to the device. Ctrl+Shift+C copies the selection, Ctrl+Shift+V pastes, Shift+PgUp / PgDn scroll back." value="I tasti vanno al dispositivo. Ctrl+Maiusc+C copia la selezione, Ctrl+Maiusc+V incolla, Maiusc+PagSu / PagGiù scorrono indietro."/>
+    <entry key="Copy&#9;Ctrl+Shift+C" value="Copia&#9;Ctrl+Maiusc+C"/>
+    <entry key="Copy All Text" value="Copia tutto il testo"/>
+    <entry key="Paste (send)&#9;Ctrl+Shift+V" value="Incolla (invia)&#9;Ctrl+Maiusc+V"/>
+    <entry key="Clear Terminal" value="Pulisci terminale"/>
+    <entry key="Local Echo (show what is typed)" value="Eco locale (mostra ciò che si digita)"/>
+    <entry key="Enter Sends" value="Invio manda"/>
+    <entry key="Backspace Sends" value="Backspace manda"/>
+    <entry key="Terminal (VT100 / ANSI: keys sent as typed, colours, cursor)" value="Terminale (VT100 / ANSI: tasti inviati mentre si digita, colori, cursore)"/>
+    <entry key="XMODEM / YMODEM:" value="XMODEM / YMODEM:"/>
+    <entry key="XMODEM: 128-byte blocks, checksum or CRC as the receiver asks. XMODEM-1K: 1024-byte blocks. YMODEM: 1K blocks, the file&apos;s name and size sent first (the size is kept exactly)." value="XMODEM: blocchi da 128 byte, checksum o CRC come chiede il ricevitore. XMODEM-1K: blocchi da 1024 byte. YMODEM: blocchi da 1K, nome e dimensione del file inviati per primi (la dimensione resta esatta)."/>
+    <entry key="Receive File..." value="Ricevi file..."/>
+    <entry key="File to Send with XMODEM / YMODEM" value="File da inviare con XMODEM / YMODEM"/>
+    <entry key="Save the Received File As" value="Salva il file ricevuto come"/>
+    <entry key="Folder for the Received File (its name comes with it)" value="Cartella per il file ricevuto (il nome arriva con il file)"/>
+    <entry key="Cannot read %s." value="Impossibile leggere %s."/>
+    <entry key="sending %s (%s): waiting for the receiver to start" value="invio di %s (%s): in attesa che il ricevitore inizi"/>
+    <entry key="receiving into %s: waiting for the sender" value="ricezione in %s: in attesa del mittente"/>
+    <entry key="%d again" value="%d ripetuti"/>
+    <entry key="%s sent: %s in %.1f s, %d block(s) sent again" value="%s inviato: %s in %.1f s, %d blocchi ripetuti"/>
+    <entry key="%s received: %s in %.1f s, %d damaged block(s) asked again" value="%s ricevuto: %s in %.1f s, %d blocchi danneggiati richiesti di nuovo"/>
+    <entry key="stopped: %s (%s transferred)%s" value="interrotto: %s (%s trasferiti)%s"/>
+    <entry key="the file could not be written" value="il file non ha potuto essere scritto"/>
+    <entry key="XMODEM / YMODEM file transfer" value="Trasferimento file XMODEM / YMODEM"/>
+    <entry key="waiting for the receiver" value="in attesa del ricevitore"/>
+    <entry key="waiting for the sender" value="in attesa del mittente"/>
+    <entry key="sending (CRC-16)" value="invio (CRC-16)"/>
+    <entry key="sending (checksum)" value="invio (checksum)"/>
+    <entry key="sent" value="inviato"/>
+    <entry key="received" value="ricevuto"/>
+    <entry key="receiving" value="ricezione"/>
+    <entry key="cancelled" value="annullato"/>
+    <entry key="cancelled by the receiver" value="annullato dal ricevitore"/>
+    <entry key="cancelled by the sender" value="annullato dal mittente"/>
+    <entry key="the receiver did not start" value="il ricevitore non è partito"/>
+    <entry key="no sender" value="nessun mittente"/>
+    <entry key="the sender stopped" value="il mittente si è fermato"/>
+    <entry key="too many damaged blocks" value="troppi blocchi danneggiati"/>
+    <entry key="blocks out of order" value="blocchi fuori ordine"/>
+    <entry key="a second file (only one at a time)" value="un secondo file (solo uno alla volta)"/>
+    <entry key="block 0 refused (too many tries)" value="blocco 0 rifiutato (troppi tentativi)"/>
+    <entry key="block refused (too many tries)" value="blocco rifiutato (troppi tentativi)"/>
+    <entry key="end refused (too many tries)" value="fine rifiutata (troppi tentativi)"/>
+    <entry key="end of batch refused (too many tries)" value="fine del lotto rifiutata (troppi tentativi)"/>
+    <entry key="no answer (too many tries)" value="nessuna risposta (troppi tentativi)"/>
+    <entry key="Text &amp;Size..." value="&amp;Dimensione del testo..."/>
+    <entry key="The size of the text in every window, and of the console and the terminal" value="La dimensione del testo in ogni finestra, e della console e del terminale"/>
+    <entry key="Text Size" value="Dimensione del testo"/>
+    <entry key="Windows and dialogs:" value="Finestre e dialoghi:"/>
+    <entry key="% of the system size" value="% della dimensione di sistema"/>
+    <entry key="Console and terminal:" value="Console e terminale:"/>
+    <entry key="points (also A- / A+ next to the console, or Ctrl + mouse wheel on it)" value="punti (anche A- / A+ accanto alla console, o Ctrl + rotellina su di essa)"/>
+    <entry key="Kept for the next start. The menus and the title bars keep the system&apos;s size." value="Mantenuta al prossimo avvio. I menu e le barre del titolo mantengono la dimensione di sistema."/>
+    <entry key="Defaults" value="Predefiniti"/>
+    <entry key="Smaller text in the console and the terminal (every tab; also Ctrl + mouse wheel down)" value="Testo più piccolo nella console e nel terminale (tutte le schede; anche Ctrl + rotellina giù)"/>
+    <entry key="Larger text in the console and the terminal (every tab; also Ctrl + mouse wheel up)" value="Testo più grande nella console e nel terminale (tutte le schede; anche Ctrl + rotellina su)"/>
+    <entry key="Network..." value="Rete..."/>
+    <entry key="A port over the network instead of a COM port: TCP client, TCP server, or RFC 2217 (a serial device server that also sets the speed and the control lines)" value="Una porta via rete invece di una porta COM: client TCP, server TCP, o RFC 2217 (un server seriale che imposta anche la velocità e le linee di controllo)"/>
+    <entry key="Network Port" value="Porta di rete"/>
+    <entry key="Kind:" value="Tipo:"/>
+    <entry key="Host (address or name):" value="Host (indirizzo o nome):"/>
+    <entry key="TCP port:" value="Porta TCP:"/>
+    <entry key="TCP client (raw bytes)" value="Client TCP (byte grezzi)"/>
+    <entry key="TCP server (waits for a client)" value="Server TCP (attende un client)"/>
+    <entry key="RFC 2217 (Telnet COM port control)" value="RFC 2217 (controllo porta COM via Telnet)"/>
+    <entry key="Connects to a serial device server in raw / TCP mode (ser2net raw, Ethernet or Wi-Fi bridges): the bytes go as they are. The speed and the lines are set on the device itself." value="Si collega a un server seriale in modalità raw / TCP (ser2net raw, bridge Ethernet o Wi-Fi): i byte passano così come sono. Velocità e linee si impostano sul dispositivo stesso."/>
+    <entry key="Listens on the TCP port (host empty = every address of this PC) and talks with the last client that connected - for a device or program that connects to this PC." value="Ascolta sulla porta TCP (host vuoto = ogni indirizzo di questo PC) e comunica con l&apos;ultimo client che si è collegato - per un dispositivo o programma che si collega a questo PC."/>
+    <entry key="Telnet with the COM-PORT-OPTION: the speed, data bits, parity, stop bits and flow control of this tab are set on the remote port; RTS, DTR and Break work, CTS / DSR / DCD / RI and line errors come back." value="Telnet con la COM-PORT-OPTION: velocità, bit di dati, parità, bit di stop e controllo di flusso di questa scheda sono impostati sulla porta remota; RTS, DTR e Break funzionano, CTS / DSR / DCD / RI ed errori di linea ritornano."/>
+    <entry key="Write a host (a client needs one) and a TCP port from 1 to 65535." value="Scrivi un host (un client ne ha bisogno) e una porta TCP da 1 a 65535."/>
+    <entry key="Network ports (TCP client / server, RFC 2217)" value="Porte di rete (client / server TCP, RFC 2217)"/>
+    <entry key="Modbus &amp;Slave Simulator..." value="Simulatore &amp;slave Modbus..."/>
+    <entry key="Modbus Slave Simulator" value="Simulatore slave Modbus"/>
+    <entry key="Slave address:" value="Indirizzo slave:"/>
+    <entry key="Answer after:" value="Rispondi dopo:"/>
+    <entry key="A pause before every answer, as a slow device (0 = at once)" value="Una pausa prima di ogni risposta, come un dispositivo lento (0 = subito)"/>
+    <entry key="Answer" value="Rispondi"/>
+    <entry key="The port of the chosen tab answers the requests as this slave" value="La porta della scheda scelta risponde alle richieste come questo slave"/>
+    <entry key="The chosen tab&apos;s port answers as a Modbus slave: functions 01-06, 15, 16 on the values below (addresses 0-9999; double-click a cell to change it, 0x for hex). Writes of the master show here. Unknown functions and addresses get exceptions 1 and 2. The values are kept for the next start." value="La porta della scheda scelta risponde come uno slave Modbus: funzioni 01-06, 15, 16 sui valori qui sotto (indirizzi 0-9999; doppio clic su una cella per cambiarla, 0x per l&apos;esadecimale). Le scritture del master compaiono qui. Funzioni e indirizzi sconosciuti ricevono le eccezioni 1 e 2. I valori sono mantenuti al prossimo avvio."/>
+    <entry key="Coil (0x)" value="Coil (0x)"/>
+    <entry key="Discrete input (1x)" value="Ingresso discreto (1x)"/>
+    <entry key="Input register (3x)" value="Registro di ingresso (3x)"/>
+    <entry key="Holding register (4x)" value="Registro holding (4x)"/>
+    <entry key="%s answers as slave %d" value="%s risponde come slave %d"/>
+    <entry key="stopped answering" value="non risponde più"/>
+    <entry key="%s, address %u, %u - answered" value="%s, indirizzo %u, %u - risposto"/>
+    <entry key="%s, address %u, %u - broadcast: done, not answered" value="%s, indirizzo %u, %u - broadcast: eseguito, senza risposta"/>
+    <entry key="%s - exception %d: %s" value="%s - eccezione %d: %s"/>
+    <entry key="a request for slave %d - not answered" value="una richiesta per lo slave %d - nessuna risposta"/>
+    <entry key="damaged frame (checksum) - not answered" value="frame danneggiato (checksum) - nessuna risposta"/>
+    <entry key="Requests: %llu   answered: %llu   exceptions: %llu   for other slaves: %llu   damaged: %llu" value="Richieste: %llu   risposte: %llu   eccezioni: %llu   per altri slave: %llu   danneggiate: %llu"/>
+    <entry key="Decode Modbus" value="Decodifica Modbus"/>
+    <entry key="Every message read as a Modbus RTU / ASCII frame: who asks what, what comes back" value="Ogni messaggio letto come frame Modbus RTU / ASCII: chi chiede cosa, cosa ritorna"/>
+    <entry key="Off" value="Disattivata"/>
+    <entry key="[slave %d: %s, %d from %d]" value="[slave %d: %s, %d da %d]"/>
+    <entry key="[slave %d: %s at %d = %s]" value="[slave %d: %s in %d = %s]"/>
+    <entry key="[slave %d: %s -&gt; %s]" value="[slave %d: %s -&gt; %s]"/>
+    <entry key="[slave %d: %s at %d done]" value="[slave %d: %s in %d eseguito]"/>
+    <entry key="[slave %d: %s exception %d: %s]" value="[slave %d: %s eccezione %d: %s]"/>
+    <entry key="Modbus master, slave simulator and decoding" value="Master Modbus, simulatore slave e decodifica"/>
+    <entry key="&amp;Line Monitor (two ports)..." value="Monitor di &amp;linea (due porte)..."/>
+    <entry key="Line Monitor" value="Monitor di linea"/>
+    <entry key="Device A:" value="Dispositivo A:"/>
+    <entry key="Device B:" value="Dispositivo B:"/>
+    <entry key="The tab whose port receives what this device sends (its TX wire, through a sniffer / Y cable); open it at the link&apos;s settings" value="La scheda la cui porta riceve ciò che questo dispositivo invia (il suo filo TX, con un cavo sniffer / a Y); aprila con le impostazioni del collegamento"/>
+    <entry key="name:" value="nome:"/>
+    <entry key="Join pieces within" value="Unisci pezzi entro"/>
+    <entry key="Pieces of one message the port delivered apart, from the same side and at most this far apart, are one row (0 = never joined)" value="I pezzi di un messaggio che la porta ha consegnato separati, dallo stesso lato e al massimo a questa distanza, sono una riga (0 = mai uniti)"/>
+    <entry key="A is the master: what A sends is read as requests, what B sends as responses" value="A è il master: ciò che invia A è letto come richieste, ciò che invia B come risposte"/>
+    <entry key="Pause the list" value="Pausa elenco"/>
+    <entry key="The list stays still to be read; what arrives is still recorded" value="L&apos;elenco resta fermo per essere letto; ciò che arriva viene comunque registrato"/>
+    <entry key="#" value="#"/>
+    <entry key="Gap ms" value="Pausa ms"/>
+    <entry key="Text" value="Testo"/>
+    <entry key="Modbus" value="Modbus"/>
+    <entry key="Choose two different tabs: one for each device." value="Scegli due schede diverse: una per ogni dispositivo."/>
+    <entry key="Open the port of %s first." value="Apri prima la porta di %s."/>
+    <entry key="Watching - %d messages" value="In osservazione - %d messaggi"/>
+    <entry key="Stopped - %d messages" value="Fermo - %d messaggi"/>
+    <entry key="(%d oldest dropped: the list keeps 100000)" value="(%d più vecchi scartati: l&apos;elenco ne tiene 100000)"/>
+    <entry key="Line monitor (two ports, one link)" value="Monitor di linea (due porte, un collegamento)"/>
+    <entry key="Record into files" value="Registra su file"/>
+    <entry key="While the port is open, everything received and sent goes into log files in a folder: a new file at a size and every day, the oldest deleted - for recordings of days or weeks" value="Mentre la porta è aperta, tutto ciò che è ricevuto e inviato va in file di log in una cartella: un nuovo file a una dimensione e ogni giorno, i più vecchi cancellati - per registrazioni di giorni o settimane"/>
+    <entry key="Log Options..." value="Opzioni log..."/>
+    <entry key="Log" value="Log"/>
+    <entry key="recording into %s" value="registrazione in %s"/>
+    <entry key="recording stopped" value="registrazione fermata"/>
+    <entry key="cannot record: %s" value="impossibile registrare: %s"/>
+    <entry key="the log file cannot be written (disk full?) - recording stopped" value="il file di log non può essere scritto (disco pieno?) - registrazione fermata"/>
+    <entry key="new file at %d MB, keeps %d files" value="nuovo file a %d MB, ne tiene %d"/>
+    <entry key="every day" value="ogni giorno"/>
+    <entry key="Long-Run Log" value="Log di lunga durata"/>
+    <entry key="Folder:" value="Cartella:"/>
+    <entry key="File names start with:" value="I nomi dei file iniziano con:"/>
+    <entry key="New file at (MB):" value="Nuovo file a (MB):"/>
+    <entry key="0 = no size limit" value="0 = nessun limite di dimensione"/>
+    <entry key="Files kept:" value="File mantenuti:"/>
+    <entry key="The oldest are deleted beyond this number (0 = keep all)" value="I più vecchi oltre questo numero vengono cancellati (0 = tieni tutti)"/>
+    <entry key="A new file every day (at midnight)" value="Un nuovo file ogni giorno (a mezzanotte)"/>
+    <entry key="CSV (for a spreadsheet) instead of text" value="CSV (per un foglio di calcolo) invece del testo"/>
+    <entry key="Files: &lt;name&gt;_YYYYMMDD_HHMMSS.log (or .csv). Every line is written at once (nothing is lost by a crash or a power cut). Only this log&apos;s files are deleted." value="File: &lt;nome&gt;_AAAAMMGG_HHMMSS.log (o .csv). Ogni riga è scritta subito (nulla va perso per un crash o un&apos;interruzione di corrente). Vengono cancellati solo i file di questo log."/>
+    <entry key="Long-run log files (rotating, for days or weeks)" value="File di log di lunga durata (a rotazione, per giorni o settimane)"/>
+    <entry key="GPS / GNSS..." value="GPS / GNSS..."/>
+    <entry key="GPS / GNSS" value="GPS / GNSS"/>
+    <entry key="Receiver on:" value="Ricevitore su:"/>
+    <entry key="The tab whose port the GPS receiver is connected to (open it in its tab first, at the receiver&apos;s baud rate - often 9600 or 38400)." value="La scheda alla cui porta è collegato il ricevitore GPS (aprila prima nella sua scheda, alla velocità del ricevitore - spesso 9600 o 38400)."/>
+    <entry key="Listen" value="Ascolta"/>
+    <entry key="Reads what the port receives (the tab&apos;s console goes on showing it)." value="Legge ciò che la porta riceve (la console della scheda continua a mostrarlo)."/>
+    <entry key="Reset view" value="Azzera vista"/>
+    <entry key="Forgets the position, satellites, track, graphs and message counts (the receiver is not touched)." value="Dimentica posizione, satelliti, traccia, grafici e conteggi dei messaggi (il ricevitore non viene toccato)."/>
+    <entry key="Listening on %s" value="In ascolto su %s"/>
+    <entry key="Not listening" value="Non in ascolto"/>
+    <entry key="Dashboard" value="Cruscotto"/>
+    <entry key="Satellites" value="Satelliti"/>
+    <entry key="Track" value="Traccia"/>
+    <entry key="Graphs" value="Grafici"/>
+    <entry key="Messages" value="Messaggi"/>
+    <entry key="Coordinates:" value="Coordinate:"/>
+    <entry key="Speed in:" value="Velocità in:"/>
+    <entry key="Altitude in:" value="Quota in:"/>
+    <entry key="knots" value="nodi"/>
+    <entry key="Show on OpenStreetMap" value="Mostra su OpenStreetMap"/>
+    <entry key="Opens the current position in the browser (needs the Internet)." value="Apre la posizione attuale nel browser (serve Internet)."/>
+    <entry key="Copy position" value="Copia posizione"/>
+    <entry key="Copies &quot;latitude, longitude&quot; in decimal degrees (pastes into map apps and search engines)." value="Copia &quot;latitudine, longitudine&quot; in gradi decimali (si incolla in app di mappe e motori di ricerca)."/>
+    <entry key="There is no position yet (no fix)." value="Non c&apos;è ancora una posizione (nessun fix)."/>
+    <entry key="Latitude" value="Latitudine"/>
+    <entry key="Longitude" value="Longitudine"/>
+    <entry key="Altitude (sea level)" value="Quota (livello del mare)"/>
+    <entry key="Geoid separation" value="Separazione del geoide"/>
+    <entry key="ellipsoid:" value="ellissoide:"/>
+    <entry key="Course" value="Rotta"/>
+    <entry key="Climb rate" value="Velocità verticale"/>
+    <entry key="Heading" value="Prua"/>
+    <entry key="Roll / pitch" value="Rollio / beccheggio"/>
+    <entry key="Satellites (used / in view)" value="Satelliti (usati / visibili)"/>
+    <entry key="DOP (P / H / V)" value="DOP (P / H / V)"/>
+    <entry key="Accuracy (horiz. / vert.)" value="Precisione (orizz. / vert.)"/>
+    <entry key="Speed accuracy" value="Precisione della velocità"/>
+    <entry key="Date and time" value="Data e ora"/>
+    <entry key="Differential corrections" value="Correzioni differenziali"/>
+    <entry key="age %.1f s, station %d" value="età %.1f s, stazione %d"/>
+    <entry key="Maidenhead locator" value="Locatore Maidenhead"/>
+    <entry key="UTM (WGS 84)" value="UTM (WGS 84)"/>
+    <entry key="Datum" value="Datum"/>
+    <entry key="Base station (RTCM)" value="Stazione base (RTCM)"/>
+    <entry key="%.3f km away" value="a %.3f km"/>
+    <entry key="base" value="base"/>
+    <entry key="Receiver" value="Ricevitore"/>
+    <entry key="Protocols seen" value="Protocolli visti"/>
+    <entry key="Manufacturer (detected)" value="Produttore (rilevato)"/>
+    <entry key="Blue: course over ground (where it moves). Violet: heading (where it points), from receivers that give it." value="Blu: rotta sul terreno (dove si muove). Viola: prua (dove punta), dai ricevitori che la forniscono."/>
+    <entry key="%s fix  -  %d satellites" value="Fix %s  -  %d satelliti"/>
+    <entry key="No fix" value="Nessun fix"/>
+    <entry key="%d satellites in view" value="%d satelliti visibili"/>
+    <entry key="Waiting for data from the receiver..." value="In attesa di dati dal ricevitore..."/>
+    <entry key="Not listening: choose the port and press Listen." value="Non in ascolto: scegli la porta e premi Ascolta."/>
+    <entry key="Centre: straight up; edge: the horizon. Filled: used in the fix." value="Centro: allo zenit; bordo: l&apos;orizzonte. Pieno: usato nel fix."/>
+    <entry key="PRN" value="PRN"/>
+    <entry key="Elevation" value="Elevazione"/>
+    <entry key="Azimuth" value="Azimut"/>
+    <entry key="In use" value="In uso"/>
+    <entry key="yes" value="sì"/>
+    <entry key="Record the track" value="Registra la traccia"/>
+    <entry key="Adds a point for every new position (at most one per second unless it moved)." value="Aggiunge un punto per ogni nuova posizione (al massimo uno al secondo, salvo spostamenti)."/>
+    <entry key="Follow" value="Segui"/>
+    <entry key="Keeps the current position in the middle of the map." value="Tiene la posizione attuale al centro della mappa."/>
+    <entry key="Whole track" value="Traccia intera"/>
+    <entry key="Zooms to show the whole track (also: double-click the map)." value="Ingrandisce per mostrare tutta la traccia (anche: doppio clic sulla mappa)."/>
+    <entry key="Clear track" value="Cancella traccia"/>
+    <entry key="Export %s..." value="Esporta %s..."/>
+    <entry key="Export the track" value="Esporta la traccia"/>
+    <entry key="The track is empty." value="La traccia è vuota."/>
+    <entry key="Wheel: zoom.  Drag: move.  Double-click: whole track.  Green: start, red: now (with the direction and the accuracy circle). Colour: slow (blue) to fast (red)." value="Rotella: zoom.  Trascina: sposta.  Doppio clic: traccia intera.  Verde: partenza, rosso: ora (con la direzione e il cerchio di precisione). Colore: lento (blu) a veloce (rosso)."/>
+    <entry key="No position yet." value="Ancora nessuna posizione."/>
+    <entry key="%d points   %.2f km   %s   average %.1f / max %.1f %s   altitude %.0f to %.0f m   climb %.0f m, descent %.0f m" value="%d punti   %.2f km   %s   media %.1f / max %.1f %s   quota da %.0f a %.0f m   salita %.0f m, discesa %.0f m"/>
+    <entry key="Show the last:" value="Mostra gli ultimi:"/>
+    <entry key="all" value="tutto"/>
+    <entry key="One sample a second while data arrives." value="Un campione al secondo mentre arrivano i dati."/>
+    <entry key="Satellites (blue: used, orange: in view)" value="Satelliti (blu: usati, arancio: visibili)"/>
+    <entry key="Horizontal accuracy (m)" value="Precisione orizzontale (m)"/>
+    <entry key="Climb rate (m/s)" value="Velocità verticale (m/s)"/>
+    <entry key="Commands for:" value="Comandi per:"/>
+    <entry key="The receiver&apos;s command set. Automatic: from what it sends (its own sentences or binary messages); choose it if it sends only standard NMEA." value="Il set di comandi del ricevitore. Automatico: da ciò che invia (le sue frasi o i messaggi binari); sceglilo se invia solo NMEA standard."/>
+    <entry key="detected: %s" value="rilevato: %s"/>
+    <entry key="not detected yet (standard NMEA only so far)" value="non ancora rilevato (finora solo NMEA standard)"/>
+    <entry key="Restart" value="Riavvio"/>
+    <entry key="Hot" value="A caldo"/>
+    <entry key="Warm" value="Tiepido"/>
+    <entry key="Cold" value="A freddo"/>
+    <entry key="Factory reset" value="Ripristino di fabbrica"/>
+    <entry key="Restart keeping everything: the fix comes back in seconds." value="Riavvio mantenendo tutto: il fix torna in pochi secondi."/>
+    <entry key="Restart forgetting the ephemerides: about half a minute." value="Riavvio dimenticando le effemeridi: circa mezzo minuto."/>
+    <entry key="Restart from nothing (time, position, almanac): a minute or more - for tests of the time to first fix." value="Riavvio da zero (ora, posizione, almanacco): un minuto o più - per provare il tempo al primo fix."/>
+    <entry key="Cold restart with the factory settings (rate, baud rate, sentences...)." value="Riavvio a freddo con le impostazioni di fabbrica (frequenza, velocità, frasi...)."/>
+    <entry key="Reset the receiver to its factory settings? Its baud rate may change too." value="Riportare il ricevitore alle impostazioni di fabbrica? Anche la sua velocità potrebbe cambiare."/>
+    <entry key="Update rate and baud rate" value="Frequenza di aggiornamento e velocità"/>
+    <entry key="Rate:" value="Frequenza:"/>
+    <entry key="Positions per second. High rates need a higher baud rate (or fewer sentences)." value="Posizioni al secondo. Frequenze alte richiedono una velocità maggiore (o meno frasi)."/>
+    <entry key="Note: at 5 Hz or more 9600 baud is often too slow for all the sentences - raise the baud rate or turn some sentences off." value="Nota: da 5 Hz in su 9600 baud spesso non bastano per tutte le frasi - aumenta la velocità o disattiva qualche frase."/>
+    <entry key="Baud rate:" value="Velocità:"/>
+    <entry key="Changes the receiver&apos;s baud rate; then the port must change too (you are asked)." value="Cambia la velocità del ricevitore; poi deve cambiare anche la porta (viene chiesto)."/>
+    <entry key="Set this port to %d baud too, so the receiver is understood again?" value="Impostare anche questa porta a %d baud, così il ricevitore si capisce di nuovo?"/>
+    <entry key="%s now at %d baud." value="%s ora a %d baud."/>
+    <entry key="NMEA sentences sent by the receiver" value="Frasi NMEA inviate dal ricevitore"/>
+    <entry key="Turns each sentence on (once per fix) or off." value="Attiva (una volta per fix) o disattiva ogni frase."/>
+    <entry key="Constellations and SBAS" value="Costellazioni e SBAS"/>
+    <entry key="Which satellite systems are used (each receiver supports only some of them)." value="Quali sistemi satellitari usare (ogni ricevitore ne supporta solo alcuni)."/>
+    <entry key="SBAS on" value="SBAS attivo"/>
+    <entry key="SBAS off" value="SBAS spento"/>
+    <entry key="Corrections from WAAS / EGNOS / MSAS satellites (better accuracy where they are received)." value="Correzioni dai satelliti WAAS / EGNOS / MSAS (precisione migliore dove si ricevono)."/>
+    <entry key="CASIC receivers: Galileo is not in the PCAS04 choices - GPS, BeiDou and GLONASS only." value="Ricevitori CASIC: Galileo non è tra le scelte di PCAS04 - solo GPS, BeiDou e GLONASS."/>
+    <entry key="Dynamic model" value="Modello dinamico"/>
+    <entry key="Tells the receiver how it moves, for a smoother and more accurate solution." value="Dice al ricevitore come si muove, per una soluzione più regolare e precisa."/>
+    <entry key="Portable" value="Portatile"/>
+    <entry key="Stationary" value="Fermo"/>
+    <entry key="Pedestrian" value="Pedone"/>
+    <entry key="Automotive" value="Automobile"/>
+    <entry key="Sea" value="Mare"/>
+    <entry key="Airborne &lt; 1 g" value="In volo &lt; 1 g"/>
+    <entry key="Airborne &lt; 2 g" value="In volo &lt; 2 g"/>
+    <entry key="Airborne &lt; 4 g" value="In volo &lt; 4 g"/>
+    <entry key="Wrist" value="Polso"/>
+    <entry key="Normal" value="Normale"/>
+    <entry key="Fitness" value="Fitness"/>
+    <entry key="Aviation" value="Aviazione"/>
+    <entry key="Balloon" value="Pallone"/>
+    <entry key="Other" value="Altro"/>
+    <entry key="Ask the version" value="Chiedi la versione"/>
+    <entry key="Asks for the firmware version (the answer appears in the log and on the dashboard)." value="Chiede la versione del firmware (la risposta compare nel registro e nel cruscotto)."/>
+    <entry key="Save settings" value="Salva impostazioni"/>
+    <entry key="Stores the current settings in the receiver&apos;s flash / battery-backed memory." value="Memorizza le impostazioni attuali nella flash / memoria tamponata del ricevitore."/>
+    <entry key="Binary output" value="Uscita binaria"/>
+    <entry key="Switches the receiver to its binary protocol (SiRF / SkyTraq) - still decoded here." value="Passa il ricevitore al suo protocollo binario (SiRF / SkyTraq) - viene decodificato anche qui."/>
+    <entry key="NMEA output" value="Uscita NMEA"/>
+    <entry key="Switches the receiver back to NMEA sentences." value="Riporta il ricevitore alle frasi NMEA."/>
+    <entry key="Standby" value="Standby"/>
+    <entry key="Low-power standby until a byte arrives on the port." value="Standby a basso consumo fino all&apos;arrivo di un byte sulla porta."/>
+    <entry key="Custom command" value="Comando personalizzato"/>
+    <entry key="The sentence without $ and checksum (e.g. PMTK220,200): they are added. Enter sends." value="La frase senza $ e checksum (es. PMTK220,200): vengono aggiunti. Invio la manda."/>
+    <entry key="Class, id and payload in hex (e.g. 06 08 C8 00 01 00 01 00): the header, length and checksum are added. Enter sends." value="Classe, id e dati in esadecimale (es. 06 08 C8 00 01 00 01 00): intestazione, lunghezza e checksum vengono aggiunti. Invio lo manda."/>
+    <entry key="Write the class and id in hex, then the payload (e.g. 0A 04)." value="Scrivi classe e id in esadecimale, poi i dati (es. 0A 04)."/>
+    <entry key="Commands sent and answers:" value="Comandi inviati e risposte:"/>
+    <entry key="not sent" value="non inviato"/>
+    <entry key="Not available for %s." value="Non disponibile per %s."/>
+    <entry key="Open the receiver&apos;s port first (in its tab)." value="Apri prima la porta del ricevitore (nella sua scheda)."/>
+    <entry key="Count" value="Numero"/>
+    <entry key="Errors" value="Errori"/>
+    <entry key="Hz" value="Hz"/>
+    <entry key="Last received" value="Ultimo ricevuto"/>
+    <entry key="Texts from the receiver (TXT, INF, vendor sentences):" value="Testi dal ricevitore (TXT, INF, frasi del produttore):"/>
+    <entry key="GPS receivers (NMEA, UBX, SiRF, SkyTraq, RTCM: dashboard, map, control)" value="Ricevitori GPS (NMEA, UBX, SiRF, SkyTraq, RTCM: cruscotto, mappa, controllo)"/>
+    <entry key="no fix" value="nessun fix"/>
+    <entry key="2D" value="2D"/>
+    <entry key="3D" value="3D"/>
+    <entry key="DGPS" value="DGPS"/>
+    <entry key="RTK float" value="RTK float"/>
+    <entry key="RTK fixed" value="RTK fixed"/>
+    <entry key="dead reckoning" value="stima inerziale"/>
+    <entry key="estimated" value="stimato"/>
+    <entry key="manual" value="manuale"/>
+    <entry key="simulated" value="simulato"/>
+    <entry key="Generic NMEA" value="NMEA generico"/>
+    <entry key="Apply" value="Applica"/>
+    <entry key="Protocol Definitions..." value="Definizioni di protocollo..."/>
+    <entry key="Protocol Definitions" value="Definizioni di protocollo"/>
+    <entry key="Saves the definitions and uses them in the consoles, the Line Monitor and the plotter (the protocols with errors are left out)." value="Salva le definizioni e le usa nelle console, nel Monitor di linea e nel plotter (i protocolli con errori sono esclusi)."/>
+    <entry key="Revert" value="Ripristina"/>
+    <entry key="Back to the definitions in use (the changes not applied are lost)." value="Torna alle definizioni in uso (le modifiche non applicate vanno perse)."/>
+    <entry key="Throw away the changes not applied?" value="Scartare le modifiche non applicate?"/>
+    <entry key="Apply the changes before closing?" value="Applicare le modifiche prima di chiudere?"/>
+    <entry key="Add example" value="Aggiungi esempio"/>
+    <entry key="Adds an example (a binary sensor protocol and a text protocol) after what is written." value="Aggiunge un esempio (un protocollo binario di un sensore e uno di testo) dopo ciò che è scritto."/>
+    <entry key="Import..." value="Importa..."/>
+    <entry key="Adds the definitions of a file after what is written." value="Aggiunge le definizioni di un file dopo ciò che è scritto."/>
+    <entry key="Export..." value="Esporta..."/>
+    <entry key="Saves the text to a file (to share it or keep a copy)." value="Salva il testo in un file (per condividerlo o tenerne una copia)."/>
+    <entry key="Syntax..." value="Sintassi..."/>
+    <entry key="How a definition is written." value="Come si scrive una definizione."/>
+    <entry key="protocol &quot;Name&quot;            a protocol; its lines up to &quot;end&quot;&#10;  sync AA 55               the frame starts with these bytes (hex)&#10;  end 0D 0A                the frame ends with these bytes&#10;  length 12                every frame has 12 bytes, or:&#10;  length field len + 6     the whole frame is the value of field len + 6 bytes (also * N, - N)&#10;  order little             numbers without le / be are little-endian (default: big)&#10;  checksum CRC-16/MODBUS from 0 to -3 at -2 little&#10;                           any CRC or sum of the Byte Analyzer, by name; over the bytes from .. to&#10;                           (negative: counted from the end, -1 = the last byte), the value at &quot;at&quot;&#10;  match addr == 1          the frame is this protocol only if the condition holds&#10;  field NAME TYPE OPTIONS  the fields in order&#10;  when cmd == 0x81         the fields up to &quot;end&quot; exist only in that case (also != &lt; &gt; &lt;= &gt;= in 1,2,3)&#10;    field ...&#10;  end&#10;end&#10;&#10;Types:    u8 i8 u16 i16 u24 i24 u32 i32 u64 i64 f32 f64 - add le or be for the byte order (u16le)&#10;          bytes N | bytes FIELD | bytes *     N bytes, as many as a field before says, or the rest&#10;          text N | text FIELD | text * | text zero   characters (zero: up to a 00 byte)&#10;          bcd N                               N bytes of BCD digits&#10;Options:  scale 0.1   offset -40   unit &quot;C&quot;   hex   hidden&#10;          enum 1=Read 2=Write 0x81=&quot;Read reply&quot;      names of the values&#10;          bits 0=ready 1=error 2-3=mode              names of bits (a range shows its value)&#10;&#10;Without sync, length and end a protocol takes the whole message as it arrives (the receive options&#10;of the tab cut the messages). With sync and length or end it also finds frames inside a message&#10;and cuts them from a stream (the plotter). A frame with a wrong checksum is shown as WRONG.&#10;Numbers: 12, -3, 0x1F, 2.5.  # starts a comment." value="protocol &quot;Nome&quot;            un protocollo; le sue righe fino a &quot;end&quot;&#10;  sync AA 55               il frame inizia con questi byte (esadecimali)&#10;  end 0D 0A                il frame finisce con questi byte&#10;  length 12                ogni frame ha 12 byte, oppure:&#10;  length field len + 6     il frame intero è il valore del campo len + 6 byte (anche * N, - N)&#10;  order little             i numeri senza le / be sono little-endian (predefinito: big)&#10;  checksum CRC-16/MODBUS from 0 to -3 at -2 little&#10;                           qualsiasi CRC o somma del Byte Analyzer, per nome; sui byte da .. a&#10;                           (negativi: contati dalla fine, -1 = l&apos;ultimo byte), il valore in &quot;at&quot;&#10;  match addr == 1          il frame è di questo protocollo solo se la condizione è vera&#10;  field NOME TIPO OPZIONI  i campi in ordine&#10;  when cmd == 0x81         i campi fino a &quot;end&quot; esistono solo in quel caso (anche != &lt; &gt; &lt;= &gt;= in 1,2,3)&#10;    field ...&#10;  end&#10;end&#10;&#10;Tipi:     u8 i8 u16 i16 u24 i24 u32 i32 u64 i64 f32 f64 - aggiungi le o be per l&apos;ordine dei byte (u16le)&#10;          bytes N | bytes CAMPO | bytes *     N byte, quanti ne dice un campo precedente, o il resto&#10;          text N | text CAMPO | text * | text zero   caratteri (zero: fino a un byte 00)&#10;          bcd N                               N byte di cifre BCD&#10;Opzioni:  scale 0.1   offset -40   unit &quot;C&quot;   hex   hidden&#10;          enum 1=Read 2=Write 0x81=&quot;Read reply&quot;      nomi dei valori&#10;          bits 0=ready 1=error 2-3=mode              nomi dei bit (un intervallo mostra il suo valore)&#10;&#10;Senza sync, length ed end un protocollo prende il messaggio intero come arriva (le opzioni di&#10;ricezione della scheda tagliano i messaggi). Con sync e length o end trova anche i frame dentro un&#10;messaggio e li taglia da un flusso (il plotter). Un frame con checksum errato è mostrato come WRONG.&#10;Numeri: 12, -3, 0x1F, 2.5.  # inizia un commento."/>
+    <entry key="File: %s" value="File: %s"/>
+    <entry key="Errors (double-click: go to the line):" value="Errori (doppio clic: vai alla riga):"/>
+    <entry key="A protocol with an error is not used until it is corrected." value="Un protocollo con un errore non viene usato finchè non è corretto."/>
+    <entry key="line %d: %s" value="riga %d: %s"/>
+    <entry key="%d protocols: %s" value="%d protocolli: %s"/>
+    <entry key="%d errors" value="%d errori"/>
+    <entry key="not applied yet" value="non ancora applicato"/>
+    <entry key="Bytes to try (hex) - decoded with the text on the left as it is written:" value="Byte da provare (esadecimali) - decodificati con il testo a sinistra mentre lo scrivi:"/>
+    <entry key="Paste a message from the console (right-click &gt; Copy bytes as hex)." value="Incolla un messaggio dalla console (clic destro &gt; Copia byte come hex)."/>
+    <entry key="All definitions" value="Tutte le definizioni"/>
+    <entry key="Frame / field" value="Frame / campo"/>
+    <entry key="Not hex bytes." value="Non sono byte esadecimali."/>
+    <entry key="No protocol matches these bytes." value="Nessun protocollo corrisponde a questi byte."/>
+    <entry key="%s (%d bytes)" value="%s (%d byte)"/>
+    <entry key="Protocol definitions (*.txt)|*.txt|All files (*.*)|*.*" value="Definizioni di protocollo (*.txt)|*.txt|Tutti i file (*.*)|*.*"/>
+    <entry key="Decode protocols" value="Decodifica protocolli"/>
+    <entry key="Shows the fields of your protocol definitions next to every message (from now on)." value="Mostra i campi delle tue definizioni di protocollo accanto a ogni messaggio (da ora in poi)."/>
+    <entry key="Edit definitions..." value="Modifica definizioni..."/>
+    <entry key="Decode:" value="Decodifica:"/>
+    <entry key="Protocol definitions: all" value="Definizioni di protocollo: tutte"/>
+    <entry key="Decoded" value="Decodificato"/>
+    <entry key="Values from:" value="Valori da:"/>
+    <entry key="Numbers in text lines, or the number fields of the frames of your protocol definitions (Tools &gt; Protocol Definitions)." value="Numeri in righe di testo, o i campi numerici dei frame delle tue definizioni di protocollo (Strumenti &gt; Definizioni di protocollo)."/>
+    <entry key="text lines" value="righe di testo"/>
+    <entry key="Protocol definitions (your frame layouts decoded)" value="Definizioni di protocollo (i tuoi formati di frame decodificati)"/>
+    <entry key="Lua Scripts..." value="Script Lua..."/>
+    <entry key="Lua Scripts" value="Script Lua"/>
+    <entry key="The tab whose port the script sends to and receives from (it must be open)." value="La scheda dalla cui porta lo script invia e riceve (deve essere aperta)."/>
+    <entry key="Saves the script and runs it on the port of the chosen tab." value="Salva lo script e lo esegue sulla porta della scheda scelta."/>
+    <entry key="Ends the script now." value="Termina lo script adesso."/>
+    <entry key="Save" value="Salva"/>
+    <entry key="Saves the file (Run saves it too)." value="Salva il file (anche Avvia lo salva)."/>
+    <entry key="New..." value="Nuovo..."/>
+    <entry key="A new script in the scripts folder." value="Un nuovo script nella cartella degli script."/>
+    <entry key="Name of the new script:" value="Nome del nuovo script:"/>
+    <entry key="A file name cannot contain \ / : * ? &quot; &lt; &gt; |" value="Un nome di file non può contenere \ / : * ? &quot; &lt; &gt; |"/>
+    <entry key="Deletes the script file (asked first)." value="Elimina il file dello script (chiesto prima)."/>
+    <entry key="Delete %s? It cannot be undone." value="Eliminare %s? Non si può annullare."/>
+    <entry key="library.lua stays (empty it to remove its dissectors and plotters)." value="library.lua resta (svuotala per togliere i suoi dissettori e plotter)."/>
+    <entry key="Reference..." value="Riferimento..."/>
+    <entry key="What scripts can do: the functions of spm." value="Cosa possono fare gli script: le funzioni di spm."/>
+    <entry key="Data are Lua strings of bytes (&quot;\x02AT\r&quot; or spm.bytes(&quot;02 41 54 0D&quot;)).&#10;string.pack / string.unpack read and write numbers: string.unpack(&quot;&lt;i2&quot;, data, 3).&#10;&#10;Sending and printing&#10;  spm.send(data)                  send bytes on the port (true if sent)&#10;  spm.sendhex(&quot;AA 55 01&quot;)         the same, written in hex&#10;  spm.log(...)   print(...)       a line in the output (or in the tab&apos;s console for a hook)&#10;  spm.hex(data [, sep])           &quot;AA 55 01&quot;            spm.bytes(&quot;AA 55&quot;) -&gt; data&#10;  spm.crc(&quot;CRC-16/MODBUS&quot;, data)  any CRC or sum of the Byte Analyzer, by name -&gt; number&#10;  spm.decode(data [, protocol])   the frames of the protocol definitions:&#10;                                  { {protocol=, ok=, summary=, values={temp=21.5, ...}}, ... }&#10;  spm.time()                      milliseconds (for durations)&#10;&#10;Waiting (only in scripts run from Tools &gt; Lua Scripts or --lua; the program keeps working)&#10;  spm.wait(ms)&#10;  spm.receive(timeout)            what arrived (waits for it) -&gt; data, or nil after timeout ms&#10;  spm.expect(&quot;OK&quot;, timeout)       true when the text arrives, false after timeout ms&#10;  spm.expect_match(&quot;T=(%d+)&quot;, t)  a Lua pattern: its captures (or the match), nil after t ms&#10;  spm.flush()                     forget what was received so far&#10;&#10;Results&#10;  spm.check(condition, &quot;text&quot;)    PASS or FAIL, counted        spm.pass(&quot;text&quot;)   spm.fail(&quot;text&quot;)&#10;  The run ends PASSED (all checks passed), FAILED, with an ERROR (its line) or STOPPED.&#10;  20 million instructions without a wait stop the script (an endless loop).&#10;&#10;Hooks (console right-click &gt; Lua hook: a script loaded into the tab)&#10;  function on_receive(data) ... end        every message received&#10;  function on_send(data) return ... end    the Send button: a string = send that instead,&#10;                                           false = send nothing, nil = unchanged&#10;  spm.every(ms, function() ... end)        repeatedly&#10;&#10;library.lua (read at the start and by Apply)&#10;  spm.dissector(&quot;Name&quot;, function(data) return { {&quot;temp&quot;, 21.5, unit=&quot;C&quot;}, ... } end)&#10;      decodes messages in the console, the Line Monitor and the plotter; nil = not its message;&#10;      a field: {name, value, unit=, offset=, size=, hidden=true}; also checksum=&quot;...&quot;, ok=false&#10;  spm.plotter(&quot;Name&quot;, function(data) return { temp = 21.5, hum = 40 } end)&#10;      the plotter&apos;s &quot;Values from: Lua: Name&quot;&#10;&#10;Lua itself: https://www.lua.org/manual/5.4/" value="I dati sono stringhe Lua di byte (&quot;\x02AT\r&quot; o spm.bytes(&quot;02 41 54 0D&quot;)).&#10;string.pack / string.unpack leggono e scrivono numeri: string.unpack(&quot;&lt;i2&quot;, data, 3).&#10;&#10;Inviare e stampare&#10;  spm.send(data)                  invia byte sulla porta (true se inviati)&#10;  spm.sendhex(&quot;AA 55 01&quot;)         lo stesso, scritto in esadecimale&#10;  spm.log(...)   print(...)       una riga nell&apos;output (o nella console della scheda per un hook)&#10;  spm.hex(data [, sep])           &quot;AA 55 01&quot;            spm.bytes(&quot;AA 55&quot;) -&gt; data&#10;  spm.crc(&quot;CRC-16/MODBUS&quot;, data)  qualsiasi CRC o somma del Byte Analyzer, per nome -&gt; numero&#10;  spm.decode(data [, protocol])   i frame delle definizioni di protocollo:&#10;                                  { {protocol=, ok=, summary=, values={temp=21.5, ...}}, ... }&#10;  spm.time()                      millisecondi (per le durate)&#10;&#10;Attendere (solo negli script avviati da Strumenti &gt; Script Lua o --lua; il programma continua a funzionare)&#10;  spm.wait(ms)&#10;  spm.receive(timeout)            ciò che è arrivato (lo attende) -&gt; data, o nil dopo timeout ms&#10;  spm.expect(&quot;OK&quot;, timeout)       true quando arriva il testo, false dopo timeout ms&#10;  spm.expect_match(&quot;T=(%d+)&quot;, t)  un pattern Lua: le sue catture (o la corrispondenza), nil dopo t ms&#10;  spm.flush()                     dimentica ciò che è stato ricevuto finora&#10;&#10;Risultati&#10;  spm.check(condizione, &quot;testo&quot;)  PASS o FAIL, contati         spm.pass(&quot;testo&quot;)  spm.fail(&quot;testo&quot;)&#10;  L&apos;esecuzione finisce SUPERATO (tutti i controlli superati), FALLITO, con un ERRORE (la sua riga) o FERMATO.&#10;  20 milioni di istruzioni senza un&apos;attesa fermano lo script (un ciclo infinito).&#10;&#10;Hook (clic destro sulla console &gt; Hook Lua: uno script caricato nella scheda)&#10;  function on_receive(data) ... end        ogni messaggio ricevuto&#10;  function on_send(data) return ... end    il pulsante Invia: una stringa = invia quella,&#10;                                           false = non inviare nulla, nil = invariato&#10;  spm.every(ms, function() ... end)        ripetutamente&#10;&#10;library.lua (letta all&apos;avvio e con Applica)&#10;  spm.dissector(&quot;Nome&quot;, function(data) return { {&quot;temp&quot;, 21.5, unit=&quot;C&quot;}, ... } end)&#10;      decodifica i messaggi nella console, nel Monitor di linea e nel plotter; nil = non è suo;&#10;      un campo: {nome, valore, unit=, offset=, size=, hidden=true}; anche checksum=&quot;...&quot;, ok=false&#10;  spm.plotter(&quot;Nome&quot;, function(data) return { temp = 21.5, hum = 40 } end)&#10;      i &quot;Valori da: Lua: Nome&quot; del plotter&#10;&#10;Il linguaggio Lua: https://www.lua.org/manual/5.4/"/>
+    <entry key="Folder: %s" value="Cartella: %s"/>
+    <entry key="(dissectors, plotters)" value="(dissettori, plotter)"/>
+    <entry key="Save the changes to %s?" value="Salvare le modifiche a %s?"/>
+    <entry key="library.lua has an error (see below): its dissectors and plotters are not used." value="library.lua ha un errore (vedi sotto): i suoi dissettori e plotter non sono usati."/>
+    <entry key="library.lua loaded: %d dissectors, %d plotters." value="library.lua caricata: %d dissettori, %d plotter."/>
+    <entry key="Open the port of the chosen tab first." value="Apri prima la porta della scheda scelta."/>
+    <entry key="The port was closed: the script stops." value="La porta è stata chiusa: lo script si ferma."/>
+    <entry key="%s on %s" value="%s su %s"/>
+    <entry key="Running...  %d passed, %d failed" value="In esecuzione...  %d superati, %d falliti"/>
+    <entry key="ERROR - the script stopped at the line above" value="ERRORE - lo script si è fermato alla riga sopra"/>
+    <entry key="STOPPED" value="FERMATO"/>
+    <entry key="FAILED - %d of %d checks" value="FALLITO - %d di %d controlli"/>
+    <entry key="PASSED - %d checks" value="SUPERATO - %d controlli"/>
+    <entry key="Done" value="Finito"/>
+    <entry key="Lua hook" value="Hook Lua"/>
+    <entry key="A script of Tools &gt; Lua Scripts loaded into this tab: on_receive, on_send, spm.every." value="Uno script di Strumenti &gt; Script Lua caricato in questa scheda: on_receive, on_send, spm.every."/>
+    <entry key="Reload" value="Ricarica"/>
+    <entry key="Lua hook off" value="Hook Lua spento"/>
+    <entry key="Lua hook %s loaded" value="Hook Lua %s caricato"/>
+    <entry key="Lua hook %s not loaded: %s" value="Hook Lua %s non caricato: %s"/>
+    <entry key="on_send kept the message (not sent)" value="on_send ha trattenuto il messaggio (non inviato)"/>
+    <entry key="Lua scripts (automation, tab hooks, Lua dissectors and plotters)" value="Script Lua (automazione, hook delle schede, dissettori e plotter Lua)"/>
+    <entry key="Lua scripts (Tools &gt; Lua Scripts, tab hooks, Lua dissectors)" value="script Lua (Strumenti &gt; Script Lua, hook delle schede, dissettori Lua)"/>
 </translation>

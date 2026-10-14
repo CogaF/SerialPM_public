@@ -1,0 +1,3 @@
+2026-10-15 00:33:27.020 [I] [14560] SerialPortManager v0.4.0c71 starting, data folder: W:\Data\GitHub\Public\SerialPM_public\x64\Release_DLL\SerialPortManager data
+2026-10-15 00:33:27.023 [W] [14560] No valid license (missing, file W:\Data\GitHub\Public\SerialPM_public\x64\Release_DLL\SerialPortManager data\license.lic) - trial over
+2026-10-15 00:33:27.230 [I] [14560] Database: opened W:\Data\GitHub\Public\SerialPM_public\x64\Release_DLL\SerialPortManager data\events.db
